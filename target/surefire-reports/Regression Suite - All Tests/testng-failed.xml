@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite - All Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Create New Account : Verify Sign Up Functionality(failed)" verbose="0">
+    <classes>
+      <class name="Tests.GetStartedTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Verify_Get_Started_page_And_SignUp_Functionality"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Tests.GetStartedTest -->
+    </classes>
+  </test> <!-- Create New Account : Verify Sign Up Functionality(failed) -->
+</suite> <!-- Failed suite [Regression Suite - All Tests] -->

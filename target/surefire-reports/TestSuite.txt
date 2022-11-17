@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 111.959 s <<< FAILURE! - in TestSuite
+Tests.GetStartedTest.Verify_Get_Started_page_And_SignUp_Functionality  Time elapsed: 18.228 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:10f3:b6ba:e29b:760a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '18.0.1.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/admin/Desktop/Planna..., appPackage: com.planna, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/admin/Desktop/Planna..., automationName: UiAutomator2, deviceName: 245d0e1d, fullReset: true, platformName: android, platformVersion: 12}, deviceApiLevel: 31, deviceManufacturer: OnePlus, deviceModel: IN2011, deviceName: 245d0e1d, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: 245d0e1d, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: android, platformVersion: 12, statBarHeight: 107, takesScreenshot: true, viewportRect: {height: 2186, left: 0, top: 107, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0ab5d909-7c67-4f19-90b5-70fe825c3f83
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Create your account']}
+	at Tests.GetStartedTest.Verify_Get_Started_page_And_SignUp_Functionality(GetStartedTest.java:19)
+

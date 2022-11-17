@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Functionality">
+  <test  name="Login Functionality : Verify user login and logout" verbose="2">
+           <classes>
+                 <class name="Tests.LoginTest">
+                 <methods>
+                     <include name="Verify_Login_And_Logout_Functionality"></include>
+                 </methods>
+                 </class>
+             </classes>
+         </test>
+</suite>

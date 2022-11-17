@@ -1,0 +1,8 @@
+Config/Common.class
+Tests/LoginTest.class
+Pages/GetStartedPage.class
+Tests/LaunchAppTest.class
+Tests/GetStartedTest.class
+Pages/LoginPage.class
+Config/Configuration.class
+Pages/LaunchAppPage.class

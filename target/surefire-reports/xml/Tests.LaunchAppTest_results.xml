@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Launch Application : Verify Application is launched"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.349">
+  <properties />
+  
+  
+            <testcase name="Launch_Application" time="2.349" classname="Tests.LaunchAppTest" />
+      
+</testsuite>

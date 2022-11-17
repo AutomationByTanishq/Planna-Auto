@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite - All Tests">
+    <test  name="Launch Application : Verify Application is launched" verbose="2">
+        <classes>
+            <class name="Tests.LaunchAppTest">
+                <methods>
+                    <include name="Launch_Application"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test  name="Create New Account : Verify Sign Up Functionality" verbose="2">
+        <classes>
+            <class name="Tests.GetStartedTest">
+                <methods>
+                    <include name="Verify_Get_Started_page_And_SignUp_Functionality"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test  name="Login Functionality : Verify user login and logout" verbose="2">
+        <classes>
+            <class name="Tests.LoginTest">
+                <methods>
+                    <include name="Verify_Login_And_Logout_Functionality"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

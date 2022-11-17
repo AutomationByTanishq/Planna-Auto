@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Functionality : Verify user login and logout"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="30.404">
+  <properties />
+  
+  
+            <testcase name="Verify_Login_And_Logout_Functionality" time="30.404" classname="Tests.LoginTest" />
+      
+</testsuite>
