@@ -15,7 +15,7 @@ public class GetStartedTest extends Configuration {
         LaunchAppPage launchapp = new LaunchAppPage(driver);
         GetStartedPage getStarted = new GetStartedPage(driver);
         launchapp.Verify_Application_Launched();
-//        getStarted.Verify_Get_Started_page_And_SignUp();
+       getStarted.Verify_Get_Started_page_And_SignUp();
         getStarted.Create_Account();
     }
 }
