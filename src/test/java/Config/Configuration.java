@@ -22,7 +22,6 @@ public class Configuration {
 
 	@BeforeMethod
 	public void init(ITestResult testResult) throws IOException {
-		String testName = testResult.getName();
 		Properties config = common.readConfigFile("runConfig");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("platformName", config.getProperty("platformName"));
@@ -33,7 +32,6 @@ public class Configuration {
 		capabilities.setCapability("automationName", config.getProperty("automationName"));
 		driver = new AppiumDriver<MobileElement>(new URL(config.getProperty("server")), capabilities);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		common.log("Test Started : " + testName + "<br>");
 	}
 
 	@AfterMethod(alwaysRun = true)
@@ -41,7 +39,6 @@ public class Configuration {
 			String testName = testResult.getName();
 			File img = new File("target" + File.separator + "surefire-reports" + File.separator + testName + ".png");
 			if (testResult.getStatus()==1) {
-				common.log("PASS : " + testResult.getName()+ "<br>"+ "<br>");
 				testResult.getThrowable();
 			}
 			else if (testResult.getStatus()==2) {
