@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Settings " verbose="10" parallel="tests" thread-count="1">
+
+
+	<!-- 1 -->
+	<test name="Selenium Verify BP_Range_Lot_Starting_Bid_15000_BP1_100_Timed">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="BP_Range_Lot_Starting_Bid_15000_BP1_100_Timed"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 2 -->
+
+	<test name="Selenium Verify Option_Active_Processing_Fee_3">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Option_Active_Processing_Fee_3"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3 -->
+	<test name="Selenium Verify Option_Not_Active_Processing_Fee_3">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Option_Not_Active_Processing_Fee_3"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4-->
+	<test name="Selenium Verify Generate_Invoices_Multiple_Sales_Active">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Generate_Invoices_Multiple_Sales_Active"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 5 -->
+	<test name="Selenium Verify Generate_Invoices_Multiple_Sales_Not_Active">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Generate_Invoices_Multiple_Sales_Not_Active"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 6 -->
+	<test name="Selenium Verify Create_Cat">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Create_Cat"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 7 -->
+	<test name="Selenium Verify Create_Category_Consolidated">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Create_Category_Consolidated"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 8 -->
+
+	<test name="Selenium Verify Create_Cat_Timed_Auction">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Create_Cat_Timed_Auction"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 9 -->
+	<test name="Selenium Verify Sales_Tax_Defined_In_The_Global_Settings_Shipping_Address_In_Nebraska">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Sales_Tax_Defined_In_The_Global_Settings_Shipping_Address_In_Nebraska"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 10 -->
+	<test name="Selenium Verify Upload_Settlement_Logo">
+
+		<classes>
+
+			<class name="com.auction.verifications.Settings">
+
+				<methods>
+
+					<include name="Upload_Settlement_Logo"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+</suite> 

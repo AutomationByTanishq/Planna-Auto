@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BrokenLinks" verbose="10" parallel="tests"
+	thread-count="1">
+
+	<test name="broken Link Test For Auction Reports">
+
+		<classes>
+
+			<class name="com.auction.verifications.Brokenlinks">
+
+				<methods>
+
+					<include name="brokenLinkTestForAuctionReports">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	
+</suite>

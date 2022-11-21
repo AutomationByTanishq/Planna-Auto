@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Coupons Automation Suite" verbose="10"
+	parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1 -->
+
+	<test name="Public_lots_auto_update_stops_after_one_iteration_10460">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10460">
+
+				<methods>
+
+					<include name="Public_lots_auto_update_stops_after_one_iteration_10460" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	
+</suite>

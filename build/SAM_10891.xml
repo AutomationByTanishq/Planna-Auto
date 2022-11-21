@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Coupons Automation Suite" verbose="10"
+	parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1 -->
+
+	<test name="Login_from_homepage_10891">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10891">
+
+				<methods>
+
+					<include name="Login_from_homepage_10891" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	
+</suite>

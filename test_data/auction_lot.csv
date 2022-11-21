@@ -1,0 +1,11 @@
+ItemNum,ItemNumExtension,LotNumPrefix,LotNumber,LotNumberExtension,ParcelId,LotCategory,StartDate,EndDate,LotName*,LotDescription,LotWarranty,LotImage,LowEstimate,HighEstimate,StartingBid*,Increment,Cost,Replacement Price,ReservePrice,Consignor,ConsignmentCommission,ConsignorFee,ListingOnly,PayPerBidAmount,PayPerBidIncrement,BestOffer,BuyNowAmount,NoBidding,SalesTax,NoTaxOutsideState?,Featured?,Quantity,QuantityXMoney,T&C,Changes,OnlyTaxBP,ItemTaxCountry,ItemTaxStates,Location,BulkControl,BulkWinBidDistribution,Barcode,Lot PDF,Custom Text,Decimal,Igor Dropdown1,Reporter Test1,custom1,custom2,custom3,custom4,custom5,custom6
+,,,,,,,,,test21,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test22,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test23,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test24,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test25,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test26,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test27,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test28,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test29,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,test30,,,,,,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

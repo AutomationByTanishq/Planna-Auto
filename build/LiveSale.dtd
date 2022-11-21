@@ -1,0 +1,19 @@
+<!ELEMENT suite (listeners,parameter+,test+)>
+<!ATTLIST suite name CDATA #REQUIRED>
+<!ATTLIST suite verbose NMTOKEN #REQUIRED>
+<!ATTLIST suite parallel NMTOKEN #REQUIRED>
+<!ATTLIST suite thread-count NMTOKEN #REQUIRED>
+<!ELEMENT listeners (listener+)>
+<!ELEMENT listener EMPTY>
+<!ATTLIST listener class-name NMTOKEN #REQUIRED>
+<!ELEMENT parameter EMPTY>
+<!ATTLIST parameter name NMTOKEN #REQUIRED>
+<!ATTLIST parameter value NMTOKEN #REQUIRED>
+<!ELEMENT test (classes?)>
+<!ATTLIST test name CDATA #IMPLIED>
+<!ELEMENT classes (class)>
+<!ELEMENT class (methods)>
+<!ATTLIST class name NMTOKEN #REQUIRED>
+<!ELEMENT methods (include)>
+<!ELEMENT include (#PCDATA)>
+<!ATTLIST include name NMTOKEN #REQUIRED>

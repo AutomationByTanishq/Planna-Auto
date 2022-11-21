@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-9691" verbose="10" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1 -->
+
+	<test name="Check_the_Reset_default_order_at_Inventory_Page_With_OK_10089">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9691">
+
+				<methods>
+
+					<include name="Check_the_Reset_default_order_at_Inventory_Page_With_OK_10089" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 2 -->
+
+	<test name="Check_the_Reset_default_order_at_Inventory_Page_With_Cancel_10090">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9691">
+
+				<methods>
+
+					<include name="Check_the_Reset_default_order_at_Inventory_Page_With_Cancel_10090" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3 -->
+
+	<test name="Check_the_Reset_default_order_at_Auction_Info_Page_With_OK_10091">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9691">
+
+				<methods>
+
+					<include name="Check_the_Reset_default_order_at_Auction_Info_Page_With_OK_10091" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 4 -->
+
+	<test name="Check_the_Reset_default_order_at_Auction_Info_Page_With_Cancel_10092">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9691">
+
+				<methods>
+
+					<include name="Check_the_Reset_default_order_at_Auction_Info_Page_With_Cancel_10092" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+</suite>

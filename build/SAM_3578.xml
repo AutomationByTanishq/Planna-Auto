@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-3578" verbose="10" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1 -->
+
+	<test name="Verify_to_create_newaccount_with_Allowbuyertoquantityonbuynowtimedlots_Condition">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_3578">
+
+				<methods>
+
+					<include name="Verify_to_create_newaccount_with_Allowbuyertoquantityonbuynowtimedlots_Condition"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 2 -->
+
+	<test name="Verify_access_control_of_Allowbuyertoquantityonbuynowtimedlots_Condition">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_3578">
+
+				<methods>
+
+					<include name="Verify_access_control_of_Allowbuyertoquantityonbuynowtimedlots_Condition"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3 -->
+
+	<test name="Verify_validation_for_BuyNow_field_relating_Allowbuyertoquantityonbuynowtimedlots_Condition">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_3578">
+
+				<methods>
+
+					<include name="Verify_validation_for_BuyNow_field_relating_Allowbuyertoquantityonbuynowtimedlots_Condition"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4 -->
+
+	<test name="Verify_to_upload_CSV_With_Allowbuyertoquantityonbuynowtimedlots_Data">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_3578">
+
+				<methods>
+
+					<include name="Verify_to_upload_CSV_With_Allowbuyertoquantityonbuynowtimedlots_Data"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 5 -->
+
+	<test name="Verify_to_sell_limited_quantity_at_frontend">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_3578">
+
+				<methods>
+
+					<include name="Verify_to_sell_limited_quantity_at_frontend"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 6 -->
+
+	<test name="Verify_to_sell_complete_quantity_at_frontend">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_3578">
+
+				<methods>
+
+					<include name="Verify_to_sell_complete_quantity_at_frontend"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 7 -->
+
+	<test name="Verify_cloned_lot_for_sold_quantity">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_3578">
+
+				<methods>
+
+					<include name="Verify_cloned_lot_for_sold_quantity"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 8 -->
+
+	<test name="Verify_valiadtion_for_invalid_amount">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_3578">
+
+				<methods>
+
+					<include name="Verify_valiadtion_for_invalid_amount"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+</suite>

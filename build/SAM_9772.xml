@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM_9772" verbose="10" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+	<!-- 1 -->
+
+	<test name="Verify_the_Checks_option_is_there_on_View_Settlement_page_9901">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_the_Checks_option_is_there_on_View_Settlement_page_9901" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 2 -->
+
+	<test name="Verify_it_opens_Checks_list_window_by_clicking_on_Checks_button_9902">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_it_opens_Checks_list_window_by_clicking_on_Checks_button_9902" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3 -->
+
+	<test name="Verify_checks_form_when_there_are_no_checks_created_for_selected_settlement_9903">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_checks_form_when_there_are_no_checks_created_for_selected_settlement_9903" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4 -->
+
+	<test name="Verify_checks_form_when_there_only_one_check_created_for_selected_settlement_9904">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_checks_form_when_there_only_one_check_created_for_selected_settlement_9904" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 5 -->
+
+	<test name="Verify_checks_form_when_there_more_than_one_check_created_for_selected_settlement_9905">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_checks_form_when_there_more_than_one_check_created_for_selected_settlement_9905" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 6 -->
+
+	<test name="Verify_loaded_data_on_check_form_9906">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_loaded_data_on_check_form_9906" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 7 -->
+
+	<test name="Verify_Info_tabs_where_settlement_edit_view_is_visible_9907">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Info_tabs_where_settlement_edit_view_is_visible_9907" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 8 -->
+
+	<test name="Verify_Checks_tab_where_all_created_checks_are_visible_9908">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Checks_tab_where_all_created_checks_are_visible_9908" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 9 -->
+
+	<test name="Verify_button_name_and_redirection_when_there_is_one_check_assigned_to_settlement_9917">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_button_name_and_redirection_when_there_is_one_check_assigned_to_settlement_9917" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 10 -->
+
+	<test name="Verify_the_title_of_Settlement_Check_Edit_form_9919">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_the_title_of_Settlement_Check_Edit_form_9919" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 11 -->
+
+	<test name="Verify_back_page_link_on_Settlement_Check_Edit_form_if_user_comes_from_Settlement_Edit_page_9920_and_9921">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_back_page_link_on_Settlement_Check_Edit_form_if_user_comes_from_Settlement_Edit_page_9920_and_9921" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 12 -->
+
+	<test name="Verify_fields_on_Settlement_Check_Edit_form_9922">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_fields_on_Settlement_Check_Edit_form_9922" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 13 -->
+
+	<test name="Verify_Check_field_on_Settlement_Check_Edit_form_by_entering_invalid_data_9923">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Check_field_on_Settlement_Check_Edit_form_by_entering_invalid_data_9923" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 14 -->
+
+	<test name="Verify_Check_field_on_Settlement_Check_Edit_form_by_entering_valid_data_9924">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Check_field_on_Settlement_Check_Edit_form_by_entering_valid_data_9924" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 15 -->
+
+	<test name="Verify_user_is_able_to_enter_value_in_Check_field_of_Settlement_Check_Edit_page_before_printing_9925">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_user_is_able_to_enter_value_in_Check_field_of_Settlement_Check_Edit_page_before_printing_9925" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 16 -->
+
+	<test name="Verify_if_Check_field_is_printed_on_the_check_9927">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_if_Check_field_is_printed_on_the_check_9927" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 17 -->
+
+	<test name="Verify_Inline_help_text_for_Check_field_9929">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Inline_help_text_for_Check_field_9929" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 18 -->
+
+	<test name="Verify_Payee_field_on_Settlement_check_edit_page_without_entering_any_data_invalid_data_9930">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Payee_field_on_Settlement_check_edit_page_without_entering_any_data_invalid_data_9930" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 19 -->
+
+	<test name="Verify_Payee_field_on_Settlement_Check_edit_form_by_entering_valid_data_9931">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Payee_field_on_Settlement_Check_edit_form_by_entering_valid_data_9931" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 20 -->
+
+	<test name="Verify_consignor_name_is_populated_in_Payee_field_while_creating_new_check_9932">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_consignor_name_is_populated_in_Payee_field_while_creating_new_check_9932" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 21 -->
+
+	<test name="Verify_Inline_help_text_for_Payee_field_on_Settlement_Edit_check_form_9934">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Inline_help_text_for_Payee_field_on_Settlement_Edit_check_form_9934" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 22 -->
+
+	<test name="Verify_Populate_payee_button_on_Settlement_checks_edit_page_9937">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Populate_payee_button_on_Settlement_checks_edit_page_9937" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 23 -->
+
+	<test name="Verify_Inline_help_text_for_Populate_Payee_button_9945">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Inline_help_text_for_Populate_Payee_button_9945" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 24 -->
+
+	<test name="Verify_amount_field_on_Add_Edit_check_form_9975">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_amount_field_on_Add_Edit_check_form_9975" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 25 -->
+
+	<test name="Verify_to_add_edit_Settlement_check_form_without_entering_Amount_field_9977">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_to_add_edit_Settlement_check_form_without_entering_Amount_field_9977" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 26 -->
+
+	<test name="Verify_Inline_help_text_for_Amount_field_on_Settlement_Edit_check_form_9979">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Inline_help_text_for_Amount_field_on_Settlement_Edit_check_form_9979" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 27 -->
+
+	<test name="Verify_Check_Document_rendering_for_check_printing_10072">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Check_Document_rendering_for_check_printing_10072" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 28 -->
+
+	<test name="Verify_Check_Height_field_for_check_printing_10073">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Check_Height_field_for_check_printing_10073" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 29 -->
+
+	<test name="Verify_Checks_Per_page_field_for_check_printing_10074">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Checks_Per_page_field_for_check_printing_10074" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 30 -->
+
+	<test name="Verify_Check_content_repetition_field_for_check_printing_10075">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Check_content_repetition_field_for_check_printing_10075" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 31 -->
+
+	<test name="Verify_all_coordinates_for_check_printing_10076">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_all_coordinates_for_check_printing_10076" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 32 -->
+
+	<test name="Verify_Populate_amount_spelling_button_functionality_when_there_invalid_data_in_Amount_field_10111">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Populate_amount_spelling_button_functionality_when_there_invalid_data_in_Amount_field_10111" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 33 -->
+
+	<test name="Verify_Work_with_existing_checks_action_at_Manage_settlement_page_10144">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Work_with_existing_checks_action_at_Manage_settlement_page_10144" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 	34 -->
+
+	<test name="Verify_Create_new_checks_action_from_Manage_settlement_check_page_10145">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Create_new_checks_action_from_Manage_settlement_check_page_10145" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 35 -->
+
+	<test name="Verify_Search_all_checks_button_functionality_and_Check_Search_List_page_10146">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Search_all_checks_button_functionality_and_Check_Search_List_page_10146" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 36 -->
+
+	<test name="Verify_filtered_search_at_Check_Search_list_page_10147">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_filtered_search_at_Check_Search_list_page_10147" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 37 -->
+
+	<test name="Verify_user_is_able_to_reset_applied_filter_10153">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_user_is_able_to_reset_applied_filter_10153" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 38 -->
+
+	<test name="Verify_Export_CSV_button_on_Settlement_checks_list_page_10163">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9772">
+
+				<methods>
+
+					<include name="Verify_Export_CSV_button_on_Settlement_checks_list_page_10163" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+</suite>

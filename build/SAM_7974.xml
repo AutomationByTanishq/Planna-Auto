@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-7974" verbose="10" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1 -->
+
+	<test name="Creating_Consignor_Commission_Rule_with_Simple_Range_table_and_set_at_Auction_level">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_Consignor_Commission_Rule_with_Simple_Range_table_and_set_at_Auction_level" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 2 -->
+
+	<test name="Creating_Consignor_Commission_Rule_with_Simple_Range_table_and_set_at_Lot_level">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_Consignor_Commission_Rule_with_Simple_Range_table_and_set_at_Lot_level" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3 -->
+
+	<test name="Creating_Consignor_Commission_Rule_with_Simple_Range_table_and_set_at_User_level">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_Consignor_Commission_Rule_with_Simple_Range_table_and_set_at_User_level" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4 -->
+
+	<test name="Creating_Rule_Setting_Mode_as_Sum_of_Fixed_and_percentage_value_at_both_fixed_and_percentage_Auction_level">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_Rule_Setting_Mode_as_Sum_of_Fixed_and_percentage_value_at_both_fixed_and_percentage_Auction_level" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 5 -->
+
+	<test name="Creating_rule_Setting_Mode_as_Sum_of_Fixed_and_percentage_value_at_both_fixed_and_percentage_and_set_it_at_Lot_level">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_rule_Setting_Mode_as_Sum_of_Fixed_and_percentage_value_at_both_fixed_and_percentage_and_set_it_at_Lot_level" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 6 -->
+
+	<test name="Creating_Rule_Setting_Mode_as_Greater_of_Fixed_and_percentage_value_at_both_fixed_and_percentage_Auction_level">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_Rule_Setting_Mode_as_Greater_of_Fixed_and_percentage_value_at_both_fixed_and_percentage_Auction_level" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 7 -->
+
+	<test name="Creating_Auction_setting_the_rule_for_commission_as_well_as_for_sold_and_unsold_too_and_Let_one_lot_be_sold_and_other_be_unsold">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_Auction_setting_the_rule_for_commission_as_well_as_for_sold_and_unsold_too_and_Let_one_lot_be_sold_and_other_be_unsold" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 8 -->
+
+	<test name="Creating_Rule_Setting_Mode_as_Greater_of_Fixed_and_percentage_value_at_both_fixed_and_percentage_Lot_level">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_Rule_Setting_Mode_as_Greater_of_Fixed_and_percentage_value_at_both_fixed_and_percentage_Lot_level" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 9 -->
+
+	<test name="Creating_a_rule_with_option_Default_Commission">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_a_rule_with_option_Default_Commission" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 10 -->
+
+	<test name="Create_a_rule_with_option_Default_commission_and_default_Sold_fee_checked_with_item_fee_reference_zero">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_rule_with_option_Default_commission_and_default_Sold_fee_checked_with_item_fee_reference_zero" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 11 -->
+
+	<test name="Create_a_rule_with_option_Default_commission_and_default_Sold_fee_checked_with_item_fee_reference_Hammer_Price">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_rule_with_option_Default_commission_and_default_Sold_fee_checked_with_item_fee_reference_Hammer_Price" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 12 -->
+
+	<test name="Create_a_rule_with_option_Default_commission_and_calculation_as_Tiered">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_rule_with_option_Default_commission_and_calculation_as_Tiered" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 13 -->
+
+	<test name="Create_a_rule_with_option_Default_commission_and_default_Sold_fee_and_calculation_as_Tiered">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_rule_with_option_Default_commission_and_default_Sold_fee_and_calculation_as_Tiered" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 14 -->
+
+	<test name="Create_a_simple_rule_and_set_it_to_the_User_having_Tax_as_20">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_simple_rule_and_set_it_to_the_User_having_Tax_as_20" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 15 -->
+
+	<test name="Create_a_two_rule_and_assign_one_to_Commission_Rule_and_second_to_Sold_Fee_Rule">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_two_rule_and_assign_one_to_Commission_Rule_and_second_to_Sold_Fee_Rule" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 16 -->
+
+	<test name="Create_a_rule_with_Item_reference_as_Hammer_Price_and_assign_the_rule_to_the_UnSold_fee">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_rule_with_Item_reference_as_Hammer_Price_and_assign_the_rule_to_the_UnSold_fee" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 17 -->
+
+	<test name="Creating_rule_for_Unsold_fee_with_item_reference_set_as_Start_Price">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Creating_rule_for_Unsold_fee_with_item_reference_set_as_Start_Price" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 18 -->
+
+	<test name="Create_a_Custom_rule_at_Auction_level_for_Commission_and_Sold_lot">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_Custom_rule_at_Auction_level_for_Commission_and_Sold_lot" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 19 -->
+
+	<test name="Create_a_Custom_rule_at_Lot_level_for_Commission_and_Sold_lot">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Create_a_Custom_rule_at_Lot_level_for_Commission_and_Sold_lot" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 20 -->
+
+	<test name="Generate_Settlement_not_passing_auction_id_and_also_set_rule_for_sold_fee_and_unsold_fee_with_item_fee_reference_as_Max_bid_Current_bid">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7974">
+
+				<methods>
+
+					<include name="Generate_Settlement_not_passing_auction_id_and_also_set_rule_for_sold_fee_and_unsold_fee_with_item_fee_reference_as_Max_bid_Current_bid" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+</suite>

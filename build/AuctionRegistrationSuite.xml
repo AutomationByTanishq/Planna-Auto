@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AuctionRegistration" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+		<!-- 1 -->
+<!-- initialSetupForAuctionRegistration -->
+
+	<test name="initialSetupForAuctionRegistration">
+
+		<classes>
+
+			<class name="com.auction.verifications.AuctionRegistration">
+
+				<methods>
+
+					<include
+						name="initialSetupForAuctionRegistration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 2 -->
+<!-- initialSetupForRegistrationwithCCNotRequired -->
+
+	<test name="initialSetupForRegistrationwithCCNotRequired">
+
+		<classes>
+
+			<class name="com.auction.verifications.AuctionRegistration">
+
+				<methods>
+
+					<include
+						name="initialSetupForRegistrationwithCCNotRequired" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+		
+	<!-- 3 -->
+<!-- createaLiveAuction -->
+
+	<test name="createaLiveAuction">
+
+		<classes>
+
+			<class name="com.auction.verifications.AuctionRegistration">
+
+				<methods>
+
+					<include
+						name="createaLiveAuction" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 4 -->
+	<!-- Selenium register User With Correct CC to the LiveSale Feature -->
+	  <test name="Selenium - register User With Correct CC to the LiveSale">
+
+		<classes>
+			<class name="com.auction.verifications.AuctionRegistration">
+				<methods>
+					<include name="registerUserWithCorrectCCtotheLiveSale"/>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	<!-- 5 -->
+	<!-- Selenium register user with incorrect CC to the livesale Feature -->
+	 <test name="Selenium - register user with incorrect CC to the livesale"> 
+
+		<classes>
+			<class name="com.auction.verifications.AuctionRegistration">
+				<methods>
+					<include name="registeruserwithincorrectCCtothelivesale"/>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	 <!-- 6 -->
+	<!-- Selenium register user with expired CC to the livesale Feature -->
+	<test name="Selenium - register user with expired CC to the livesale"> 
+
+		<classes>
+			<class name="com.auction.verifications.AuctionRegistration">
+				<methods>
+					<include name="registeruserwithexpiredCCtothelivesale"/>
+				</methods>
+			</class>
+		</classes> 
+		
+	</test>
+	 <!-- 7 -->
+	<!-- Selenium register user with no CC to the livesalee Feature -->
+	<test name="Selenium - register user with no CC to the livesale">
+
+		<classes>
+			<class name="com.auction.verifications.AuctionRegistration">
+				<methods>
+					<include name="registeruserwithnoCCtothelivesale"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	<!-- 8-->
+	<!-- Selenium Delete_All_Created_Users -->
+	<test name="Selenium - Delete_All_Created_Users">
+
+		<classes>
+			<class name="com.auction.verifications.AuctionRegistration">
+				<methods>
+					<include name="Delete_All_Created_Users"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+
+</suite> 

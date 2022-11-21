@@ -1,0 +1,4382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BugScripts Automation Suite" verbose="10" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	
+	
+		<!-- 1 -->
+	<!-- same_As_Billing_Checkbox_Functionality_Not_Work_4340 -->
+	<test name="same_As_Billing_Checkbox_Functionality_Not_Work_4340">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="same_As_Billing_Checkbox_Functionality_Not_Work_4340" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 2 -->
+	<!-- sometimes_Getting_Php_Error_When_User_Click_On_SignUp_Button_4335 -->
+
+	<test name="sometimes_Getting_Php_Error_When_User_Click_On_SignUp_Button_4335">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="sometimes_Getting_Php_Error_When_User_Click_On_SignUp_Button_4335" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3 -->
+	<!-- trying_To_Get_Property_Of_Non_Object_Error_Displays_When_User_Click_On_BP_Tab_3900 -->
+
+	<test name="trying_To_Get_Property_Of_Non_Object_Error_Displays_When_User_Click_On_BP_Tab_3900">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="trying_To_Get_Property_Of_Non_Object_Error_Displays_When_User_Click_On_BP_Tab_3900" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4 -->
+	<!-- you_Dont_Have_Permission_To_Access_Error_Displays_After_Click_On_Create_Auction_3895 -->
+
+	<test name="you_Dont_Have_Permission_To_Access_Error_Displays_After_Click_On_Create_Auction_3895">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="you_Dont_Have_Permission_To_Access_Error_Displays_After_Click_On_Create_Auction_3895" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 5 -->
+	<!-- ajax_Error_Shown_When_User_Click_On_Save_Changes_Button_3838 -->
+
+	<test name="ajax_Error_Shown_When_User_Click_On_Save_Changes_Button_3838">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="ajax_Error_Shown_When_User_Click_On_Save_Changes_Button_3838" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 6 -->
+	<!-- bad_Request_Error_Message_Displays_When_User_Select_Value_From_Dropdown_menus_3837 -->
+
+	<test name="bad_Request_Error_Message_Displays_When_User_Select_Value_From_Dropdown_menus_3837">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="bad_Request_Error_Message_Displays_When_User_Select_Value_From_Dropdown_menus_3837" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 7 -->
+	<!-- mySqli_Error_Shown_When_User_Click_On_Save_Changes_Button_From_Settings_3836 -->
+
+	<test name="mySqli_Error_Shown_When_User_Click_On_Save_Changes_Button_From_Settings_3836">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="mySqli_Error_Shown_When_User_Click_On_Save_Changes_Button_From_Settings_3836" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 8 -->
+	<!-- blank_Page_Displays_After_Click_On_Generate_New_Invoices_Button_3835 -->
+
+	<test name="blank_Page_Displays_After_Click_On_Generate_New_Invoices_Button_3835">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="blank_Page_Displays_After_Click_On_Generate_New_Invoices_Button_3835" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 9 -->
+	<!-- lot_Does_Not_Start_automatically_After_Click_On_Start_Auction_Button_3804 -->
+
+	<test name="lot_Does_Not_Start_automatically_After_Click_On_Start_Auction_Button_3804">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="lot_Does_Not_Start_automatically_After_Click_On_Start_Auction_Button_3804" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 10 -->
+	<!-- undefined_Variable_Error_Displays_When_User_Search_Category_3803 -->
+
+	<test name="undefined_Variable_Error_Displays_When_User_Search_Category_3803">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="undefined_Variable_Error_Displays_When_User_Search_Category_3803" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 11 -->
+	<!-- page_404_Not_Found_Error_Display_When_User_Click_On_Lot_Preview_Icon_3801 -->
+
+	<test name="page_404_Not_Found_Error_Display_When_User_Click_On_Lot_Preview_Icon_3801">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="page_404_Not_Found_Error_Display_When_User_Click_On_Lot_Preview_Icon_3801" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+<!-- 12 -->
+	<!-- this_Page_Is_Not_Working_Displays_When_User_Click_On_Drafts_3745 -->
+
+	<test name="this_Page_Is_Not_Working_Displays_When_User_Click_On_Drafts_3745">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="this_Page_Is_Not_Working_Displays_When_User_Click_On_Drafts_3745" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 13 -->
+	<!-- user_Is_Able_To_Signup_With_Existing_User_Name_3731 -->
+	<test name="user_Is_Able_To_Signup_With_Existing_User_Name_3731">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="user_Is_Able_To_Signup_With_Existing_User_Name_3731" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 14 -->
+	<!-- user_Is_Able_To_Add_New_Category_With_Entering_Blank_Spaces_4483 -->
+
+	<test name="user_Is_Able_To_Add_New_Category_With_Entering_Blank_Spaces_4483">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="user_Is_Able_To_Add_New_Category_With_Entering_Blank_Spaces_4483" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 15 -->
+	<!-- blank_Spaces_Accepted_As_A_Characters_In_Title_And_Code_Field_Coupon_4597 -->
+
+	<test name="blank_Spaces_Accepted_As_A_Characters_In_Title_And_Code_Field_Coupon_4597">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="blank_Spaces_Accepted_As_A_Characters_In_Title_And_Code_Field_Coupon_4597" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 16 -->
+	<!-- coupon_Saved_With_Error_Message_4602 -->
+
+	<test name="coupon_Saved_With_Error_Message_4602">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="coupon_Saved_With_Error_Message_4602" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 17 -->
+	<!-- set_Characters_Limit_for_coupon_page_fields_4603 -->
+
+	<test name="set_Characters_Limit_for_coupon_page_fields_4603">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="set_Characters_Limit_for_coupon_page_fields_4603" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 18 -->
+	<!-- unable_To_Cast_String_Value_Error_Display_When_User_Enter_Alphabetical_Values_In_Percentage_Field_Save_Coupon_4606 -->
+
+	<test name="unable_To_Cast_String_Value_Error_Display_When_User_Enter_Alphabetical_Values_In_Percentage_Field_Save_Coupon_4606">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="unable_To_Cast_String_Value_Error_Display_When_User_Enter_Alphabetical_Values_In_Percentage_Field_Save_Coupon_4606" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 19 -->
+	<!-- user_Is_Able_To_Add_New_Coupon_With_Past_Dates_4639 -->
+
+	<test name="user_Is_Able_To_Add_New_Coupon_With_Past_Dates_4639">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="user_Is_Able_To_Add_New_Coupon_With_Past_Dates_4639" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 20 -->
+	<!-- mySqli_Error_Display_When_User_Click_On_Type_Header_In_Coupons_Table_4652 -->
+
+	<test name="mySqli_Error_Display_When_User_Click_On_Type_Header_In_Coupons_Table_4652">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include
+						name="mySqli_Error_Display_When_User_Click_On_Type_Header_In_Coupons_Table_4652" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+</test>
+	<!-- 21 -->
+	<!-- unable_To_Cast_String_Error_Display_When_User_Enter_Upto_10_Digits_Fixed_Amount_And_Save_Coupon_4707 -->
+
+	<test name="unable_To_Cast_String_Error_Display_When_User_Enter_Upto_10_Digits_Fixed_Amount_And_Save_Coupon_4707">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="unable_To_Cast_String_Error_Display_When_User_Enter_Upto_10_Digits_Fixed_Amount_And_Save_Coupon_4707" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 22 -->
+	<!-- undefined_GET_Property_Error_Display_When_User_Add_New_Coupon_4715 -->
+
+	<test name="undefined_GET_Property_Error_Display_When_User_Add_New_Coupon_4715">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="undefined_GET_Property_Error_Display_When_User_Add_New_Coupon_4715" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 23 -->
+	<!-- blank_Spaces_Accepted_As_A_Characters_In_Feed_Name_And_Slug_Field_4768 -->
+
+	<test name="blank_Spaces_Accepted_As_A_Characters_In_Feed_Name_And_Slug_Field_4768">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="blank_Spaces_Accepted_As_A_Characters_In_Feed_Name_And_Slug_Field_4768" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 24 -->
+	<!-- set_Character_Limits_For_Feed_Name_And_Slug_Field_4773 -->
+
+	<test name="set_Character_Limits_For_Feed_Name_And_Slug_Field_4773">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="set_Character_Limits_For_Feed_Name_And_Slug_Field_4773" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 25 -->
+	<!-- once_Required_Error_Message_Displays_Then_User_Not_Able_To_Save_Feed_With_Filled_Details_4792 -->
+
+	<test name="once_Required_Error_Message_Displays_Then_User_Not_Able_To_Save_Feed_With_Filled_Details_4792">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="once_Required_Error_Message_Displays_Then_User_Not_Able_To_Save_Feed_With_Filled_Details_4792" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 26 -->
+	<!-- ungroup_Text_Should_Display_On_Button_Instead_Of_Group_X_The_After_Refreshing_A_Page_In_Run_Live_Auction_Tab_5109 -->
+
+	<test name="ungroup_Text_Should_Display_On_Button_Instead_Of_Group_X_The_After_Refreshing_A_Page_In_Run_Live_Auction_Tab_5109">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="ungroup_Text_Should_Display_On_Button_Instead_Of_Group_X_The_After_Refreshing_A_Page_In_Run_Live_Auction_Tab_5109" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 27 -->
+	<!-- wrong_Validation_Message_Display_For_Start_Date_Field_At_Creating_An_Auction_Time_5514 -->
+
+	<test name="wrong_Validation_Message_Display_For_Start_Date_Field_At_Creating_An_Auction_Time_5514">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="wrong_Validation_Message_Display_For_Start_Date_Field_At_Creating_An_Auction_Time_5514" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 28 -->
+	<!-- user_Able_To_Save_Category_With_Special_Characters_Only_In_Category_Name_Field_5555 -->
+
+	<test name="user_Able_To_Save_Category_With_Special_Characters_Only_In_Category_Name_Field_5555">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="user_Able_To_Save_Category_With_Special_Characters_Only_In_Category_Name_Field_5555" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 29 -->
+	<!-- set_Characters_Limit_For_Create_New_Bp_Rule_Name_Field_5602 -->
+
+	<test name="set_Characters_Limit_For_Create_New_Bp_Rule_Name_Field_5602">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+
+					<include name="set_Characters_Limit_For_Create_New_Bp_Rule_Name_Field_5602" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 30 -->
+	<!-- oops_Error_Display_When_User_Click_Markpaid_For_Invoice_From_Invoices_Page_5643 -->
+
+	<test name="oops_Error_Display_When_User_Click_Markpaid_For_Invoice_From_Invoices_Page_5643">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="oops_Error_Display_When_User_Click_Markpaid_For_Invoice_From_Invoices_Page_5643" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 31 -->
+	<!-- ajax_Error_Display_When_Search_User_Through_The_Keyword_In_Bidders_Tab_5650 -->
+
+	<test name="ajax_Error_Display_When_Search_User_Through_The_Keyword_In_Bidders_Tab_5650">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="ajax_Error_Display_When_Search_User_Through_The_Keyword_In_Bidders_Tab_5650" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 32 -->
+	<!-- by_Default_Assigned_Status_Not_Display_Selected_Under_Available_Items_Section_5674 -->
+
+	<test name="by_Default_Assigned_Status_Not_Display_Selected_Under_Available_Items_Section_5674">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="by_Default_Assigned_Status_Not_Display_Selected_Under_Available_Items_Section_5674" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 33 -->
+	<!-- by_Default_Search_Page_Not_Opening_At_Front_End_5690 -->
+	<test name="by_Default_Search_Page_Not_Opening_At_Front_End_5690">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="by_Default_Search_Page_Not_Opening_At_Front_End_5690" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 34 -->
+	<!-- second_Time_Delete_Confirmation_Popup_Not_Appear_Once_Clicked_On_Cancel_In_Popup_5697 -->
+
+	<test name="second_Time_Delete_Confirmation_Popup_Not_Appear_Once_Clicked_On_Cancel_In_Popup_5697">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="second_Time_Delete_Confirmation_Popup_Not_Appear_Once_Clicked_On_Cancel_In_Popup_5697" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 35 -->
+	<!-- this_Page_Is_Not_Working_Error_Display_When_User_Save_Empty_Inventory_Form_5703 -->
+
+	<test name="this_Page_Is_Not_Working_Error_Display_When_User_Save_Empty_Inventory_Form_5703">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="this_Page_Is_Not_Working_Error_Display_When_User_Save_Empty_Inventory_Form_5703" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 36 -->
+	<!-- This_page_isNot_working_error_appears_when_user_edit_some_invoices_from_list_5756 -->
+
+	<test name="This_page_isNot_working_error_appears_when_user_edit_some_invoices_from_list_5756">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="This_page_isNot_working_error_appears_when_user_edit_some_invoices_from_list_5756" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 37 -->
+	<!-- Blank_page_display_when_user_click_on_Lots_tab_5763 -->
+
+	<test name="Blank_page_display_when_user_click_on_Lots_tab_5763">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Blank_page_display_when_user_click_on_Lots_tab_5763" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 38 -->
+	<!-- ajax_Error_Happen_When_User_Remove_One_By_One_Added_Payments_From_Invoice_5765 -->
+
+	<test name="ajax_Error_Happen_When_User_Remove_One_By_One_Added_Payments_From_Invoice_5765">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="ajax_Error_Happen_When_User_Remove_One_By_One_Added_Payments_From_Invoice_5765" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 39 -->
+	<!-- user_Not_Able_To_Download_All_Bids_Report_In_Auctions_Page_5771 -->
+
+	<test name="user_Not_Able_To_Download_All_Bids_Report_In_Auctions_Page_5771">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="user_Not_Able_To_Download_All_Bids_Report_In_Auctions_Page_5771" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 40 -->
+	<!-- Able_to_add_an_auctioneer_with_blank_spaces_only_5779 -->
+
+	<test name="Able_to_add_an_auctioneer_with_blank_spaces_only_5779">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Able_to_add_an_auctioneer_with_blank_spaces_only_5779" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 41 -->
+	<!-- ajax_Error_Happen_When_Reload_Inventory_Page_After_Select_10000_From_Pagination_Dropdown_5781 -->
+
+	<test name="ajax_Error_Happen_When_Reload_Inventory_Page_After_Select_10000_From_Pagination_Dropdown_5781">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="ajax_Error_Happen_When_Reload_Inventory_Page_After_Select_10000_From_Pagination_Dropdown_5781" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 42 -->
+	<!-- Ajax_error_happens_when_user_remove_added_dedicated_clerks_in_Phone_Bidders_tab_5798 -->
+
+	<test name="Ajax_error_happens_when_user_remove_added_dedicated_clerks_in_Phone_Bidders_tab_5798">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Ajax_error_happens_when_user_remove_added_dedicated_clerks_in_Phone_Bidders_tab_5798" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 43 -->
+	<!-- User_not_able_to_save_profile_5808 -->
+
+	<test name="User_not_able_to_save_profile_5808">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="User_not_able_to_save_profile_5808" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 44 -->
+	<!-- Not_able_to_send_problems_report_in_Live_Sale_page_at_front_end_side_5811 -->
+
+	<test name="Not_able_to_send_problems_report_in_Live_Sale_page_at_front_end_side_5811">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Not_able_to_send_problems_report_in_Live_Sale_page_at_front_end_side_5811" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 45 -->
+	<!-- Same_as_billing_checkbox_functionality_not_work_4340 -->
+
+	<test name="Php_error_occurred_when_click_on_Create_new_feed_button_5867">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Php_error_occurred_when_click_on_Create_new_feed_button_5867" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 46 -->
+	<!-- Error_message_display_when_user_change_status_and_save_5886 -->
+
+	<test name="Error_message_display_when_user_change_status_and_save_5886">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Error_message_display_when_user_change_status_and_save_5886" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 47 -->
+	<!-- Uploaded_image_not_display_when_user_edit_added_category_in_Categories_tab_6007 -->
+
+	<test name="Uploaded_image_not_display_when_user_edit_added_category_in_Categories_tab_6007">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Uploaded_image_not_display_when_user_edit_added_category_in_Categories_tab_6007" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 48 -->
+	<!-- Oops_an_error_has_occured_when_user_try_to_add_new_increment_value_with_added_start_value_6250 -->
+
+	<test name="Oops_an_error_has_occured_when_user_try_to_add_new_increment_value_with_added_start_value_6250">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Oops_an_error_has_occured_when_user_try_to_add_new_increment_value_with_added_start_value_6250" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 49 -->
+	<!-- php_error_display_when_adding_new_bidder_with_exist_email_address_5916 -->
+
+	<test name="php_error_display_when_adding_new_bidder_with_exist_email_address_5916">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="php_error_display_when_adding_new_bidder_with_exist_email_address_5916" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 50 -->
+	<!-- Ajax_error_happen_when_user_add_new_lot_in_ongoing_timed_auction_5968 -->
+
+	<test name="Ajax_error_happen_when_user_add_new_lot_in_ongoing_timed_auction_5968">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Ajax_error_happen_when_user_add_new_lot_in_ongoing_timed_auction_5968" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 51 -->
+	<!-- Ajax_error_happen_when_user_create_live_auction_with_entering_Minus1_valu_in_Number_of_days_5971 -->
+
+	<!--<test name="Ajax_error_happen_when_user_create_live_auction_with_entering_Minus1_valu_in_Number_of_days_5971"> 
+		<classes> <class name="com.auction.verifications.BugScripts"> <methods> <include 
+		name="Ajax_error_happen_when_user_create_live_auction_with_entering_Minus1_valu_in_Number_of_days_5971" 
+		/> </methods> </class> </classes> </test> -->
+
+	<!-- 52 -->
+	<!-- Page_Not_Found_404_error_display_when_click_on_Consignor_Sort_button_under_More_Actions_in_Lots_page_5972 -->
+
+	<test name="Page_Not_Found_404_error_display_when_click_on_Consignor_Sort_button_under_More_Actions_in_Lots_page_5972">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Page_Not_Found_404_error_display_when_click_on_Consignor_Sort_button_under_More_Actions_in_Lots_page_5972" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 53 -->
+	<!-- Lots_list_disappear_when_user_select_any_value_from_pagination_dropdown_in_Phone_Bidders_tab_5973 -->
+
+	<test name="Lots_list_disappear_when_user_select_any_value_from_pagination_dropdown_in_Phone_Bidders_tab_5973">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Lots_list_disappear_when_user_select_any_value_from_pagination_dropdown_in_Phone_Bidders_tab_5973" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 54 -->
+	<!-- php_error_occured_when_user_send_invoice_in_an_Invoices_page_6129 -->
+
+	<test name="php_error_occured_when_user_send_invoice_in_an_Invoices_page_6129">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="php_error_occured_when_user_send_invoice_in_an_Invoices_page_6129" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 55 -->
+	<!-- Full_Credit_Card_number_is_exposed_in_My_Profile_html_6540 -->
+
+	<test name="Full_Credit_Card_number_is_exposed_in_My_Profile_html_6540">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Full_Credit_Card_number_is_exposed_in_My_Profile_html_6540" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 56 -->
+	<!-- Even_when_the_Limit_Bidding_Info_Permission_is_set_admin_it_shows_asking_bid_for_others_User_6503 -->
+
+	<test name="Even_when_the_Limit_Bidding_Info_Permission_is_set_admin_it_shows_asking_bid_for_others_User_6503">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Even_when_the_Limit_Bidding_Info_Permission_is_set_admin_it_shows_asking_bid_for_others_User_6503" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 57 -->
+	<!-- Exhausted_memory_when_editing_user_bidder_6928 -->
+
+	<test name="Exhausted_memory_when_editing_user_bidder_6928">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Exhausted_memory_when_editing_user_bidder_6928" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 58 -->
+	<!-- It_shows_mysql_error_on_saving_non_bidder_as_winner_bidder_7461 -->
+
+	<test name="It_shows_mysql_error_on_saving_non_bidder_as_winner_bidder_7461">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="It_shows_mysql_error_on_saving_non_bidder_as_winner_bidder_7461" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 59 -->
+	<!-- Edit_Lot_Item_Oops_error_on_saving_the_increment_6932 -->
+
+	<test name="Edit_Lot_Item_Oops_error_on_saving_the_increment_6932">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Edit_Lot_Item_Oops_error_on_saving_the_increment_6932" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 60 -->
+	<!-- Blank_page_and_error_displays_in_the_console_when_user_refresh_page_after_clone_lot_7618 -->
+
+	<test name="Blank_page_and_error_displays_in_the_console_when_user_refresh_page_after_clone_lot_7618">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Blank_page_and_error_displays_in_the_console_when_user_refresh_page_after_clone_lot_7618" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 61 -->
+	<!-- Clone_auction_functionality_is_not_working_6871 -->
+
+	<test name="Clone_auction_functionality_is_not_working_6871">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Clone_auction_functionality_is_not_working_6871" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 62 -->
+	<!-- Remove_lot_icon_Confirm_popup_is_not_displaying_once_user_cancels_it_6849 -->
+
+	<test name="Remove_lot_icon_Confirm_popup_is_not_displaying_once_user_cancels_it_6849">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Remove_lot_icon_Confirm_popup_is_not_displaying_once_user_cancels_it_6849" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 63 -->
+	<!-- On_create_new_mailing_list_ajax_error_occurs_when_user_select_category_linked_having_sub_categories_6750 -->
+
+	<test name="On_create_new_mailing_list_ajax_error_occurs_when_user_select_category_linked_having_sub_categories_6750">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="On_create_new_mailing_list_ajax_error_occurs_when_user_select_category_linked_having_sub_categories_6750" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 64 -->
+	<!-- New_Location_popup_is_not_getting_open_on_create_auction_page_6626 -->
+
+	<test name="New_Location_popup_is_not_getting_open_on_create_auction_page_6626">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="New_Location_popup_is_not_getting_open_on_create_auction_page_6626" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 65 -->
+	<!-- error_occurs_when_viewing_invoice_pdf_6614 -->
+
+	<test name="error_occurs_when_viewing_invoice_pdf_6614">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="error_occurs_when_viewing_invoice_pdf_6614" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 66 -->
+	<!-- When_clicking_the_edit_button_invoice_and_clearing_the_buyers_premium_the_hammer_price_isnot_pulled_into_the_subtotal_amount_6578 -->
+
+	<test name="When_clicking_the_edit_button_invoice_and_clearing_the_buyers_premium_the_hammer_price_isnot_pulled_into_the_subtotal_amount_6578">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="When_clicking_the_edit_button_invoice_and_clearing_the_buyers_premium_the_hammer_price_isnot_pulled_into_the_subtotal_amount_6578" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 67 -->
+	<!-- php_error_occurs_when_clicking_on_Email_Templates_tab_6493 -->
+
+	<test name="php_error_occurs_when_clicking_on_Email_Templates_tab_6493">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="php_error_occurs_when_clicking_on_Email_Templates_tab_6493" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 68 -->
+	<!-- Bidder_is_able_to_bid_on_the_lot_that_is_marked_as_listing_only_6269 -->
+
+	<test name="Bidder_is_able_to_bid_on_the_lot_that_is_marked_as_listing_only_6269">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Bidder_is_able_to_bid_on_the_lot_that_is_marked_as_listing_only_6269" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 69 -->
+	<!-- Error_occurs_when_creating_user_by_csv_import_6267 -->
+
+	<test name="Error_occurs_when_creating_user_by_csv_import_6267">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Error_occurs_when_creating_user_by_csv_import_6267" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 70 -->
+	<!-- Error_occurs_when_clicking_on_Back_link_on_auction_report_page_6233 -->
+
+	<test name="Error_occurs_when_clicking_on_Back_link_on_auction_report_page_6233">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Error_occurs_when_clicking_on_Back_link_on_auction_report_page_6233" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 71 -->
+	<!-- System_Parameter_Live_Auction_Bidding_UI_section_details_gets_reset_when_reload_the_page_5967 -->
+
+	<test name="System_Parameter_Live_Auction_Bidding_UI_section_details_gets_reset_when_reload_the_page_5967">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="System_Parameter_Live_Auction_Bidding_UI_section_details_gets_reset_when_reload_the_page_5967" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 72 -->
+	<!-- PDF_Invoice_Shipping_Information_details_missing_on_PDF_Invoice_5064 -->
+
+	<test name="PDF_Invoice_Shipping_Information_details_missing_on_PDF_Invoice_5064">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="PDF_Invoice_Shipping_Information_details_missing_on_PDF_Invoice_5064" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 73 -->
+	<!-- setup_a_payment_gateway_link_broken_at_System_Param_Auction_4408 -->
+
+	<test name="setup_a_payment_gateway_link_broken_at_System_Param_Auction_4408">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="setup_a_payment_gateway_link_broken_at_System_Param_Auction_4408" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 74 -->
+	<!-- All_status_results_displayed_when_I_am_selecting_Open_status_from_dropdown_in_Settlements_page_7643 -->
+
+	<test name="All_status_results_displayed_when_I_am_selecting_Open_status_from_dropdown_in_Settlements_page_7643">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="All_status_results_displayed_when_I_am_selecting_Open_status_from_dropdown_in_Settlements_page_7643" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 75 -->
+	<!-- Othe_CC_input_popup_not_appearing_on_invoice_details_page_4134 -->
+
+	<test name="Othe_CC_input_popup_not_appearing_on_invoice_details_page_4134">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Othe_CC_input_popup_not_appearing_on_invoice_details_page_4134" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 76 -->
+	<!-- Unable_to_access_Auction_listing_page_when_select_landing_page_Search_at_frontend_7628 -->
+
+	<test name="Unable_to_access_Auction_listing_page_when_select_landing_page_Search_at_frontend_7628">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Unable_to_access_Auction_listing_page_when_select_landing_page_Search_at_frontend_7628" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 77 -->
+	<!-- Auction_Bidders_Checkbox_selection_is_not_working_6919 -->
+
+	<test name="Auction_Bidders_Checkbox_selection_is_not_working_6919">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Auction_Bidders_Checkbox_selection_is_not_working_6919" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 78 -->
+	<!-- Edit_Lot_Previous_Next_buttons_Redirects_to_PHP_error_page_6547 -->
+
+	<test name="Edit_Lot_Previous_Next_buttons_Redirects_to_PHP_error_page_6547">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Edit_Lot_Previous_Next_buttons_Redirects_to_PHP_error_page_6547" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 79 -->
+	<!-- Inventery_Detele_button_Oops_PHP_error_occurs_6245 -->
+
+	<test name="Inventery_Detele_button_Oops_PHP_error_occurs_6245">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Inventery_Detele_button_Oops_PHP_error_occurs_6245" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 80 -->
+	<!-- Add_new_bidder_No_asterisk_symbol_is_displayed_for_required_Email_field_6190 -->
+
+	<test name="Add_new_bidder_No_asterisk_symbol_is_displayed_for_required_Email_field_6190">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Add_new_bidder_No_asterisk_symbol_is_displayed_for_required_Email_field_6190" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 81 -->
+	<!-- Admin_Options_Date_Timezone_Saving_empty_timezone_field_Oops_error_is_occured_6109 -->
+
+	<test name="Admin_Options_Date_Timezone_Saving_empty_timezone_field_Oops_error_is_occured_6109">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Admin_Options_Date_Timezone_Saving_empty_timezone_field_Oops_error_is_occured_6109" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 82 -->
+	<!-- Create_New_Buyer_Group_button_Redirects_to_Oops_error_page_6069 -->
+
+	<test name="Create_New_Buyer_Group_button_Redirects_to_Oops_error_page_6069">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Create_New_Buyer_Group_button_Redirects_to_Oops_error_page_6069" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 83 -->
+	<!-- Inventory_CSV_upload_PHP_error_is_displayed_5931 -->
+
+	<test name="Inventory_CSV_upload_PHP_error_is_displayed_5931">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Inventory_CSV_upload_PHP_error_is_displayed_5931" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 84 -->
+	<!-- Invoice_Shipping_Handling_Ajax_error_is_displayed_5854 -->
+
+	<test name="Invoice_Shipping_Handling_Ajax_error_is_displayed_5854">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Invoice_Shipping_Handling_Ajax_error_is_displayed_5854" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 85 -->
+	<!-- Settlement_Print_view_PHP_error_is_displayed_5852 -->
+
+	<test name="Settlement_Print_view_PHP_error_is_displayed_5852">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Settlement_Print_view_PHP_error_is_displayed_5852" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 86 -->
+	<!-- Auctions_Email_Templates_cannot_be_edited_disabled_5757 -->
+
+	<test name="Auctions_Email_Templates_cannot_be_edited_disabled_5757">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Auctions_Email_Templates_cannot_be_edited_disabled_5757" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 87 -->
+	<!-- Reports_Under_Bidders_PHP_error_is_displayed_5696 -->
+
+	<test name="Reports_Under_Bidders_PHP_error_is_displayed_5696">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Reports_Under_Bidders_PHP_error_is_displayed_5696" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 88 -->
+	<!-- Month_details_are_not_saved_at_first_attempt_5682 -->
+
+	<test name="Month_details_are_not_saved_at_first_attempt_5682">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Month_details_are_not_saved_at_first_attempt_5682" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 89 -->
+	<!-- Permissions_On_refreshing_page_checked_Hide_unsold_lots_checkbo_gets_unchecked_5611 -->
+
+	<test name="Permissions_On_refreshing_page_checked_Hide_unsold_lots_checkbo_gets_unchecked_5611">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Permissions_On_refreshing_page_checked_Hide_unsold_lots_checkbo_gets_unchecked_5611" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 90 -->
+	<!-- On_updating_the_Invoice_status_to_Deleted_500_error_page_is_displayed_5569 -->
+
+	<test name="On_updating_the_Invoice_status_to_Deleted_500_error_page_is_displayed_5569">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="On_updating_the_Invoice_status_to_Deleted_500_error_page_is_displayed_5569" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 91 -->
+	<!-- Translations_Language_to_use_Validation_issues_on_adding_new_language_5523 -->
+
+	<test name="Translations_Language_to_use_Validation_issues_on_adding_new_language_5523">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Translations_Language_to_use_Validation_issues_on_adding_new_language_5523" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 92 -->
+	<!-- Auction_Description_On_clicking_Maximize_icon_blank_page_is_displayed_5462 -->
+
+	<test name="Auction_Description_On_clicking_Maximize_icon_blank_page_is_displayed_5462">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Auction_Description_On_clicking_Maximize_icon_blank_page_is_displayed_5462" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 93 -->
+	<!-- On_clicking_users_tab_dropdown_only_the_search_filter_section_is_wrapped_not_Users_section_5457 -->
+
+	<test name="On_clicking_users_tab_dropdown_only_the_search_filter_section_is_wrapped_not_Users_section_5457">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="On_clicking_users_tab_dropdown_only_the_search_filter_section_is_wrapped_not_Users_section_5457" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 94 -->
+	<!-- On_clicking_the_Name_sorting_icon_an_error_pop_up_is_displayed_5456 -->
+
+	<test name="On_clicking_the_Name_sorting_icon_an_error_pop_up_is_displayed_5456">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="On_clicking_the_Name_sorting_icon_an_error_pop_up_is_displayed_5456" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 95 -->
+	<!-- Lot_Item_Add_Custom_Field_On_selecting_custom_fields_Type_the_checkboxes_gets_disappeared_5399 -->
+
+	<test name="Lot_Item_Add_Custom_Field_On_selecting_custom_fields_Type_the_checkboxes_gets_disappeared_5399">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Lot_Item_Add_Custom_Field_On_selecting_custom_fields_Type_the_checkboxes_gets_disappeared_5399" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 96 -->
+	<!-- Issues_for_Additional_confirmations_5395 -->
+
+	<test name="Issues_for_Additional_confirmations_5395">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Issues_for_Additional_confirmations_5395" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 97 -->
+	<!-- Add_new_credit_card_Validation_required_for_the_blank_details_saved_5313 -->
+
+	<test name="Add_new_credit_card_Validation_required_for_the_blank_details_saved_5313">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Add_new_credit_card_Validation_required_for_the_blank_details_saved_5313" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 98 -->
+	<!-- Manual_Clerk_404_error_is_displayed_when_user_clicks_on_View_Lot_detail_screen_after_auction_is_stopped_5312 -->
+
+	<test name="Manual_Clerk_404_error_is_displayed_when_user_clicks_on_View_Lot_detail_screen_after_auction_is_stopped_5312">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Manual_Clerk_404_error_is_displayed_when_user_clicks_on_View_Lot_detail_screen_after_auction_is_stopped_5312" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 99 -->
+	<!-- Live_Hybrid_Auction_Error_occurs_for_Reset_functionality_for_recently_created_auction_5058 -->
+
+	<test name="Live_Hybrid_Auction_Error_occurs_for_Reset_functionality_for_recently_created_auction_5058">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Live_Hybrid_Auction_Error_occurs_for_Reset_functionality_for_recently_created_auction_5058" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 100 -->
+	<!-- Same_as_billing_checkbox_functionality_not_work_4340 -->
+
+	<test name="Custom_Field_Auction_Error_message_is_displayed_or_not_on_adding_new_field_with_the_similar_name_of_deleted_custom_field_5049">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Custom_Field_Auction_Error_message_is_displayed_or_not_on_adding_new_field_with_the_similar_name_of_deleted_custom_field_5049" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 101 -->
+	<!-- Custom_fields_Auction_Validation_message_is_displayed_even_valid_data_filled_in_all_fields_5032 -->
+
+	<test name="Custom_fields_Auction_Validation_message_is_displayed_even_valid_data_filled_in_all_fields_5032">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Custom_fields_Auction_Validation_message_is_displayed_even_valid_data_filled_in_all_fields_5032" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 102 -->
+	<!-- Auction_List_Error_is_displayed_on_reloading_the_page_after_deleting_an_Auction_5002 -->
+
+	<test name="Auction_List_Error_is_displayed_on_reloading_the_page_after_deleting_an_Auction_5002">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Auction_List_Error_is_displayed_on_reloading_the_page_after_deleting_an_Auction_5002" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 103 -->
+	<!-- Auction_Settings_Error_is_displayed_on_editing_Sale_Group_then_saving_4957 -->
+
+	<test name="Auction_Settings_Error_is_displayed_on_editing_Sale_Group_then_saving_4957">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Auction_Settings_Error_is_displayed_on_editing_Sale_Group_then_saving_4957" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 104 -->
+	<!-- Timed_Auction_Duplicate_Tax_State_is_displayed_on_adding_more_than_two_states_4946 -->
+
+	<test name="Timed_Auction_Duplicate_Tax_State_is_displayed_on_adding_more_than_two_states_4946">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Timed_Auction_Duplicate_Tax_State_is_displayed_on_adding_more_than_two_states_4946" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 105 -->
+	<!-- Auction_Lots_page_Added_Items_section_Change_status_button_is_displayed_even_when_no_lots_are_available_7938 -->
+
+	<test name="Auction_Lots_page_Added_Items_section_Change_status_button_is_displayed_even_when_no_lots_are_available_7938">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Auction_Lots_page_Added_Items_section_Change_status_button_is_displayed_even_when_no_lots_are_available_7938" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 106 -->
+	<!-- Create_Auction_Clerking_style_and_CSV_upload_section_are_active_even_when_no_Auction_type_is_selected_7915 -->
+
+	<test name="Create_Auction_Clerking_style_and_CSV_upload_section_are_active_even_when_no_Auction_type_is_selected_7915">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Create_Auction_Clerking_style_and_CSV_upload_section_are_active_even_when_no_Auction_type_is_selected_7915" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 107 -->
+	<!-- Lot_bidding_history_page_On_disabling_Date_Time_column_option_pagination_section_is_getting_disappered_7707 -->
+
+	<test name="Lot_bidding_history_page_On_disabling_Date_Time_column_option_pagination_section_is_getting_disappered_7707">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Lot_bidding_history_page_On_disabling_Date_Time_column_option_pagination_section_is_getting_disappered_7707" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 108 -->
+	<!-- Add_Credit_Card_Oops_error_occurs_7686 -->
+
+	<test name="Add_Credit_Card_Oops_error_occurs_7686">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Add_Credit_Card_Oops_error_occurs_7686" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 109 -->
+	<!-- Name_exist_error_message_not_removing_automatically_after_click_on_close_icon_when_adding_new_credit_card_7968 -->
+
+	<test name="Name_exist_error_message_not_removing_automatically_after_click_on_close_icon_when_adding_new_credit_card_7968">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Name_exist_error_message_not_removing_automatically_after_click_on_close_icon_when_adding_new_credit_card_7968" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 110 -->
+	<!-- Users_Edit_profile_User_credit_It_does_not_accept_negative_value_7768 -->
+
+	<test name="Users_Edit_profile_User_credit_It_does_not_accept_negative_value_7768">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Users_Edit_profile_User_credit_It_does_not_accept_negative_value_7768" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 111 -->
+	<!-- Active_tab_is_not_displaye_highlighted_8010 -->
+
+	<test name="Active_tab_is_not_displaye_highlighted_8010">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Active_tab_is_not_displaye_highlighted_8010" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 112 -->
+	<!-- Categories_default_feed_problems_7916 -->
+
+	<test name="Categories_default_feed_problems_7916">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Categories_default_feed_problems_7916" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 113 -->
+	<!-- At_Add_Edit_Lot_Item_pages_the_New_Category_add_functionality_is_not_working_8965 -->
+
+	<test name="At_Add_Edit_Lot_Item_pages_the_New_Category_add_functionality_is_not_working_8965">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="At_Add_Edit_Lot_Item_pages_the_New_Category_add_functionality_is_not_working_8965" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 114 -->
+	<!-- Auction_Date_type_custom_field_Valid_selected_date_via_date_picker_is_validated_8493 -->
+
+	<test name="Auction_Date_type_custom_field_Valid_selected_date_via_date_picker_is_validated_8493">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Auction_Date_type_custom_field_Valid_selected_date_via_date_picker_is_validated_8493" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 115 -->
+	<!-- Forgot_username_throwing_Please_Contact_Support_error_8026 -->
+
+	<test name="Forgot_username_throwing_Please_Contact_Support_error_8026">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Forgot_username_throwing_Please_Contact_Support_error_8026" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 116 -->
+	<!-- Live_bidding_User_is_able_to_send_blank_message_by_entering_blank_space_8032 -->
+
+	<test name="Live_bidding_User_is_able_to_send_blank_message_by_entering_blank_space_8032">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Live_bidding_User_is_able_to_send_blank_message_by_entering_blank_space_8032" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 117 -->
+	<!-- Oops_An_error_has_occurred_when_user_click_on_Published_header_text_in_Auctions_page_9353 -->
+
+	<test name="Oops_An_error_has_occurred_when_user_click_on_Published_header_text_in_Auctions_page_9353">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+					C:\Users\ell\Desktop\qa-dev-auto-latest\qa-dev-auto-latest\swb.png
+					<include name="Oops_An_error_has_occurred_when_user_click_on_Published_header_text_in_Auctions_page_9353" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 118 -->
+	<!-- Ajax_error_happen_when_adding_a_new_category_with_selecting_parent_category_which_is_deleted_from_table_9350 -->
+
+	<test name="Ajax_error_happen_when_adding_a_new_category_with_selecting_parent_category_which_is_deleted_from_table_9350">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Ajax_error_happen_when_adding_a_new_category_with_selecting_parent_category_which_is_deleted_from_table_9350" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 119 -->
+	<!-- BP_values_not_getting_saved_at_Lot_level_8088 -->
+
+	<test name="BP_values_not_getting_saved_at_Lot_level_8088">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="BP_values_not_getting_saved_at_Lot_level_8088" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 120 -->
+	<!-- Same_as_billing_checkbox_functionality_not_work_4340 -->
+
+	<test name="Open_redirect_vulnerability_on_v3_2_m_targetdomain_com_path_8581">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Open_redirect_vulnerability_on_v3_2_m_targetdomain_com_path_8581" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 121 -->
+	<!-- Invoice_generation_improvement_by_referencing_latest_invoice_from_LotItem_5162 -->
+
+	<test name="Invoice_generation_improvement_by_referencing_latest_invoice_from_LotItem_5162">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Invoice_generation_improvement_by_referencing_latest_invoice_from_LotItem_5162" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 122 -->
+	<!-- Category_information_from_edit_section_is_not_removed_after_delete_9371 -->
+
+	<test name="Category_information_from_edit_section_is_not_removed_after_delete_9371">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Category_information_from_edit_section_is_not_removed_after_delete_9371" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 123 -->
+	<!-- Update_button_is_not_working_in_Users_dashboard_popup_on_Bidders_tab_9364 -->
+
+	<test name="Update_button_is_not_working_in_Users_dashboard_popup_on_Bidders_tab_9364">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Update_button_is_not_working_in_Users_dashboard_popup_on_Bidders_tab_9364" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 124 -->
+	<!-- Upload_image_with_inserting_image_URL_functionality_is_not_working_proper_in_Add_lot_page_9418 -->
+
+	<test name="Upload_image_with_inserting_image_URL_functionality_is_not_working_proper_in_Add_lot_page_9418">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Upload_image_with_inserting_image_URL_functionality_is_not_working_proper_in_Add_lot_page_9418" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 125 -->
+	<!-- Settlement_edit_page_Issues_related_to_Edit_settlement_info_functionality_10175 -->
+
+	<test name="Settlement_edit_page_Issues_related_to_Edit_settlement_info_functionality_10175">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Settlement_edit_page_Issues_related_to_Edit_settlement_info_functionality_10175" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 126 -->
+	<!-- Settlement_edit_page_Issues_related_to_Edit_settlement_info_functionality_10175_1 -->
+
+	<test name="Settlement_edit_page_Issues_related_to_Edit_settlement_info_functionality_10175_1">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Settlement_edit_page_Issues_related_to_Edit_settlement_info_functionality_10175_1" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 127 -->
+	<!-- Check_search_list_Issues_related_to_Account_Status_filter_10148 -->
+
+	<test name="Check_search_list_Issues_related_to_Account_Status_filter_10148">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Check_search_list_Issues_related_to_Account_Status_filter_10148" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 128 -->
+	<!-- Check_search_list_Issues_related_to_Account_Status_filter_10148_1 -->
+
+	<test name="Check_search_list_Issues_related_to_Account_Status_filter_10148_1">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Check_search_list_Issues_related_to_Account_Status_filter_10148_1" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 129 -->
+	<!-- Verify_check_user_tries_Save_and_Print_functionality_without_entering_check_10118 -->
+
+	<test name="Verify_check_user_tries_Save_and_Print_functionality_without_entering_check_10118">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_check_user_tries_Save_and_Print_functionality_without_entering_check_10118" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 130 -->
+	<!-- verify_Settlement_checks_list_page_Issues_related_to_action_buttons_10122 -->
+	
+	<test
+		name="verify_Settlement_checks_list_page_Issues_related_to_action_buttons_10122">
+		
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include
+						name="verify_Settlement_checks_list_page_Issues_related_to_action_buttons_10122" />
+						
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>
+	
+	<!-- 131 -->
+	<!-- Verify_Blank_page_appearing_when_hit_dev_auctionserver_net_m_index_url_10474 -->
+	
+	<test
+		name="Verify_Blank_page_appearing_when_hit_dev_auctionserver_net_m_index_url_10474">
+		
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include
+						name="Verify_Blank_page_appearing_when_hit_dev_auctionserver_net_m_index_url_10474" />
+						
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>
+	
+	<!-- 132 -->
+	<!-- Verify_Export_CSV_button_is_not_appearing_in_Checks_page_10169 -->
+	<test
+		name="Verify_Export_CSV_button_is_not_appearing_in_Checks_page_10169">
+		
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include
+						name="Verify_Export_CSV_button_is_not_appearing_in_Checks_page_10169" />
+						
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>
+	
+	<!-- 133 -->
+	<!-- Verify_Search_All_Checks_button_is_not_displaying_in_Settlements_page_10155 -->
+	 <test
+		name="Verify_Search_All_Checks_button_is_not_displaying_in_Settlements_page_10155">
+		
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include
+						name="Verify_Search_All_Checks_button_is_not_displaying_in_Settlements_page_10155" />
+						
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>
+	
+	<!-- 134 -->
+	<!-- Verify_User_is_not_able_to_place_bid_with_registered_user_for_timed_auction_in_lot_details_page_10229 -->
+	
+	<!-- <test
+		name="Verify_User_is_not_able_to_place_bid_with_registered_user_for_timed_auction_in_lot_details_page_10229">
+		
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include
+						name="Verify_User_is_not_able_to_place_bid_with_registered_user_for_timed_auction_in_lot_details_page_10229" />
+						
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 135 -->
+	<!-- Verify_Consignor_is_not_saving_in_lot_when_user_use_the_down_key_and_hit_enter_from_keyboard_9566 -->
+	
+	<!-- <test
+		name="Verify_Consignor_is_not_saving_in_lot_when_user_use_the_down_key_and_hit_enter_from_keyboard_9566">
+		
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include
+						name="Verify_Consignor_is_not_saving_in_lot_when_user_use_the_down_key_and_hit_enter_from_keyboard_9566" />
+						
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	
+	<!-- 136 -->
+	<!-- Verify_Signup_functionality_is_not_working_proper_9537 -->
+	<test name="Verify_Signup_functionality_is_not_working_proper_9537">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Signup_functionality_is_not_working_proper_9537" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>
+
+<!-- 137 -->
+	<!-- Verify_Personal_or_corporate_firewall_error_appear_when_visit_Run_live_auction_page_9935 -->
+	<!--<test name="Verify_Personal_or_corporate_firewall_error_appear_when_visit_Run_live_auction_page_9935">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Personal_or_corporate_firewall_error_appear_when_visit_Run_live_auction_page_9935" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	
+	<!-- 138 -->
+	<!-- Verify_Bidders_No_success_message_display_when_remove_registered_bidder_and_No_validation_display_when_click_on_Email_checked_user_7987 -->
+	
+	<!--<test name="Verify_Bidders_No_success_message_display_when_remove_registered_bidder_and_No_validation_display_when_click_on_Email_checked_user_7987">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Bidders_No_success_message_display_when_remove_registered_bidder_and_No_validation_display_when_click_on_Email_checked_user_7987" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 139 -->
+	<!-- Verify_generat -->
+	
+	<!--<test name="Verify_generat">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_generat7" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 140 -->
+	<!-- Verify_Delete_category_function_not_working_8062 -->
+	<!--<test name="Verify_Delete_category_function_not_working_8062">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Delete_category_function_not_working_8062" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	
+	<!-- 141 -->
+	<!-- Verify_Added_date_automatically_clear_from_the_field_when_the_user_moves_to_next_field_at_creating_auction_time_8061 -->
+	<!--<test name="Verify_Added_date_automatically_clear_from_the_field_when_the_user_moves_to_next_field_at_creating_auction_time_8061">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Added_date_automatically_clear_from_the_field_when_the_user_moves_to_next_field_at_creating_auction_time_8061" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	
+	<!-- 142 -->
+	<!-- Verify_Sometime_Oops_error_occurred_when_user_visit_the_Lots_page_6864 -->
+	
+	<!--<test name="Verify_Sometime_Oops_error_occurred_when_user_visit_the_Lots_page_6864">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Sometime_Oops_error_occurred_when_user_visit_the_Lots_page_6864" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 143 -->
+	<!-- Verify_Not_changing_Notes_label_text_in_invoice_after_changed_from_back_end_side_under_Translations_Invoices_menu_6543 -->
+	<!-- <test name="Verify_Not_changing_Notes_label_text_in_invoice_after_changed_from_back_end_side_under_Translations_Invoices_menu_6543">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Not_changing_Notes_label_text_in_invoice_after_changed_from_back_end_side_under_Translations_Invoices_menu_6543" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 144 -->
+	<!-- Verify_Oops_an_error_has_occured_when_try_to_add_new_custom_field_for_User_6615 -->
+	<!-- <test name="Verify_Oops_an_error_has_occured_when_try_to_add_new_custom_field_for_User_6615">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Oops_an_error_has_occured_when_try_to_add_new_custom_field_for_User_6615" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 145 -->
+	<!-- Verify_Blank_screen_display_when_user_create_live_auction_with_adding_500_lots_csv_file_6322 -->
+	<!--<test name="Verify_Blank_screen_display_when_user_create_live_auction_with_adding_500_lots_csv_file_6322">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Blank_screen_display_when_user_create_live_auction_with_adding_500_lots_csv_file_6322" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 146 -->
+	<!-- Verify_Checks_list_page_Export_CSV_button_redirects_to_404_error_page_10164 -->
+	<!--<test name="Verify_Checks_list_page_Export_CSV_button_redirects_to_404_error_page_10164">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Checks_list_page_Export_CSV_button_redirects_to_404_error_page_10164" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 147 -->
+	<!-- Verify_Checks_list_page_Mark_Posted_and_Apply_as_Payment_button_Check_does_not_get_marked_as_posted_10160 -->
+	<!--<test name="Verify_Checks_list_page_Mark_Posted_and_Apply_as_Payment_button_Check_does_not_get_marked_as_posted_10160">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Checks_list_page_Mark_Posted_and_Apply_as_Payment_button_Check_does_not_get_marked_as_posted_10160" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 148 -->
+	<!-- Verify_Frontend_My_Settlements_Printed_date_is_different_from_admin_check_printed_date_10159 -->
+	<!--<test name="Verify_Frontend_My_Settlements_Printed_date_is_different_from_admin_check_printed_date_10159">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Frontend_My_Settlements_Printed_date_is_different_from_admin_check_printed_date_10159" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 149 -->
+	<!-- Verify_Check_Search_List_page_Auto_complete_process_for_payee_field_does_not_work_properly_10149 -->
+	<!--<test name="Verify_Check_Search_List_page_Auto_complete_process_for_payee_field_does_not_work_properly_10149">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Check_Search_List_page_Auto_complete_process_for_payee_field_does_not_work_properly_10149" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test> -->
+	
+	<!-- 150 -->
+	<!-- Verify_Validation_issues_on_Settlement_check_edit_form_10109 -->
+	<!-- <test name="Verify_Validation_issues_on_Settlement_check_edit_form_10109">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Validation_issues_on_Settlement_check_edit_form_10109" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 151 -->
+	<!-- Verify_System_parameters_Invoicing_Settlement_checks_Missing_asterisk_sign_for_required_fields_10102 -->
+	<!--<test name="Verify_System_parameters_Invoicing_Settlement_checks_Missing_asterisk_sign_for_required_fields_10102">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_System_parameters_Invoicing_Settlement_checks_Missing_asterisk_sign_for_required_fields_10102" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 152 -->
+	<!-- Verify_Settlement_check_edit_page_Mark_voided_Apply_as_payment_It_shows_confirmation_message_twice_after_printing_the_check_10113 -->
+	<!--<test name="Verify_Settlement_check_edit_page_Mark_voided_Apply_as_payment_It_shows_confirmation_message_twice_after_printing_the_check_10113">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Settlement_check_edit_page_Mark_voided_Apply_as_payment_It_shows_confirmation_message_twice_after_printing_the_check_10113" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 153 -->
+	<!-- Verify_Settlement_Check_Edit_page_Populate_Amount_It_does_not_update_the_Amount_field_according_to_balance_due_10112 -->
+	<!--<test name="Verify_Settlement_Check_Edit_page_Populate_Amount_It_does_not_update_the_Amount_field_according_to_balance_due_10112">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Settlement_Check_Edit_page_Populate_Amount_It_does_not_update_the_Amount_field_according_to_balance_due_10112" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 154-->
+	<!-- Verify_Settlement_check_edit_page_Unable_to_print_single_check_10105 -->
+	<!-- <test name="Verify_Settlement_check_edit_page_Unable_to_print_single_check_10105">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Settlement_check_edit_page_Unable_to_print_single_check_10105" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 155 -->
+	<!-- Verify_Settlement_check_list_pages_Print_checks_field_Page_breaks_and_shows_XML_document_if_user_removes_check_and_hit_Enter_key_10337 -->
+	<!--<test name="Verify_Settlement_check_list_pages_Print_checks_field_Page_breaks_and_shows_XML_document_if_user_removes_check_and_hit_Enter_key_10337">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Settlement_check_list_pages_Print_checks_field_Page_breaks_and_shows_XML_document_if_user_removes_check_and_hit_Enter_key_10337" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 156 -->
+	<!-- Verify_Redirects_to_Oops_error_page_when_removing_added_payment_in_settlement_10722 -->
+	<!--<test name="Verify_Redirects_to_Oops_error_page_when_removing_added_payment_in_settlement_10722">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Redirects_to_Oops_error_page_when_removing_added_payment_in_settlement_10722" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>-->
+	
+	<!-- 157 -->
+	<!-- Verify_Fix_Auction_Invoice_Unable_to_generate_Invoice_at_auction_level_due_to_this_error_Failed_with_error_Bad_Request_10771 -->
+	<!-- <test name="Verify_Fix_Auction_Invoice_Unable_to_generate_Invoice_at_auction_level_due_to_this_error_Failed_with_error_Bad_Request_10771">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Fix_Auction_Invoice_Unable_to_generate_Invoice_at_auction_level_due_to_this_error_Failed_with_error_Bad_Request_10771" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test> -->
+	
+	<!-- 158 -->
+	<!-- Verify_Settlement_Add_Edit_check_page_It_does_not_render_data_in_Payee_Address_field_if_conditional_logic_is_applied_in_template_10168 -->
+	<test name="Verify_Settlement_Add_Edit_check_page_It_does_not_render_data_in_Payee_Address_field_if_conditional_logic_is_applied_in_template_10168">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Settlement_Add_Edit_check_page_It_does_not_render_data_in_Payee_Address_field_if_conditional_logic_is_applied_in_template_10168" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>
+	
+	<!-- 159 -->
+	<!-- Verify_Check_Search_List_Date_filters_are_not_working_10150 -->
+	<test name="Verify_Check_Search_List_Date_filters_are_not_working_10150">
+	
+		<classes>
+		
+			<class name="com.auction.verifications.BugScripts">
+			
+				<methods>
+				
+					<include name="Verify_Check_Search_List_Date_filters_are_not_working_10150" />
+					
+				</methods>
+				
+			</class>
+			
+		</classes>
+		
+	</test>
+	
+	
+
+	<!-- 160 -->
+	<!-- Ensure_that_check_amount_has_two_decimal_places_10126 -->
+
+	<test name="Ensure_that_check_amount_has_two_decimal_places_10126">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Ensure_that_check_amount_has_two_decimal_places_10126" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 161 -->
+	<!-- Verify_new_BP_range_is_not_added_for_other_auction_sections_10445 -->
+	<test name="Verify_new_BP_range_is_not_added_for_other_auction_sections_10445">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_new_BP_range_is_not_added_for_other_auction_sections_10445" />
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 162-->
+	<!-- Verify_validation_Allow_buyer_select_quantity_checkbox_disabled_for_Reverse_auction_10432-->
+	<test name="Verify_validation_Allow_buyer_select_quantity_checkbox_disabled_for_Reverse_auction_10432">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_validation_Allow_buyer_select_quantity_checkbox_disabled_for_Reverse_auction_10432" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 163-->
+	<!-- Verify_saving_Start_Closing_date_when_Timezone_is_hidden_10699-->
+	<test name="Verify_saving_Start_Closing_date_when_Timezone_is_hidden_10699">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_saving_Start_Closing_date_when_Timezone_is_hidden_10699" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 164-->
+	<!-- Verify_sorting_of_Languages_title_10385-->
+	<test name="Verify_sorting_of_Languages_title_10385">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_sorting_of_Languages_title_10385" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 165 -->
+	<!-- Verify_to_edit_category_with_null_parent_category_9785-->
+	<test name="Verify_to_edit_category_with_null_parent_category_9785">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_to_edit_category_with_null_parent_category_9785" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 166 -->
+	<!-- Verify_deleted_user_updated_on_Buyer_Group_page_9687-->
+	<test name="Verify_deleted_user_updated_on_Buyer_Group_page_9687">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_deleted_user_updated_on_Buyer_Group_page_9687" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 167 -->
+	<!-- Verify_zero_count_for_no_user_in_Buyer_group_9655-->
+	<test name="Verify_zero_count_for_no_user_in_Buyer_group_9655">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_zero_count_for_no_user_in_Buyer_group_9655" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+
+
+	<!-- 168-->
+	<!--Verify_to_save_iFrame_video_details_on_auction_lot_page_SAM_9624-->
+	<test name="Verify_to_save_iFrame_video_details_on_auction_lot_page_SAM_9624">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_to_save_iFrame_video_details_on_auction_lot_page_SAM_9624" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 169-->
+	<!--Verify_to_save_zero_input_for_Barcode_type_Lot_item_custom_fields_SAM_8575-->
+	<test name="Verify_to_save_zero_input_for_Barcode_type_Lot_item_custom_fields_SAM_8575">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_to_save_zero_input_for_Barcode_type_Lot_item_custom_fields_SAM_8575" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 170 -->
+	<!--Verify_inline_bid_amount_on_Bid_button_SAM_8814-->
+	<test name="Verify_inline_bid_amount_on_Bid_button_SAM_8814">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_inline_bid_amount_on_Bid_button_SAM_8814" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 171-->
+	<!--Verify_renew_password_functionality_when_xx_days_set_at_admin_SAM_7669-->
+	<test name="Verify_renew_password_functionality_when_xx_days_set_at_admin_SAM_7669">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_renew_password_functionality_when_xx_days_set_at_admin_SAM_7669" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 172-->
+	<!--Verify_to_edit_invoice_number_SAM_9422-->
+	<test name="Verify_to_edit_invoice_number_SAM_9422">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_to_edit_invoice_number_SAM_9422" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 173-->
+	<!--Verify_Sold_button_functionality_on_manual_clerking_page_SAM_10372-->
+	<test name="Verify_Sold_button_functionality_on_manual_clerking_page_SAM_10372">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_Sold_button_functionality_on_manual_clerking_page_SAM_10372" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 174-->
+	<!--Verify_to_validate_empty_image_URL_on_create_auction_page_SAM_10313-->
+	<test name="Verify_to_validate_empty_image_URL_on_create_auction_page_SAM_10313">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_to_validate_empty_image_URL_on_create_auction_page_SAM_10313" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 175-->
+	<!--Verify_create_Lot_and_Item_unchecking_Visible_condition_SAM_10228-->
+	<test name="Verify_create_Lot_and_Item_unchecking_Visible_condition_SAM_10228">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_create_Lot_and_Item_unchecking_Visible_condition_SAM_10228" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 176-->
+	<!--Verify_create_auction_enabling_Visible_condition_after_disabling_SAM_10228-->
+	<test name="Verify_create_auction_enabling_Visible_condition_after_disabling_SAM_10228">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_create_auction_enabling_Visible_condition_after_disabling_SAM_10228" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 177-->
+	<!--Verify_referrer_input_in_Custom_Lots_report_SAM_10479-->
+	<test name="Verify_referrer_input_in_Custom_Lots_report_SAM_10479">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_referrer_input_in_Custom_Lots_report_SAM_10479" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 178-->
+	<!--Verify_Image_checkbox_is_editable_in_table_SAM_10479-->
+	<test name="Verify_Image_checkbox_is_editable_in_table_SAM_10479">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_Image_checkbox_is_editable_in_table_SAM_10479" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 179-->
+	<!--Verify_generate_auction_specific_custom_lots_report_SAM_10479-->
+	<test name="Verify_generate_auction_specific_custom_lots_report_SAM_10479">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_generate_auction_specific_custom_lots_report_SAM_10479" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 180-->
+	<!--Verify_to_add_auctioneer_by_enter_SAM_10110-->
+	<test name="Verify_to_add_auctioneer_by_enter_SAM_10110">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_to_add_auctioneer_by_enter_SAM_10110" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+		<!-- 181 -->
+	<!-- Verify_Redirecting_to_Oops_error_when_creating_editing_User_with_file_type_custom_field_10896-->
+
+	<test name="Verify_Redirecting_to_Oops_error_when_creating_editing_User_with_file_type_custom_field_10896">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_Redirecting_to_Oops_error_when_creating_editing_User_with_file_type_custom_field_10896" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 182 -->
+	<!-- Verify_functionality_of_Apply_startend_times_button_SAM_10179-->
+
+	<test name="Verify_functionality_of_Apply_startend_times_button_SAM_10179">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_functionality_of_Apply_startend_times_button_SAM_10179" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 183 -->
+	<!-- Verify_update_Invoice_status_to_Paid_SAM_10101-->
+
+	<test name="Verify_update_Invoice_status_to_Paid_SAM_10101">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_update_Invoice_status_to_Paid_SAM_10101" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 184 -->
+	<!-- Verify_Open_status_on_updating_Paid_invoice_after_removing_payment_SAM_10088-->
+
+	<test name="Verify_Open_status_on_updating_Paid_invoice_after_removing_payment_SAM_10088">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_Open_status_on_updating_Paid_invoice_after_removing_payment_SAM_10088" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 185 -->
+	<!-- Verify_validations_at_frontend_when_Simplified_is_disabled_SAM_9968-->
+
+	<test name="Verify_validations_at_frontend_when_Simplified_is_disabled_SAM_9968">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_validations_at_frontend_when_Simplified_is_disabled_SAM_9968" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 186 -->
+	<!-- Verify_results_for_blank_input_in_Account_filter_SAM_10152-->
+
+	<test name="Verify_results_for_blank_input_in_Account_filter_SAM_10152">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_results_for_blank_input_in_Account_filter_SAM_10152" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 187 -->
+	<!-- Verify_CCinfo_conditions_uneditable_when_Require_CC_is_checked_SAM_9928-->
+
+	<test name="Verify_CCinfo_conditions_uneditable_when_Require_CC_is_checked_SAM_9928">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_CCinfo_conditions_uneditable_when_Require_CC_is_checked_SAM_9928" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	
+		<!-- 188 -->
+	<!-- Verify_important_security_user_privilege_issue_SAM_9520-->
+
+	<test name="Verify_important_security_user_privilege_issue_SAM_9520">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_important_security_user_privilege_issue_SAM_9520" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+		<!-- 189 -->
+	<!-- Verify_lot_with_Special_terms_and_condition_on_My_Items_page_SAM_9003-->
+
+	<test name="Verify_lot_with_Special_terms_and_condition_on_My_Items_page_SAM_9003">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_lot_with_Special_terms_and_condition_on_My_Items_page_SAM_9003" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+		<!-- 190 -->
+	<!-- Verify_Startingbid_and_BuyNow_value_as_per_selected_category_SAM_5270-->
+
+	<test name="Verify_Startingbid_and_BuyNow_value_as_per_selected_category_SAM_5270">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_Startingbid_and_BuyNow_value_as_per_selected_category_SAM_5270" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+		<!-- 191 -->
+	<!-- Verify_visibility_of_hidden_fields_relating_Allowbuyerselectquantity_on_Edit_Lot_page_SAM_10449-->
+
+	<test name="Verify_visibility_of_hidden_fields_relating_Allowbuyerselectquantity_on_Edit_Lot_page_SAM_10449">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_visibility_of_hidden_fields_relating_Allowbuyerselectquantity_on_Edit_Lot_page_SAM_10449" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+		<!-- 192 -->
+	<!-- Verify_to_upload_Resller_Certificate_on_Registeration_SAM_5051-->
+
+	<test name="Verify_to_upload_Resller_Certificate_on_Registeration_SAM_5051">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_to_upload_Resller_Certificate_on_Registeration_SAM_5051" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+		<!-- 193 -->
+	<!-- Verify_to_upload_lots_having_category_with_spceial_character_SAM_3762-->
+
+	<test name="Verify_to_upload_lots_having_category_with_spceial_character_SAM_3762">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_to_upload_lots_having_category_with_spceial_character_SAM_3762" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 194 -->
+	<!-- Verify_Lot_Name_On_CSV_Upload_SAM_11409-->
+
+	<test name="Verify_Lot_Name_On_CSV_Upload_SAM_11409">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_Lot_Name_On_CSV_Upload_SAM_11409" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 195 -->
+	<!-- Verify_Preferred_Bidder_Privillege_On_Signup_SAM_11387-->
+
+	<test name="Verify_Preferred_Bidder_Privillege_On_Signup_SAM_11387">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_Preferred_Bidder_Privillege_On_Signup_SAM_11387" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 196 -->
+	<!-- Verify_Settlement_Blocked_For_Seleted_User_SAM_4829-->
+
+	<test name="Verify_Settlement_Blocked_For_Seleted_User_SAM_4829">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="Verify_Settlement_Blocked_For_Seleted_User_SAM_4829" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 197 -->
+	<!-- verify_User_Custom_Field_Edit_Redirects_To_Oops_Error_Page_On_Saving_Sam_11330-->
+
+	<test name="verify_User_Custom_Field_Edit_Redirects_To_Oops_Error_Page_On_Saving_Sam_11330">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_User_Custom_Field_Edit_Redirects_To_Oops_Error_Page_On_Saving_Sam_11330" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>	
+		<!--198 -->
+	<!-- verify_Auction_Level_Permissions_Are_Not_Getting_Saved_SAM_11339-->
+
+	<test name="verify_Auction_Level_Permissions_Are_Not_Getting_Saved_SAM_11339">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Auction_Level_Permissions_Are_Not_Getting_Saved_SAM_11339" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+<!-- 199 -->
+	<!-- verify_Issues_Related_To_State_Province_Field_At_Frontend_SAM_11341-->
+
+	<test name="verify_Issues_Related_To_State_Province_Field_At_Frontend_SAM_11341">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Issues_Related_To_State_Province_Field_At_Frontend_SAM_11341" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 200 -->
+	<!-- verify_Issue_In_Fetching_Bidding_Notices_On_Lot_Detail_Page_SAM_11348-->
+
+	<test name="verify_Issue_In_Fetching_Bidding_Notices_On_Lot_Detail_Page_SAM_11348">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Issue_In_Fetching_Bidding_Notices_On_Lot_Detail_Page_SAM_11348" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 201 -->
+	<!-- verify_Error_When_Uploading_Image_Via_Enter_Url_On_Auction_Add_Edit_Action_11342-->
+
+	<test name="verify_Error_When_Uploading_Image_Via_Enter_Url_On_Auction_Add_Edit_Action_11342">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Error_When_Uploading_Image_Via_Enter_Url_On_Auction_Add_Edit_Action_11342" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 202 -->
+	<!-- verify_Custom_Field_Access_To_Bidder_Is_Not_Showing_Field_To_Bidder_SAM_11355-->
+
+	<test name="verify_Custom_Field_Access_To_Bidder_Is_Not_Showing_Field_To_Bidder_SAM_11355">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Custom_Field_Access_To_Bidder_Is_Not_Showing_Field_To_Bidder_SAM_11355" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 203 -->
+	<!-- verify_In_Invoice_Quantity_Is_Not_Displayed_SAM_11343-->
+
+	<test name="verify_In_Invoice_Quantity_Is_Not_Displayed_SAM_11343">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_In_Invoice_Quantity_Is_Not_Displayed_SAM_11343" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 204 -->
+	<!-- verify_Consignor_By_Sale_PDF_Report_Generates_500_Error_SAM_11353 -->
+
+	<test name="verify_Consignor_By_Sale_PDF_Report_Generates_500_Error_SAM_11353">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Consignor_By_Sale_PDF_Report_Generates_500_Error_SAM_11353" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 205 -->
+	<!-- verify_Add_Bidder_File_Type_Custom_Field_Oops_Error_Pop_Up_Displayed_On_Clicking_Add_File_Button_SAM_11352_1 -->
+
+	<test name="verify_Add_Bidder_File_Type_Custom_Field_Oops_Error_Pop_Up_Displayed_On_Clicking_Add_File_Button_SAM_11352_1">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Add_Bidder_File_Type_Custom_Field_Oops_Error_Pop_Up_Displayed_On_Clicking_Add_File_Button_SAM_11352_1" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 206 -->
+	<!-- verify_Auto_Approve_On_Auction_Bidder_Import_SAM_11350 -->
+
+	<test name="verify_Auto_Approve_On_Auction_Bidder_Import_SAM_11350">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Auto_Approve_On_Auction_Bidder_Import_SAM_11350" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 207 -->
+	<!-- verify_Send_Messages_Dispalyed_twice_On_LiveSale_SAM_11344 -->
+
+	<test name="verify_Send_Messages_Dispalyed_twice_On_LiveSale_SAM_11344">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Send_Messages_Dispalyed_twice_On_LiveSale_SAM_11344" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 209 -->
+	<!-- verify_On_File_Custom_Field_Of_Add_Edit_User_Page_And_Signup_Edit_Profile_Page_SAM_11352_2 -->
+
+	<test name="verify_On_File_Custom_Field_Of_Add_Edit_User_Page_And_Signup_Edit_Profile_Page_SAM_11352_2">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_On_File_Custom_Field_Of_Add_Edit_User_Page_And_Signup_Edit_Profile_Page_SAM_11352_2" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 210 -->
+	<!-- verify_On_File_Custom_Field_Of_Add_Edit_User_Page_And_Signup_Edit_Profile_Page_SAM_11352_3 -->
+
+	<test name="verify_On_File_Custom_Field_Of_Add_Edit_User_Page_And_Signup_Edit_Profile_Page_SAM_11352_3">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_On_File_Custom_Field_Of_Add_Edit_User_Page_And_Signup_Edit_Profile_Page_SAM_11352_3" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>	
+	<!-- 211 -->
+	<!-- verify_Send_Invoice_Button_Not_Working_At_Stacked_Invoice_SAM_11514 -->
+
+	<test name="verify_Send_Invoice_Button_Not_Working_At_Stacked_Invoice_SAM_11514">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Send_Invoice_Button_Not_Working_At_Stacked_Invoice_SAM_11514" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 212 -->
+	<!-- verify_Auction_Lots_Quick_Edit_Form_Does_Not_Save_Data_SAM_11463 -->
+
+	<test name="verify_Auction_Lots_Quick_Edit_Form_Does_Not_Save_Data_SAM_11463">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Auction_Lots_Quick_Edit_Form_Does_Not_Save_Data_SAM_11463" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 213 -->
+	<!-- verify_Individual_Buyers_Premium_Table_Does_Not_Show_Saved_Data_On_The_Lot_Page_SAM_11451 -->
+
+	<test name="verify_Individual_Buyers_Premium_Table_Does_Not_Show_Saved_Data_On_The_Lot_Page_SAM_11451">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="verify_Individual_Buyers_Premium_Table_Does_Not_Show_Saved_Data_On_The_Lot_Page_SAM_11451" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	
+	
+</suite>																																																																													

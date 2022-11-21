@@ -1,0 +1,13 @@
+ItemFullNumber,LotFullNumber,LotUrl,GroupId,LotCategory,Name*,LotDescription,Warranty,Image,LowEstimate,HighEstimate,StartBid*,Increment,LotCost,ReplacementPrice,ReservePrice,Consignor,ListingOnly,BestOffer,BuyNow,NoBidding,SalesTax,HpTaxSchemaId,BpTaxSchemaId,NoTaxOutsideState?,Featured?,Quantity,QuantityDigits,QtyXMoney,BuyNowSelectQuantity,Terms,Change,OnlyTaxBP,ItemTaxCountry,ItemTaxStates,"Location (named, mutually exclusive with detailed location)",Location address,Location country,Location city,Location county,Location logo,Location state,location zip,BulkControl,BulkWinBidDistribution,BpSetting,BpRangeCalculation,SeoMetaTitle,SeoMetaKeywords,SeoMetaDescription,FbOgTitle,FbOgDescription,FbOgImageUrl,GeneralNote,NoteToClerk,Returned,PublishDate,StartBiddingDate,UnpublishDate,StartClosingDate,ConsignorCommissionId,ConsignorCommissionRanges,ConsignorCommissionCalculationMethod,ConsignorSoldFeeId,ConsignorSoldFeeRanges,ConsignorSoldFeeCalculationMethod,ConsignorSoldFeeReference,ConsignorUnsoldFeeId,ConsignorUnsoldFeeRanges,ConsignorUnsoldFeeCalculationMethod,ConsignorUnsoldFeeReference,Integer,Decimal,Input Type,Date/Time,Text area,File,ZIP/Postal code,YouTube URL,Input Line,uhjjkjk,GraphCustomText,Breaking dropdown
+,,,,,Lot 1,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 2,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 3,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 4,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 5,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 6,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 7,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 8,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 9,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 10,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 11,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Lot 12,,,,100,500,100,,,,,,,,2000,,,,,,,66,,Y,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

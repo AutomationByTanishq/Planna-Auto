@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke_Tests" verbose="10">
+	
+
+	<!-- 5.1 -->
+	<!-- Selenium Verify add_Lot_Manually -->
+
+	<test name="Selenium Verify add_Lot_Manually">
+
+		<classes>
+
+			<class name="com.auction.verifications.SmokeTests">
+
+				<methods>
+					<include name="add_Lot_Manually"></include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	
+	</suite>

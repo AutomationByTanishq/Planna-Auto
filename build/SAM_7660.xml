@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-7660" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<!-- 1 -->
+
+	<test name="Printable_view_of_Settlement_at_admin_side_8489">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7660">
+
+				<methods>
+
+					<include name="Printable_view_of_Settlement_at_admin_side_8489" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 2 -->
+
+	<test name="Multiple_Printable_view_of_Settlement_at_admin_side_8490">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7660">
+
+				<methods>
+
+					<include name="Multiple_Printable_view_of_Settlement_at_admin_side_8490" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3 -->
+
+	<test name="Printable_view_of_Settlement_at_Frontend_8491">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7660">
+
+				<methods>
+
+					<include name="Printable_view_of_Settlement_at_Frontend_8491" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 4 -->
+
+	<test name="Settlement_View_received_at_Email_8492">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7660">
+
+				<methods>
+
+					<include name="Settlement_View_received_at_Email_8492" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	</suite>

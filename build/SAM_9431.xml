@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-9431" verbose="10" parallel="tests"
+	thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+	<!-- 1 -->
+
+	<test
+		name="Test_styling_applied_at_settlement_View_Page_at_admin_side">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9431">
+
+				<methods>
+
+					<include
+						name="Test_styling_applied_at_settlement_View_Page_at_admin_side" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 2 -->
+	<test
+		name="Test_styling_applied_at_Printable_View_of_settlement">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9431">
+
+				<methods>
+
+					<include
+						name="Test_styling_applied_at_Printable_View_of_settlement" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3 -->
+	<test
+		name="Testing_styling_applied_to_multiple_Print_of_settlement">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9431">
+
+				<methods>
+
+					<include
+						name="Testing_styling_applied_to_multiple_Print_of_settlement" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+</suite>

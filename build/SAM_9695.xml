@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-9695" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+
+
+	<!-- 1 -->
+
+	<test name="Checking_the_validation_message_for_always_required_fields_Auction_Type_10028">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Checking_the_validation_message_for_always_required_fields_Auction_Type_10028" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 2 -->
+
+	<test name="Checking_the_Visible_option_for_the_always_optional_fields_Listing_only_reverse_auction_and_Clerking_style_10033">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Checking_the_Visible_option_for_the_always_optional_fields_Listing_only_reverse_auction_and_Clerking_style_10033" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3 -->
+
+	<test name="Checking_the_Visible_option_for_the_always_optional_fields_start_date_indicator_and_end_date_indicator_10037">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Checking_the_Visible_option_for_the_always_optional_fields_start_date_indicator_and_end_date_indicator_10037" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 4 -->
+
+	<test name="Checking_the_Visible_option_for_the_always_optional_fields_Stream_display_and_enable_parcel_choice_lots_10039">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Checking_the_Visible_option_for_the_always_optional_fields_Stream_display_and_enable_parcel_choice_lots_10039" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	
+	<!-- 5 -->
+
+	<test name="Checking_the_Visible_option_for_the_always_optional_fields_Consignor_Commission_and_Fee_and_Lots_Visibility_options_10040">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Checking_the_Visible_option_for_the_always_optional_fields_Consignor_Commission_and_Fee_and_Lots_Visibility_options_10040" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 6 -->
+
+	<test name="Checking_the_Visible_option_for_the_always_optional_fields_Event_type_Publish_and_unpublish_date_start_and_end_register_date_10056">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Checking_the_Visible_option_for_the_always_optional_fields_Event_type_Publish_and_unpublish_date_start_and_end_register_date_10056" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 7 -->
+
+	<test name="Check_the_required_option_for_the_ields_End_pre_bidding_date_Staggering_closing_and_lots_interval_exclude_closed_lot_and_Sale_10042">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_required_option_for_the_ields_End_pre_bidding_date_Staggering_closing_and_lots_interval_exclude_closed_lot_and_Sale_10042" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+		<!-- 8 -->
+
+	<test name="Check_the_required_option_for_the_fields_Invoice_location_T_n_C_Invoice_notes_shipping_info_10043">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_required_option_for_the_fields_Invoice_location_T_n_C_Invoice_notes_shipping_info_10043" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 9 -->
+
+	<test name="Check_the_required_option_for_the_fields_Image_event_location_auction_tax_country_tax_auction_info_link_SEO_fields_10044">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_required_option_for_the_fields_Image_event_location_auction_tax_country_tax_auction_info_link_SEO_fields_10044" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 10 -->
+
+	<test name="Check_the_required_option_for_the_custom_fileds_10055">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_required_option_for_the_custom_fileds_10055" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	
+	<!-- 11 -->
+
+	<test name="Check_the_required_options_for_the_fields_Event_type_publish_and_unpublish_date_start_and_end_register_date_10041">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_required_options_for_the_fields_Event_type_publish_and_unpublish_date_start_and_end_register_date_10041" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	
+	<!-- 12 -->
+
+	<test name="Check_the_visible_option_for_the_fields_End_pre_bidding_date_Staggering_closing_and_lots_interval_exclude_closed_lot_and_Sale_10058">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_visible_option_for_the_fields_End_pre_bidding_date_Staggering_closing_and_lots_interval_exclude_closed_lot_and_Sale_10058" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 13 -->
+
+	<test name="Check_the_visible_option_for_the_fields_Invoice_location_T_n_C_Invoice_notes_shipping_info_10060">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_visible_option_for_the_fields_Invoice_location_T_n_C_Invoice_notes_shipping_info_10060" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 14 -->
+
+	<test name="Check_the_visible_option_for_the_fields_Image_event_location_auction_tax_country_tax_auction_info_link_SEO_fields_10061">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_visible_option_for_the_fields_Image_event_location_auction_tax_country_tax_auction_info_link_SEO_fields_10061" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 15 -->
+
+	<test name="Check_the_visible_option_for_the_custom_fileds_10063">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9695">
+
+				<methods>
+
+					<include name="Check_the_visible_option_for_the_custom_fileds_10063" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	</suite>

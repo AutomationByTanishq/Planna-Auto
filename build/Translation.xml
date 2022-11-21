@@ -1,0 +1,6469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Translation " verbose="10" parallel="tests"
+	thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 3.1 -->
+
+	<test name="Selenium Verify Verify_Auctions_Translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auctions_Translation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.2 -->
+
+	<test name="Selenium Verify Verify_Invoices_Translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Invoices_Translation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.3 -->
+
+	<test name="Selenium Verify Verify_Login_Translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Login_Translation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.4 -->
+
+	<test name="Selenium Verify Verify_Logout_Translation Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Logout_Translation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.5 -->
+
+	<test name="Selenium Verify Verify_MyItem_Translation Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_MyItem_Translation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.6 -->
+
+	<test name="Selenium Verify Verify_MyProfile_Translation Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_MyProfile_Translation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.7 -->
+
+	<test name="Selenium Verify Verify_Search_Translation Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Search_Translation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.8 -->
+
+	<test name="Selenium Verify Verify_Signup_Translation Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Signup_Translation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.9 -->
+
+	<test
+		name="Selenium Verify Verify_Description_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Description_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.10 -->
+
+	<test
+		name="Selenium Verify Verify_ShippingInfo_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_ShippingInfo_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.11 -->
+
+	<test
+		name="Selenium Verify Verify_Terms_and_Condition_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Terms_and_Condition_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.12 -->
+
+	<test
+		name="Selenium Verify Verify_View_LiveSale_Now_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_View_LiveSale_Now_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.13 -->
+
+	<test
+		name="Selenium Verify Verify_Advanced_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Advanced_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.14 -->
+
+	<test
+		name="Selenium Verify Verify_ALL_Auctioneer_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_ALL_Auctioneer_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.15 -->
+
+	<test
+		name="Selenium Verify Verify_ALL_Sales_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_ALL_Sales_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.16 -->
+
+	<test
+		name="Selenium Verify Verify_View_Catalog_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_View_Catalog_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.17 -->
+
+	<test
+		name="Selenium Verify Verify_Date_Long_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Date_Long_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.18 -->
+
+	<test
+		name="Selenium Verify Verify_Date_Short_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Date_Short_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.19 -->
+
+	<test
+		name="Selenium Verify Verify_Live_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Live_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.20 -->
+
+	<test
+		name="Selenium Verify Verify_Timed_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Timed_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.21 -->
+
+	<test
+		name="Selenium Verify Verify_Hybrid_Only_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Hybrid_Only_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.22 -->
+
+	<test
+		name="Selenium Verify Verify_Auction_Tab_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auction_Tab_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.23 -->
+
+	<test
+		name="Selenium Verify Verify_Live_Only_Translation_AuctionMenu Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Live_Only_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.24 -->
+
+	<test
+		name="Selenium Verify Verify_Sorry_You_Do_Not_Have_Bidder_Privileges_Translation_AuctionMenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Sorry_You_Do_Not_Have_Bidder_Privileges_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.25 -->
+
+	<test name="Selenium Verify Registered translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Registerd_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.26 -->
+
+	<test name="Selenium Verify Pending Approval Translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Pending_Approval_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.27 -->
+
+	<test
+		name="Selenium Verify Verify Register For Auction Translation Auction">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Register_For_Auction_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.28 -->
+
+	<test
+		name="Selenium Verify Verify The Auction Will not be visible translation auction menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_The_Auction_Will_Not_Be_Visible_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.29 -->
+
+	<test name="Selenium Verify Show">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Show_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.30 -->
+
+	<test name="Selenium Verify All Translation Auction Menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_All_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.31 -->
+
+	<test name="Selenium Verify Show Bidding now only">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Show_Bidding_Now_Only_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.32 -->
+
+	<test name="Selenium Verify Show Bidding now and upcomig only">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Show_Bidding_Now_And_Upcoming_Only_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.33 -->
+
+	<test name="Selenium Verify Show closed only">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Show_Closed_Only_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.34 -->
+
+	<test name="Selenium Verify Show upcoming only">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Show_Upcoming_Only_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.35 -->
+
+	<test name="Selenium Verify Date Translation Auction Menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auction_Date_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+
+	<!-- 3.36 -->
+
+	<test name="Selenium Verify Lots Translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lots_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.37 -->
+
+	<test name="Selenium Verify Name Auction Table Menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Name_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.38 -->
+
+	<test name="Selenium Verify Timed list from dropdown">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Timed_Only_lst_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.39 -->
+
+	<test name="Selenium Verify view catalog auctionmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_View_Catalog_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.40 -->
+
+	<test name="Selenium Verify Auctionner">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auctioneer_Translation_AuctionMenu1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	
+	<!-- 3.41 -->
+
+	<test name="Selenium Verify last updated auction Label Type">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Auction_Last_Updated_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.42 -->
+
+	<test name="Selenium Verify Lot Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.43 -->
+
+	<test name="Selenium Verify Lots Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lots_Translation_AuctionMenu1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.44 -->
+
+	<test name="Selenium Verify Lot count Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Count_Translation_AuctionMenu1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.45 -->
+
+	<test name="Selenium Verify Lot# Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Lot_Hash_Count_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.46 -->
+
+	<test name="Selenium Verify Realized Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Realized_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.47 -->
+
+	<test name="Selenium Verify Realized result translation Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Realized_Result_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.48 -->
+
+	<test
+		name="Selenium Verify realized auction Translation Auction Menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Realized_Auction_Result_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.49 -->
+
+	<test name="Selenium Verify Auction Description">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Title_Description_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.50 -->
+
+	<test name="Selenium Verify Auction Agreement Number">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Auction_Agreement_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.51 -->
+
+	<test name="Selenium Verify Schedule">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Schedule_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.52 -->
+
+	<test name="Selenium Verify Company">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Company_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.53 -->
+
+	<test name="Selenium Verify Consignor">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Consignor_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.54 -->
+
+	<test name="Selenium Verify April Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_April_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.55 -->
+
+	<test name="Selenium Verify August Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_August_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.56 -->
+
+	<test name="Selenium Verify December Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_December_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.57 -->
+
+	<test name="Selenium Verify February Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_February_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.58 -->
+
+	<test name="Selenium Verify July Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_July_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.59 -->
+
+	<test name="Selenium Verify January Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_January_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.60 -->
+
+	<test name="Selenium Verify June Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_June_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.61 -->
+
+	<test name="Selenium Verify March Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_March_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.62 -->
+
+	<test name="Selenium Verify May Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_May_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.63 -->
+
+	<test name="Selenium Verify November Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_November_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.64 -->
+
+	<test name="Selenium Verify October Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_October_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.65 -->
+
+	<test name="Selenium Verify September Month">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Month_September_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.66 -->
+
+	<test name="Selenium Verify Cancelled Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Cancelled_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.67 -->
+
+	<test name="Selenium Verify Deleted Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Deleted_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.68 -->
+
+	<test name="Selenium Verify bankwire Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_BankWire_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.69 -->
+
+	<test name="Selenium Verify Cash Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Cash_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.70 -->
+
+	<test name="Selenium Verify Cashier Check Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Cashiers_Check_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.71 -->
+
+	<test name="Selenium Verify Check Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Check_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.72 -->
+
+	<test name="Selenium Verify Creditcard Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_CreditCard_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.73 -->
+
+	<test name="Selenium Verify Creditmemo Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_CreditMemo_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.74 -->
+
+	<test name="Selenium Verify Google Checkout Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Google_Checkout_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.75 -->
+
+	<test name="Selenium Verify Order Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Money_Order_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.76 -->
+
+	<test name="Selenium Verify Other Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Other_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.77 -->
+
+	<test name="Selenium Verify Paypal Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Paypal_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.78 -->
+
+	<test name="Selenium Verify Open Label">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Open_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.79 -->
+
+	<test name="Selenium Verify Shipped Translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Shipped_Translation_AuctionMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.80 -->
+
+	<test
+		name="Selenium Verify Lot Has Already Been Awarded translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Lot_Has_Already_Been_Awarded_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.81 -->
+
+	<test
+		name="Selenium Verify This lot has already been sold translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_This_Lot_Has_Already_Been_Sold_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.82 -->
+
+	<test name="Selenium  Verify Accept and sell translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Accept_and_Sell_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.83 -->
+
+	<test
+		name="Selenium Verify Accept and sell has been disable translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Accept_and_Sell_Has_Been_Disabled_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.84 -->
+
+	<test name="Selenium Verify Accept and sell watchlist">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Add_To_Watchlist1_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.85 -->
+
+	<test name="Selenium Verify Accept and sell Button translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Add_To_Watchlist_Button_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.86 -->
+
+	<test name="Selenium Verify Add Force Bid list translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Add_Force_Bid_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.87 -->
+
+	<test name="Selenium Verify Asking bid Translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Catalog_Asking_Bid_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.88 -->
+
+	<test name="Selenium Verify Ask A Question list translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Ask_a_Question_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.89 -->
+
+	<test name="Selenium Verify Awarded translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Awarded_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.90 -->
+
+	<test name="Selenium Verify Awarded with Reservation translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Awarded_With_Reservation_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.91 -->
+
+	<test name="Selenium Verify Back To lIst translation">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Back_To_List_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.92 -->
+
+	<test
+		name="Selenium Verify Be the first bid translation catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Be_The_First_Bid_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.93 -->
+
+	<test
+		name="Selenium Verify Sorry you do not have bidder privileges translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Sorry_You_Do_Not_Have_Bidder_Privileges_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.94 -->
+
+	<test
+		name="Selenium Verify Please bid again transcation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Please_Bid_Again_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.95 -->
+
+	<test name="Selenium Verify Bid Buy Now Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Bid_BuyNow_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.96 -->
+
+	<test
+		name="Selenium Verify To Big Amount Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_To_Big_Ammount_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.97 -->
+
+	<test
+		name="Selenium Verify to small amount translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_To_Small_Ammount_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.98 -->
+
+	<test
+		name="Selenium Verify you have been outbid translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_You_Have_Been_Outbid_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.99 -->
+
+	<test
+		name="Selenium Verify your current total spent view translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Your_Current_Total_Spent_View_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.100 -->
+
+	<test
+		name="Selenium Verify you are the higher bidder translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_You_Are_The_higher_Bidder_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.101 -->
+
+	<test
+		name="Selenium Verify absentee bid placed translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Your_Absentee_Bid_Placed_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.102 -->
+
+	<test
+		name="Selenium Verify absentee bid has been placed translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Your_Absentee_Bid_Has_Been_Placed_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.103 -->
+
+	<test
+		name="Selenium Verify successfully updated bid translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_SuccessFully_Updated_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.104 -->
+
+	<test
+		name="Selenium Verify too big amount translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Too_Big_Amount_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.105 -->
+
+	<test
+		name="Selenium Verify too small amount translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Too_Small_Amount_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.106 -->
+
+	<test
+		name="Selenium Verify Higher than someone translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Your_Bid_Higher_Than_Someone_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.107 -->
+
+	<test
+		name="Selenium Verify your bid lower than someone translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Your_Bid_Lower_Than_Someone_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.108 -->
+
+	<test
+		name="Selenium Verify you are higher bidder translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_You_Are_Higher_Bidder_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.109 -->
+
+	<test
+		name="Selenium Verify you are low bidder translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_You_Are_Low_Bidder_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.110 -->
+
+	<test
+		name="Selenium Verify bulk group master translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Bulk_Group_Master_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.111 -->
+
+	<test
+		name="Selenium Verify place s catalogmenu translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Place_S_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.112 -->
+
+	<test name="Selenium Verify buy now translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Buy_Now_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.113 -->
+
+	<test
+		name="Selenium Verify the auction has already started translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_The_Auction_Has_Already_Started_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.114 -->
+
+	<test
+		name="Selenium Verify sorry you cannot buy this item started translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Sorry_You_Cannot_Buy_This_Item_Started_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.115 -->
+
+	<test
+		name="Selenium Verify current up for bidding translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Currentl_Up_For_Biddig_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.116 -->
+	<test name="Selenium Verify categories translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Categories_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.117 -->
+
+	<test name="Selenium Verify changes translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Changes_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.118 -->
+
+	<test
+		name="Selenium Verify click image to enlarge translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Click_Image_To_EnLarge_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.119 -->
+
+	<test name="Selenium Verify confirm translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Confirm_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.120 -->
+
+	<test
+		name="Selenium Verify month day year translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Month_Day_Year_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.121 -->
+
+	<test
+		name="Selenium Verify hour minute second translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Hour_Minute_Second_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.122 -->
+
+	<test name="Selenium Verify minute second translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Minutem_Seconds_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.123 -->
+
+	<test name="Selenium Verify seconds translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Seconds_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.124 -->
+
+	<test
+		name="Selenium Verify Current absentee translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Current_Absentee_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.125 -->
+
+	<test name="Selenium Verify description translation catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Description_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.126-->
+
+	<test name="Selenium Verify Estimate Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Estimate_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.127-->
+
+	<test
+		name="Selenium Verify Exclude closed lots Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Exclude_Closed_lots_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.128 -->
+
+	<test name="Selenium Verify all Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_All_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.129 -->
+
+	<test name="Selenium Verify category Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Category_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.130 -->
+
+	<test
+		name="Selenium Verify finalize your purchase Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Please_Finalize_Your_Purchase_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.131 -->
+
+	<test
+		name="Selenium Verify paying the invoice Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Paying_The_Invoice_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.132 -->
+
+	<test
+		name="Selenium Verify Finalize your purchase by Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Please_Finalize_Your_Purchase_By_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.133 -->
+
+	<test name="Selenium Verify Force bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Force_Bid_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.134 -->
+
+	<test
+		name="Selenium Verify invalid force bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Invalid_Force_Bid_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.135 -->
+
+	<test
+		name="Selenium Verify force bid of percentage Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Force_Bid_Of_Percentage_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.136 -->
+
+	<test
+		name="Selenium Verify bid amount to big for asking bid Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Force_Bid_Ammount_To_Big_For_Asking_Bid_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.137 -->
+
+	<test
+		name="Selenium Verify To place bid on this lot please goto Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_To_Place_Bid_On_This_Lot_Please_Goto_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.138 -->
+
+	<test name="Selenium Verify High to low Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_High_To_Low_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.139 -->
+
+	<test
+		name="Selenium Verify Invalid or bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Invalid_or_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.140 -->
+
+	<test
+		name="Selenium Verify Invoice Issued shortly Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Invoice_Issued_Shortly_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.141 -->
+
+	<test name="Selenium Verify item Number Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Item_Number_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.142 -->
+
+	<test name="Selenium Verify Loading Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Loading_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.143 -->
+
+	<test name="Selenium Verify lot S trnaslation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_S_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.144 -->
+
+	<test
+		name="Selenium Verify You already register for that Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_You_Already_Register_For_That_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.145 -->
+
+	<test
+		name="Selenium Verify Accept lot changes Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Accept_Lot_Changes_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.146 -->
+
+	<test name="Selenium Verify Lot closed Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Closed_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.147 -->
+
+	<test
+		name="Selenium Verify image left right preview Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Image_Left_Right_Preview_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.148 -->
+
+	<test
+		name="Selenium Verify Sell lot to bidder Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Sell_Lot_To_Bidder_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.149 -->
+
+	<test
+		name="Selenium Verify Lot Already started Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Already_Started_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.150 -->
+
+	<test
+		name="Selenium Verify Item Added Successfully Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Item_Added_Successfully_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.151 -->
+
+	<test name="Selenium Verify low to High Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Low_To_High_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.152 -->
+
+	<test name="Selenium Verify Max Bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Max_Bid_Of_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.153 -->
+
+	<test
+		name="Selenium Verify Multiple lots Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Multiple_Lots_Bidding_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.154 -->
+
+	<test name="Selenium Verify my max bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_My_Max_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.155 -->
+
+	<test name="Selenium Verify my min bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_My_Min_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.156 -->
+
+	<test name="Selenium Verify bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.157 -->
+
+	<test name="Selenium Verify next Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Next_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.158 -->
+
+	<test
+		name="Selenium Verify no valid bids yet Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_No_Valid_Bids_Yet_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.159 -->
+
+	<test name="Selenium Verify change offer Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Change_offer_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.160 -->
+
+	<test
+		name="Selenium Verify your offer has been decline Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Your_Offer_Has_Been_Declined_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.161 -->
+
+	<test name="Selenium Verify make offer Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Make_Offer_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.162 -->
+
+	<test
+		name="Selenium Verify you dont have bidder privileges Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Sorry_You_Dont_Have_Bidder_Privileges_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.163 -->
+
+	<test
+		name="Selenium Verify your offer has been submited email offer translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Your_Offer_Has_Been_Submitted_Email_Response_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.164 -->
+
+	<test
+		name="Selenium Verify your offer has been submitted Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Your_Offer_Has_Been_Submitted_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.165 -->
+
+	<test name="Selenium Verify your offer Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Your_Offer_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.166 -->
+
+	<test name="Selenium Verify opening bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Opening_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.167 -->
+
+	<test
+		name="Selenium Verify in this column Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_In_This_Column_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.168 -->
+
+	<test
+		name="Selenium Verify lots in this sale Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Other_Lots_In_This_Sale_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.169 -->
+
+	<test name="Selenium Verify lots Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lots_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	
+
+	<!-- 3.170 -->
+
+	<test name="Selenium Verify auction Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auction_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.171 -->
+
+	<test name="Selenium Verify pdf catalog Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_PDF_Catalog_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.172 -->
+
+	<test name="Selenium Verify lot Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.173 -->
+
+	<test
+		name="Selenium Verify pdf prices realized Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Pdf_Prices_Realized_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.174 -->
+
+	<test
+		name="Selenium Verify piecemeal lot Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Piecemeal_Lot_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.175 -->
+
+	<test
+		name="Selenium Verify place multiple Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Place_Multiple_Bids_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.176 -->
+
+	<test name="Selenium Verify previous Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Previous_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.177 -->
+
+	<test name="Selenium Verify price Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Price_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.178 -->
+
+	<test name="Selenium Verify quantity Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Quantity_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.179 -->
+
+	<test
+		name="Selenium Verify by bidding on this lot commit to your bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_By_Bidding_On_This_Lot_Commit_To_Your_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.180 -->
+
+	<test
+		name="Selenium Verify we have received your payments Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_We_Have_Received_Your_payments_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.181 -->
+
+	<test
+		name="Selenium Verify remove from watchlist Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Remove_From_WatchList_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.182 -->
+
+	<test name="Selenium Verify Reserve met catalogmenu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Reserve_Met_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.183 -->
+
+	<test
+		name="Selenium Verify reserve not met Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Reserve_Not_Met_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.184 -->
+
+	<test name="Selenium Verify reset search Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Reset_Search_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.185 -->
+
+	<test
+		name="Selenium Verify artist statement Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Artist_Statement_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.186 -->
+
+	<test
+		name="Selenium Verify Please Select at List 1 item Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Please_Select_at_List_1_Item_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.187 -->
+
+	<test name="Selenium Verify Lot1 Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot1_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.188 -->
+
+	<test name="Selenium Verify Sold Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Sold_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.189 -->
+
+	<test
+		name="Selenium Verify Sold With Reservation Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Sold_With_Reservation_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.190 -->
+
+	<test
+		name="Selenium Verify Sold Through Buy Now Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Sold_Through_Buy_Now_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.191 -->
+
+	<test name="Selenium Verify Sort Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Sort_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.192 -->
+
+	<test name="Selenium Verify Bids Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Bids_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.193 -->
+
+	<test
+		name="Selenium Verify Category Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Category_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.194 -->
+
+	<test
+		name="Selenium Verify Estimate Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Estimate_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.195 -->
+
+	<test name="Selenium Verify Item Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Item_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.196 -->
+
+	<test name="Selenium Verify Lot Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.197 -->
+
+	<test name="Selenium Verify Name Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Name_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.198 -->
+
+	<test
+		name="Selenium Verify Starting Current Bid Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Starting_Current_Bid_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.199 -->
+
+	<test
+		name="Selenium Verify Time Left Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Time_Left_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.200 -->
+
+	<test name="Selenium Verify Views Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Views_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.201 -->
+
+	<test
+		name="Selenium Verify Special Terms Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Special_Terms_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.202 -->
+
+	<test
+		name="Selenium Verify Starting Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Starting_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.203 -->
+
+	<test name="Selenium Verify Status Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Status_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.204 -->
+
+	<test
+		name="Selenium Verify Stop Absentee Bid Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Stop_Absentee_Bid_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.205 -->
+
+	<test name="Selenium Verify Submit Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Submit_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.206 -->
+
+	<test
+		name="Selenium Verify Buy Now Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Buy_Now_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.207 -->
+
+	<test
+		name="Selenium Verify Estimate Label1 Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Estimate_Label1_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.208 -->
+
+	<test name="Selenium Verify Image Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Image_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.209-->
+
+	<test name="Selenium Verify Item Title Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Item_Title_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.210 -->
+
+	<test name="Selenium Verify Lot Hash1 Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Hash1_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.211 -->
+
+	<test
+		name="Selenium Verify Lot My Max Bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_My_Max_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.212 -->
+
+	<test
+		name="Selenium Verify Lot My Min Bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_My_Min_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.213 -->
+
+	<test name="Selenium Verify OR Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_OR_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.214 -->
+
+	<test name="Selenium Verify Price1 Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Price1_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.215 -->
+
+	<test name="Selenium Verify Asking Bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Asking_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.216 -->
+
+	<test name="Selenium Verify Buy Now Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Buynow_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.217 -->
+
+	<test name="Selenium Verify Current Bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Current_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.218 -->
+
+	<test name="Selenium Verify Starting bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Starting_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.219 -->
+
+	<test name="Selenium Verify Winning Bid Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Winning_Bid_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.220 -->
+
+	<test name="Selenium Verify Quantity1 Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Quantity1_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.221 -->
+
+	<test name="Selenium Verify Time Left Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Time_Left_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.222 -->
+
+	<test name="Selenium Verify Warranty Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Warranty_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.223 -->
+
+	<test
+		name="Selenium Verify Question Mark Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_QuestionMark_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.224 -->
+
+	<test name="Selenium Verify Your Bids Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Your_Bids_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.225 -->
+
+	<test
+		name="Selenium Verify Tell a Friend Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Tell_a_Friend_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.226 -->
+
+	<test
+		name="Selenium Verify Terms and Condition Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Terms_And_Condition_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.227 -->
+
+	<test
+		name="Selenium Verify Time Left Label1 Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Time_Left_Label1_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.228 -->
+
+	<test name="Selenium Verify Ended Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Ended_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.229 -->
+
+	<test
+		name="Selenium Verify Unawarded Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_UnAwarded_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.230 -->
+
+	<test
+		name="Selenium Verify Upcoming Label Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Upcoming_Label_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.231 -->
+
+	<test name="Selenium Verify View Details Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_View_Details_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.232 -->
+
+	<test
+		name="Selenium Verify View Full Catalog For Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_View_Full_Catalog_For_Translation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.233 -->
+
+	<test
+		name="Selenium Verify View Full Catalog for Translation Catalog menu1">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_View_Full_Catalog_For_Translation_CatalogMenu1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.234 -->
+
+	<test
+		name="Selenium Verify View My Watchlist Translation Catalog menu1">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_View_My_Watchlist_Translation_CatalogMenu1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.235 -->
+
+	<test name="Selenium Verify Warranty Translation Catalog menu1">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Warranty_Translation_CatalogMenu1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.236 -->
+
+	<test
+		name="Selenium Verify Add to Watchlist Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Add_To_watchlist_Translation_CatalogMenu1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.237 -->
+
+	<test name="Selenium Verify Winning Bid1 Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Winning_Bid1_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.238 -->
+
+	<test name="Selenium Verify You Won Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_You_Won_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.239 -->
+
+	<test
+		name="Selenium Verify You Won Reservation Translation Catalog menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_You_Won_Reservation_CatalogMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.240 -->
+
+	<test name="Selenium Verify Auction Items Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auction_Items_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.241 -->
+
+	<test name="Selenium Verify Account Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Account_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.242 -->
+
+	<test name="Selenium Verify Auctioneer Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auctioneer_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.243 -->
+
+	<test name="Selenium Verify Auctions Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auctions_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.244 -->
+
+	<test name="Selenium Verify Best Offer Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Best_Offer_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.245 -->
+
+	<test name="Selenium Verify Buy Now Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Buy_Now_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.246 -->
+
+	<test name="Selenium Verify Featured Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Featured_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.247 -->
+
+	<test name="Selenium Verify Filter By Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Filter_By_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.248 -->
+
+	<test
+		name="Selenium Verify Hybrid Auctions Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Hybrid_Auctions_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.249 -->
+
+	<test name="Selenium Verify Live Auctions Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Live_Auctions_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.250 -->
+
+	<test name="Selenium Verify Lot Number Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Number_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.251 -->
+
+	<test name="Selenium Verify Price Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Price_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.252 -->
+
+	<test name="Selenium Verify Max Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Max_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.253 -->
+
+	<test
+		name="Selenium Verify Min Translation Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Min_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.254 -->
+
+	<test name="Selenium Verify Sort By Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Sort_By_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.255 -->
+
+	<test name="Selenium Verify Timed Auction Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Timed_Auction_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.256 -->
+
+	<test name="Selenium Verify Bid Now Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Bid_Now_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.257 -->
+
+	<test name="Selenium Verify Search Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Search_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.258 -->
+
+	<test name="Selenium Verify Buy Now Translation Search menu1">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Buy_Now_Translation_SearchMenu1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.259 -->
+
+	<test name="Selenium Verify Categories Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Categories_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.260 -->
+
+	<test name="Selenium Verify All Translation Search menu1">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_All_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.261 -->
+
+	<test
+		name="Selenium Verify Category Match Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Category_Match_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.262 -->
+
+	<test
+		name="Selenium Verify Zip Postal Code Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Zip_Postal_Code_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.263 -->
+
+	<test
+		name="Selenium Verify Incorrect Zip Postal Code Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Incorrect_Zip_Postal_Code_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.264 -->
+
+	<test
+		name="Selenium Verify Zip Postal Code Not Found Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Zip_Postal_Code_Not_Found_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.265 -->
+
+	<test name="Selenium Verify Select Radius Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Select_Radius_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.266 -->
+
+	<test name="Selenium Verify Lot in Sale Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_LotinSale_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.267 -->
+
+	<test name="Selenium Verify Keyword Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Keyword_Translation_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.268 -->
+
+	<test name="Selenium Verify Add Alert Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Add_Alert_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.269 -->
+
+	<test
+		name="Selenium Verify You Reached Max Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_You_Reached_Max_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.270 -->
+
+	<test name="Selenium Verify Search Title Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Search_Title_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.271 -->
+
+	<test
+		name="Selenium Verify Save Search Title Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Save_Search_Title_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.272 -->
+
+	<test
+		name="Selenium Verify My Search Title Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_My_Searchs_Title_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.273 -->
+
+	<test
+		name="Selenium Verify Search Radius Code Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Search_Radius_Code_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.274 -->
+
+	<test name="Selenium Verify Miles Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Miles_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.275 -->
+
+	<test name="Selenium Verify Similar Items Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Similar_Items_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.276 -->
+
+	<test name="Selenium Verify Auction Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Auction_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.277 -->
+
+	<test name="Selenium Verify Bids Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Bids_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.278 -->
+
+	<test name="Selenium Verify Default Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Default_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.279 -->
+
+	<test name="Selenium Verify Distance Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Distance_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.280 -->
+
+	<test name="Selenium Verify Highest Price Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Highest_Price_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.281 -->
+
+	<test name="Selenium Verify Lot Name Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Name_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.282 -->
+
+	<test name="Selenium Verify Lot Hash Translation Search menu1">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lot_Hash_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.283 -->
+
+	<test name="Selenium Verify Lowest Price Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Lowest_Price_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.284 -->
+
+	<test name="Selenium Verify Newest Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Newest_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.285 -->
+
+	<test name="Selenium Verify TimeLeft Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_TimeLeft_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.286 -->
+
+	<test name="Selenium Verify Views Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Views_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.287 -->
+
+	<test name="Selenium Verify Max No Search Translation Search menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Max_No_Search_SearchMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+
+	<!-- 3.288 -->
+
+	<test
+		name="Selenium Verify User Name Email Combination Not Found Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_User_Name_Email_Combination_Not_Found_Loginmenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.290 -->
+
+	<test
+		name="Selenium Verify Incorrect Text Entered Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Incorrect_Text_Entered_Loginmenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.291 -->
+
+	<test
+		name="Selenium Verify User Name Required Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_User_Name_Required_Loginmenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.292 -->
+
+	<test name="Selenium Verify Email Inbox Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Email_Inbox_Loginmenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.293 -->
+
+	<test name="Selenium Verify User Name Sent Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_User_Name_Sent_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.294 -->
+
+	<test name="Selenium Verify Login Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Login_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.295 -->
+
+	<test
+		name="Selenium Verify Congratulation Message Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Congratulation_Msg_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.296 -->
+
+	<test name="Selenium Verify Email Verified Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Email_Verified_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.297 -->
+
+	<test
+		name="Selenium Verify Mismatched Verification Code Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Mismatched_Verification_Code_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.298 -->
+
+	<test
+		name="Selenium Verify Unknown Error Occurred Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Unknown_Error_Occurred_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.299 -->
+
+	<test name="Selenium Verify Login Failed Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Login_Failed_Translation_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.300 -->
+
+	<test
+		name="Selenium Verify Forgot Password Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include
+						name="Verify_Forgot_Password_Translation_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.301 -->
+
+	<test name="Selenium Verify It Easy Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_It_Easy_Translation_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.302 -->
+
+	<test
+		name="Selenium Verify Not a member yet Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Not_a_Member_Yet_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.303 -->
+
+	<test name="Selenium Verify Password Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Password_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.304 -->
+
+	<test name="Selenium Verify Register Now Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Register_Now_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.305 -->
+
+	<test name="Selenium Verify User Name Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_User_Name_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.306 -->
+
+	<test
+		name="Selenium Verify Password Required Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Password_Required_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.307 -->
+
+	<test name="Selenium Verify Password Reset Translation Login menu">
+
+		<classes>
+
+			<class name="com.auction.verifications.Translation">
+
+				<methods>
+
+					<include name="Verify_Password_Reset_LoginMenu">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+</suite>

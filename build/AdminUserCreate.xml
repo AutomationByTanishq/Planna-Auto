@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Admin User Scripts with Regualr Signup" verbose="10"
+	parallel="tests" thread-count="1">
+<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<!-- Selenium Admin User Creation -->
+	<test name="Selenium - Admin User Creation">
+		<classes>
+			<class name="com.auction.verifications.adminUserCreation">
+				<methods>
+					<include name="adminUserCreation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 

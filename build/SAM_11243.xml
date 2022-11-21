@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM_11243" verbose="10"
+	parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1 -->
+
+	<test name="Invalid_Max_Bid_Error_On_Placing_Decimal_Type_Amount_Values">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_11243">
+
+				<methods>
+
+					<include name="Invalid_Max_Bid_Error_On_Placing_Decimal_Type_Amount_Values" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 2 -->
+
+	<test name="Invalid_Max_Bid_Error_On_Placing_Decimal_Type_Amount_Values_US_Number_Formatting_Disable">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_11243">
+
+				<methods>
+
+					<include name="Invalid_Max_Bid_Error_On_Placing_Decimal_Type_Amount_Values_US_Number_Formatting_Disable" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	
+</suite>

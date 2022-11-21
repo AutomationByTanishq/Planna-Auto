@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-7976" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+ 	<!-- 1 --> 
+
+	<test name="Render_identifiable_class_names_for_user_custom_fields_on_signup_age_8594">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7976">
+
+				<methods>
+
+					<include name="Render_identifiable_class_names_for_user_custom_fields_on_signup_age_8594" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 2-->
+
+	<test name="Render_identifiable_class_names_for_user_custom_fields_on_profile_page_8595">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7976">
+
+				<methods>
+
+					<include name="Render_identifiable_class_names_for_user_custom_fields_on_profile_page_8595" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	</suite>

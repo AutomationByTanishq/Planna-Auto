@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Hybrid Automation Suite" verbose="10"
+	parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Comment 
+		<test> tag to unrun respective test. -->
+<!-- 3.1 -->
+
+	<test name="Selenium verify_Auction_Type_Missing">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="verify_Auction_Type_Missing">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.2 -->
+
+	<test name="Selenium verify_Start_Closing_Date_Missing">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="verify_Start_Closing_Date_Missing">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.3 -->
+
+	<test name="Selenium verify_Bidding_Console_Date_Missing">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="verify_Bidding_Console_Date_Missing">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.4 -->
+
+	<test name="Selenium verify_Create_Auction">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="verify_Create_Auction">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.5 -->
+
+	<test name="Selenium verify_Create_Auction_Start_Date_Past">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="verify_Create_Auction_Start_Date_Past">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.6 -->
+
+	<test name="Selenium verify_Create_Auction_Start_Date_Past_Console">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="verify_Create_Auction_Start_Date_Past_Console">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.7 -->
+
+	<test name="Selenium verify_Create_Hybrid_Auction_with_Sale_Number">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="verify_Create_Hybrid_Auction_with_Sale_Number">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.8 -->
+
+	<test name="Selenium enter_Invalid_Sale_Number">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="enter_Invalid_Sale_Number">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.9 -->
+
+	<test name="Selenium verify_Console_Date_Earlier_Then_Start_Date">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="verify_Console_Date_Earlier_Then_Start_Date">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.10 -->
+
+	<test name="Selenium create_Auction_All_Fields">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="create_Auction_All_Fields">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.11 -->
+
+	<test name="Selenium enter_Description_With_Special_Characters">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="enter_Description_With_Special_Characters">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.12 -->
+
+	<test name="Selenium enter_Text_With_Special_Characters_TandC">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="enter_Text_With_Special_Characters_TandC">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.13 -->
+
+	<test name="Selenium enter_Sale_Number_Longer_Than_Max_Length">
+
+		<classes>
+
+			<class name="com.auction.verifications.HybridAuction">
+
+				<methods>
+
+					<include name="enter_Sale_Number_Longer_Than_Max_Length">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+</suite>

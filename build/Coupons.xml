@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Coupons" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+
+	<!-- 1 -->
+
+	<test name="Add_New_Coupon_With_Valid_Details">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Add_New_Coupon_With_Valid_Details" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 2 -->
+
+	<test name="Add_New_Coupon_Without_Entering_CouponName">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Add_New_Coupon_Without_Entering_CouponName" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3 -->
+
+	<test
+		name="Add_New_Coupon_With_Entering_Alphabetical_Values_In_AmountField">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include
+						name="Add_New_Coupon_With_Entering_Alphabetical_Value_In_AmountField" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4 -->
+
+	<test name="Edit_And_Save_Coupon">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Edit_And_Save_Coupon" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 5 -->
+
+	<test name="Add_New_Coupon_With_Wrong_Date_Interval">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Add_New_Coupon_With_Wrong_Date_Interval" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 6 -->
+
+	<test name="Delete_Added_Coupon">
+
+	<classes>
+
+		<class name="com.auction.verifications.Coupons">
+
+			<methods>
+
+				<include name="Delete_Added_Coupon" />
+
+			</methods>
+
+		</class>
+
+	</classes>
+
+</test>
+
+	<!-- 7 -->
+	<test name="Add_New_Coupon_With_Fixed_Amount_Off">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Add_New_Coupon_With_Fixed_Amount_Off" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 8 -->
+	<test name="Add_New_Coupon_With_Percentage_Off">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Add_New_Coupon_With_Percentage_Off" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 9 -->
+	<test name="Deactivate_Added_coupon">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Deactivate_Added_coupon" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 10 -->
+	<test name="Activate_Added_coupon">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Activate_Added_coupon" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 11 -->
+	<test name="View_Coupons_Name_In_Asc_Desc_Order_Through_Click_On_Coupons_Header">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="View_Coupons_Name_In_Asc_Desc_Order_Through_Click_On_Coupons_Header" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 12 -->
+	<test name="View_Coupons_Code_In_Asc_Desc_Order_Through_Click_On_Code_Header">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="View_Coupons_Code_In_Asc_Desc_Order_Through_Click_On_Code_Header" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 13 -->
+	<test name="View_Coupons_Type_In_Asc_Desc_Order_Through_Click_On_Type_Header">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="View_Coupons_Type_In_Asc_Desc_Order_Through_Click_On_Type_Header" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 14 -->
+	<test name="View_Coupons_Min_Purchase_Amt_In_Asc_Desc_Order_Through_Click_On_Min_Amount_Header">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="View_Coupons_Min_Purchase_Amt_In_Asc_Desc_Order_Through_Click_On_Min_Amount_Header" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 15 -->
+	<test name="View_Coupons_Per_User_In_Asc_Desc_Order_Through_Click_On_Per_User_Header">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="View_Coupons_Per_User_In_Asc_Desc_Order_Through_Click_On_Per_User_Header" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 16 -->
+	<test name="Add_New_Coupon_With_Assign_More_Categories">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Add_New_Coupon_With_Assign_More_Categories" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 17 -->
+	<test name="Try_To_Add_New_Coupon_With_Click_On_Cancel_Button">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">	
+
+				<methods>
+
+					<include name="Try_To_Add_New_Coupon_With_Click_On_Cancel_Button" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 18 -->
+	<test name="Show_All_Active_Coupons">
+
+		<classes>
+
+			<class name="com.auction.verifications.Coupons">
+
+				<methods>
+
+					<include name="Show_All_Active_Coupons" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+</suite>

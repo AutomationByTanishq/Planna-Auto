@@ -1,0 +1,7 @@
+[
+{
+	"selenium.host": "localhost",
+	"selenium.port": "6666",
+	"selenium.browser": "chrome"
+}
+]

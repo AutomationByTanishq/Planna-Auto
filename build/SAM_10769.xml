@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Coupons Automation Suite" verbose="10" parallel="tests" thread-count="3">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+	<!-- 1 -->
+
+	 <test name="verify_Check_Simplified_Sign_Up_Page_Options">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10769">
+
+				<methods>
+
+					<include name="verify_Check_Simplified_Sign_Up_Page_Options" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--2 -->
+
+	<test name="verify_Check_The_Alert_Tab_At_Sign_Up_Page">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10769">
+
+				<methods>
+
+					<include name="verify_Check_The_Alert_Tab_At_Sign_Up_Page" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--3 -->
+
+	<test name="verify_Check_Trying_Sign_Up_New_User">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10769">
+
+				<methods>
+
+					<include name="verify_Check_Trying_Sign_Up_New_User" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+</suite>

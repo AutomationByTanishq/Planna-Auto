@@ -1,0 +1,4289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Live Sale " verbose="10" parallel="tests"
+	thread-count="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 3.1 -->
+	<!-- Selenium Auction type missing Feature -->
+
+	<test name="Selenium Auction type missing Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Auction_Type_Missing">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.2 -->
+	<!-- Selenium Sale number missing Feature -->
+
+	<test name="Selenium Sale number missing Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Sale_Number_Missing">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.3 -->
+	<!-- Selenium Number of days missing Feature -->
+
+	<test name="Selenium Number of days missing Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Number_Of_Days_Missing">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.4 -->
+	<!-- Selenium Start date missing Feature -->
+
+	<test name="Selenium Start date missing Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Start_Date_Missing">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.5 -->
+	<!-- Selenium Create New Auction Feature -->
+
+	<test name="Selenium Create New Auction Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Create_Auction">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.6 -->
+	<!-- Selenium All fields filled out Feature -->
+
+	<test name="Selenium All fields filled out Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Allfields_Filled_Out">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.7 -->
+	<!-- Selenium start date in the past auction not started Feature -->
+
+	<test name="Selenium start date in the past auction not started Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Start_Date_In_The_Past_Auction_Not_Started">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.8 -->
+	<!-- Selenium start date in the past auction started and not closed Feature 
+		<test name="Selenium start date in the past auction started and not closed 
+		Feature"> <classes> <class name="com.auction.verifications.LiveSale"> <methods> 
+		<include name="Start_Date_In_The_Past_Auction_Started_And_Not_Closed"> </include> 
+		</methods> </class> </classes> </test> -->
+
+	<!-- 3.9 -->
+	<!-- Selenium start date in the future Feature -->
+
+	<test name="Selenium start date in the future Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Start_Date_In_The_Future">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.10 -->
+	<!-- Selenium number of days = 0 Feature -->
+
+	<test name="Selenium number of days = 0 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Number_Of_Days_0">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.11 -->
+	<!-- Selenium number of days = 1 Feature -->
+
+	<test name="Selenium number of days = 1 Feature1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Number_Of_Days_1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.12 -->
+	<!-- Selenium number of days = 2 Feature -->
+
+	<test name="Selenium number of days = 1 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Number_Of_Days_2">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.13 -->
+	<!-- Higher than allowed max Feature -->
+
+	<test name="Higher than allowed max Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Higher_Than_Allowed_Max">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.14 -->
+	<!-- Selenium create live auction 1 Feature -->
+
+	<test name="Selenium create live auction 1 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Create_Live_Auction_1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.15 -->
+	<!-- Selenium create live auction 2 Feature -->
+
+	<test name="Selenium create live auction 2 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Create_Live_Auction_2">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.16 -->
+	<!-- Selenium create live auction 3 Feature -->
+
+	<test name="Selenium create live auction 3 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Create_Live_Auction_3">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.17 -->
+	<!-- Selenium create live auction 4 Feature -->
+
+	<test name="Selenium create live auction 4 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Create_Live_Auction_4">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.18 -->
+	<!-- Selenium Create first group Feature -->
+
+	<test name="Selenium Create first group Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Create_First_Group">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.19 -->
+	<!-- Selenium default value is N/A Feature -->
+
+	<test name="Selenium default salegroup value is N/A Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Default_Sale_Group_Value">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.20 -->
+	<!-- Selenium click edit link Feature -->
+
+	<test name="Selenium click edit link Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Clicked_It_Link">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.21 -->
+	<!-- Selenium Click edit link select another sale update Feature -->
+
+	<test name="Selenium Click edit link select another sale update Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Click_Edit_Link_Select_Another_Sale_Update">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.22 -->
+	<!-- Enter a group name click edit link select another sale check simultaneous 
+		sales update -->
+
+	<test
+		name="Enter a group name click edit link select another sale check simultaneous
+	  sales update">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include
+						name="Enter_a_Groupname_Click_Editlink_Select_Another_Sale_Check_Simultaneous_Sales_Update">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.23 -->
+	<!-- Selenium Verify Cancel Group Feature -->
+
+	<test name="Selenium Verify Cancel Group Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Cancel">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.24 -->
+	<!-- Selenium Verify Cancel existing sale Group Feature -->
+
+	<test name="Selenium Verify Cancel existing sale Group Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Cancel_Sale_Group">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.25 -->
+	<!-- Selenium Enter a name longer than the max length Feature -->
+
+	<test name="Selenium Enter a name longer than the max length Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_Name_Longer_Than_The_Max_Length">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.26 -->
+	<!-- Selenium Enter a name with special characters Feature -->
+
+	<test name="Selenium Enter a name with special characters Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_Name_With_Special_Characters">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.27 -->
+	<!-- Selenium Enter Description with special characters Feature -->
+
+	<test name="Selenium Enter Description with special characters Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_Description_With_Special_Characters">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.28 -->
+	<!-- Selenium Enter a description and enhance the text Feature -->
+
+	<test name="Selenium Enter a description and enhance the text Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_Description_and_Enhance_The_Text">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.29 -->
+	<!-- Selenium Correctly populated from the settings by default Feature <test 
+		name="Selenium Correctly populated from the settings by default Feature"> 
+		<classes> <class name="com.auction.verifications.LiveSale"> <methods> <include 
+		name="Correctly_Populated_From_The_Settings_By_Default"> </include> </methods> 
+		</class> </classes> </test> -->
+
+
+	<!-- 3.30 -->
+	<!-- Selenium Enter a Terms and condition with special characters Feature -->
+
+	<test
+		name="Selenium Enter a Terms and condition with special characters Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_Terms_and_Condition_With_Special_Characters">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.31 -->
+	<!-- Selenium Enter a Terms and condition and enhance the text Feature -->
+
+	<test
+		name="Selenium Enter a Terms and condition and enhance the text Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_Terms_and_Condition_and_Enhance_The_Text">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.32 -->
+	<!-- Selenium Upload a picture save the sale Feature -->
+
+	<test name="Selenium Upload a picture save the sale Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Upload_Picture_Save_The_Sale">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.33 -->
+	<!-- Selenium Do not upload a picture Feature -->
+
+	<test name="Selenium Do not upload a picture Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Do_Not_Upload_Picture">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.34 -->
+	<!-- Upload a picture remove the existing picture Feature -->
+
+	<test name="Selenium Upload a picture remove the existing picture Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Upload_Picture_Remove_The_Existing_Picture">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.35 -->
+	<!-- Leave checkbox unchecked save -->
+
+	<test name="Leave checkbox unchecked save">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Leave_Checkbox_Unchecked_Save">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+	<!-- 3.36 -->
+	<!-- Leave check the checkbox save Feature -->
+
+	<test name="Selenium check the checkbox save Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Check_The_Checkbox_Save">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.37 -->
+	<!-- Uncheck the option for an already published auction -->
+
+	<test name="Uncheck the option for an already published auction">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Uncheck_The_Option_For_an_Already_Published_Auction">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.38 -->
+	<!-- Check the option for a previously unpublished auction Feature -->
+
+	<test
+		name="Selenium Check the option for a previously unpublished auction Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Check_The_Option_For_a_Previously_UnPublished_Auction">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.39 -->
+	<!-- Leave checkbox unchecked save Feature -->
+
+	<test name="Selenium Leave checkbox unchecked save Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Leave_Checkbox_Unchecked_Save1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+	<!-- 3.40 -->
+	<!-- check the option save Feature <test name="Selenium check the option 
+		save Feature"> <classes> <class name="com.auction.verifications.LiveSale"> 
+		<methods> <include name="Check_The_Option_Save"> </include> </methods> </class> 
+		</classes> </test> -->
+
+	<!-- 3.41 -->
+	<!-- check the option save Feature <test name="Selenium check the option 
+		one save Feature"> <classes> <class name="com.auction.verifications.LiveSale"> 
+		<methods> <include name="Check_The_Option_Save1"> </include> </methods> </class> 
+		</classes> </test> -->
+
+	<!-- 3.42 -->
+	<!-- check the option save Feature <test name="Selenium check the option 
+		two save Feature"> <classes> <class name="com.auction.verifications.LiveSale"> 
+		<methods> <include name="Check_The_Option_Save2"> </include> </methods> </class> 
+		</classes> </test> -->
+
+	<!-- 3.43 -->
+	<!-- check the option save Feature <test name="Selenium check the option 
+		three save Feature"> <classes> <class name="com.auction.verifications.LiveSale"> 
+		<methods> <include name="Check_The_Option_Save3"> </include> </methods> </class> 
+		</classes> </test> -->
+
+	<!-- 3.44 -->
+	<!-- check the option save Feature <test name="Selenium check the option 
+		four save Feature"> <classes> <class name="com.auction.verifications.LiveSale"> 
+		<methods> <include name="Check_The_Option_Save4"> </include> </methods> </class> 
+		</classes> </test> -->
+
+
+	<!-- 3.45 -->
+	<!-- Edit an existing auction go to the auction lots tab click on add lot 
+		fill out the fields but not the lot name Feature -->
+
+	<test
+		name="Edit an existing auction go to the auction lots tab click on add lot fill 
+
+out the fields but not the lot name Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Lot_Name_Missing">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.46 -->
+	<!-- Fill out just the lot name Feature -->
+
+	<test name="Fill out just the lot name Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Fill_Out_Just_The_Lotname">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.47 -->
+	<!-- Verify Create New Lot Feature -->
+
+	<test name="Verify Create New Lot Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Create_New_Lot">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.48 -->
+	<!-- Verify Fill out all the fields with erroneous values Feature -->
+
+	<test name="Selenium Fill out all the fields with erroneous values Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Fillout_All_The_Fields_With_Erroneous_Values">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.49 -->
+	<!-- Verify assign one category Feature -->
+
+	<test name="Selenium assign one category Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Assign_One_Category">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.50 -->
+	<!-- Verify assign multiple categories Feature -->
+
+	<test name="Selenium assign multiple categories Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Assign_Multiple_Categories">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.51 -->
+	<!-- Verify Already Exist Item number Feature -->
+
+	<test name="Selenium Verify Already Exist Item number Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_Already_Exist_Item_Number">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.52 -->
+	<!-- Verify Enter more than higher Item number Feature -->
+
+	<test name="Selenium Enter more than higher Item number Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_More_Than_Higher_Item_Number">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.53 -->
+	<!-- Verify keep Item number blank Feature -->
+
+	<test name="Selenium keep Item number blank Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="keep_Item_Number_Blank">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.54 -->
+	<!-- Verify enter an available value Feature -->
+
+	<test name="Selenium enter an available value Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_an_Available_Value">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.55 -->
+	<!-- Verify Leave item number Empty Feature -->
+
+	<test name="Selenium Leave item number Empty Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Leave_Item_Number_Empty">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.56 -->
+	<!-- Verify Existing lot number Feature -->
+
+	<test name="Selenium Existing lot number Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_Already_Existing_Lot_Number">
+					</include>
+
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+
+
+	<!-- 3.57 -->
+	<!-- Verify Enter lot number value that is not yet used Feature -->
+
+	<test name="Selenium Enter lot number value that is not yet used Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Enter_Lot_Number_Value_That_Is_Not_Yet_Used">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.58 -->
+	<!-- Verify Enter lot number value that is non numerical Feature -->
+
+	<test name="Selenium Enter lot number value that is non numerical Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Enter_Lot_Number_Value_That_Is_No_Numeric_Value">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.60 -->
+	<!--Verify Enter Albhabet value in lot number Extention Field Feature <test 
+		name="Selenium Verify Enter Albhabet value in lot number Extention Field 
+		Feature"> <classes> <class name="com.auction.verifications.LiveSale"> <methods> 
+		<include name="Verify_Enter_Albhabet_Value_In_Lot_Number_Extention_Field"> 
+		</include> </methods> </class> </classes> </test> -->
+
+	<!-- 3.61 -->
+	<!--Verify Enter Symbol value in lot number Extention Field Feature <test 
+		name="Selenium Verify Enter Symbol value in lot number Extention Field Feature"> 
+		<classes> <class name="com.auction.verifications.LiveSale"> <methods> <include 
+		name="Verify_Enter_Symbol__Value_In_Lot_Number_Extention_Field"> </include> 
+		</methods> </class> </classes> </test> -->
+
+	<!-- 3.62 -->
+	<!--Verify Enter Pound Sign in lot number Extention Field Feature <test 
+		name="Selenium Verify Enter Pound Sign in lot number Extention Field Feature"> 
+		<classes> <class name="com.auction.verifications.LiveSale"> <methods> <include 
+		name="Verify_Enter_Pound_Sign_In_Lot_Number_Extention_Field"> </include> 
+		</methods> </class> </classes> </test> -->
+
+	<!-- 3.63 -->
+	<!--Verify lot description - enriched text Feature -->
+
+	<test name="Selenium Verify lot description - enriched text Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Lot_Description_Enriched_Text">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.64 -->
+	<!--Verify Specify 2 working image links Feature -->
+
+	<test name="Selenium Specify 2 working image links Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Specify_2_Working_Image_Links">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.65 -->
+	<!--Verify specify a broken image link Feature -->
+
+	<test name="Selenium specify a broken image link Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Specify_a_Broken_Image_Link">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.66 -->
+	<!--Verify upload several valid images -->
+
+	<test name="selenium upload several valid images">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Upload_Several_Valid_Images">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.67 -->
+	<!--Verify remove existing image link -->
+
+	<test name="selenium remove existing image link">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Remove_Existing_Image_Link">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.68 -->
+	<!--Verify remove existing uploaded image -->
+
+	<test name="selenium remove existing uploaded image">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Remove_Existing_Uploaded_Image">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.69 -->
+	<!--Verify Enter the number of an existing lot Feature -->
+
+	<test name="Selenium Enter the number of an existing lot Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_The_Number_Of_an_Existing_Lot">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.70 -->
+	<!--Verify Enter the number of a non existing lot in the auction Feature -->
+
+	<test
+		name="Selenium Enter the number of a non existing lot in the auction Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Enter_The_Number_Of_an_Non_Existing_Lot_In_The_Auction">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+	<!-- 3.71 -->
+	<!--Verify Verify winning biddere -->
+
+	<test name="Selenium Verify winning bidder">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Winning_Bidder">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.72 -->
+	<!--Verify Verify more actions -->
+
+	<test name="Selenium  Verify more actions">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="More_Actions">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+	<!-- 3.73 -->
+	<!--Verify Randomly reassign lot numbers Feature -->
+
+	<test name="Selenium Verify Randomly reassign lot numbers Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Randomly_Reassign_Lot_Numbers">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.74 -->
+	<!--Verify Verify keyword search -->
+
+	<test name="Selenium Verify keyword search">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Keyword_Search">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.75 -->
+	<!-- Verify Filter(Category) -->
+
+	<test name="Selenium Verify Filter(Category)">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Category">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.76 -->
+	<!-- Verify Filter(Consignor) -->
+
+	<test name="Selenium Verify Filter(Consignor)">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Consignor">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.77 -->
+	<!--Verify Filter(Status) Feature -->
+
+	<test name="Selenium Filter(Status) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Status">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.78 -->
+	<!--Verify Filter(BillingStatus) Feature -->
+
+	<test name="Selenium Filter(BillingStatus) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Billing_Status">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+	<!-- 3.79 -->
+	<!--Verify Combination of all filters -->
+
+	<test name="Selenium Verify Combination of all filters">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Combination_Of_All_Filters">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+
+	<!-- 3.80 -->
+	<!--Verify Block sold lots from being assigned to other sales Feature -->
+
+	<test
+		name="Selenium Block sold lots from being assigned to other sales Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Block_Sold_Lots_From_Being_Assigned_To_Other_Sales">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.81 -->
+	<!--Verify Block sold lots from being assigned to other sales is active -->
+	<test
+		name="Selenium Block sold lots from being assigned to other sales is active 
+
+Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include
+						name="Block_Sold_Lots_From_Being_Assigned_To_Other_Sales_Is_Active">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.82 -->
+	<!--Verify Block sold lots from being assigned to other sales is active1 -->
+
+	<test
+		name="Selenium Block sold lots from being assigned to other sales is active1 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+				<methods>
+
+					<include
+						name="Block_Sold_Lots_From_Being_Assigned_To_Other_Sales_Is_Active1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.83 -->
+	<!--Verify Block sold lots from being assigned to other sales is active -->
+
+	<test
+		name="Selenium Verify Block sold lots from being assigned to other sales is active">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+				<methods>
+
+					<include
+						name="Block_Sold_Lots_From_Being_Assigned_To_Other_Sales_Is_Active2">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.84 -->
+	<!--Verify change page link -->
+
+	<test name="Selenium change page link Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Change_Page_Link">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.85 -->
+	<!--Verify check on starting bid, estimates -->
+
+	<test name="Selenium Verify check on starting bid, estimates">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Check_On_Starting_Bid_Estimates">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.86 -->
+	<!--Verify active -->
+
+	<test name="Selenium Verify active">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Active">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.87 -->
+	<!--Verify disabled -->
+
+	<test name="Selenium Verify disabled">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Disabled">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.88 -->
+	<!--Verify validate with Enter -->
+
+	<test name="Selenium validate with Enter">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Validate_With_Enter">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.89 -->
+	<!--Verify validate with button -->
+
+	<test name="Selenium validate with button">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Validate_With_Button">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.90 -->
+	<!--Verify use quick change button -->
+
+	<test name="Selenium use quick change button">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Use_Quick_Change_Button">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.91 -->
+	<!--Verify restore default increment link -->
+
+	<test name="Selenium restore default increment link">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Restore_Default_Increment_Link">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.92 -->
+	<!--Verify accept and sell -->
+
+	<test name="Selenium accept and sell">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Sell_Feature">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.93 -->
+	<!--Verify accept and undo -->
+
+	<test name="Selenium accept and undo">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Undo">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.94 -->
+	<!--Verify accept and pass -->
+
+	<test name="Selenium Verify accept and pass">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Pass">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.95 -->
+	<!--Verify accept and fair warning and accept and sell -->
+
+	<test name="Selenium accept and fair warning and accept and sell">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Fair_Warning_and_Sell">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.96 -->
+	<!--Verify accept and sell -->
+
+	<test name="Selenium accept and sell1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Sell">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.97 -->
+	<!--Verify accept and undo link -->
+
+	<test name="Selenium accept and undo1 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Undo1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.98 -->
+	<!--Verify accept and pass -->
+
+	<test name="Selenium accept and pass">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Pass1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3.99 -->
+	<!--Verify accept and fair warning and sell -->
+
+	<test name="Selenium accept and fair warning and sell">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Fair_Warning_and_Sell1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.100 -->
+	<!--Verify active1 -->
+
+	<test name="Selenium active1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Active1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.101 -->
+	<!--Verify active123 -->
+
+	<test name="Selenium active123">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Active123">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.102 -->
+	<!--Verify disabled -->
+
+	<test name="Selenium disabled">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Disabled1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.103 -->
+	<!--Verify active link -->
+
+	<test name="Selenium active2 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Active2">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.104 -->
+	<!--Verify disabled link -->
+
+	<test name="Selenium disabled2 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Auto_Accept_Online_Disable">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.105 -->
+	<!--Verify Group item and sell -->
+
+	<test name="Group item and sell">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.106 -->
+	<!--Verify Group item and sell 1 -->
+
+	<test name="Group item and sell1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.107 -->
+	<!--Verify Group item and sell2 -->
+
+	<test name="Group item and sell2">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell2">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.108 -->
+	<!--Verify Group item and sell3 -->
+
+	<test name="Group item and sell3">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell3">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.109 -->
+	<!--Verify Group item and pass -->
+
+	<test name="Group item and pass">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Pass">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.110 -->
+	<!--Verify Group item and ungroup -->
+
+	<test name="Group item and ungroup">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Ungroup">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.111 -->
+	<!--Verify Group item and sell lot group all 4 one -->
+
+	<test name="Group item and sell lot group all 4 one">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_lot_Group_All_4_One">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.112 -->
+	<!--Verify Group item and sell lot group all 4 three -->
+
+	<test name="Group item and sell lot group all 4 three">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_lot_Group_All_4_Three">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.113 -->
+	<!--Verify Group item and pass lot group all 4 one -->
+
+	<test name="Group item and pass lot group all 4 one">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Pass_lot_Group_All_4_one">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.114 -->
+	<!--Verify Group items 4 all and ungroup lot 1 only -->
+
+	<test name="Group items 4 all and ungroup lot 1 only">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_4_All_and_Ungroup_Lot1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.115 -->
+	<!--Verify Group item and sell lot group x money one -->
+
+	<test name="Group items and sell lot group x money one">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_lot_Group_x_Money_One">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.116 -->
+	<!--Verify Group item and sell lot group x three -->
+
+	<test name="Group item and sell lot group x three">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_lot_Group_x_Three">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.117 -->
+	<!--Verify Group item and pass lot group x -->
+
+	<test name="Group item and pass lot group x">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Pass_lot_Group_x">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.118 -->
+	<!--Verify Group x all and ungroup lot 1 -->
+
+	<test name="Group x all and ungroup lot 1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_x_All_and_Ungroup_Lot1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.119 -->
+	<!--pause and restart auction -->
+
+	<test name="pause and restart auction">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Pause_and_Restart">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.120 -->
+	<!--Verify stop sale -->
+
+	<test name="Verify stop sale">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Stop_Sale">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.121 -->
+	<!--start lot, post bids, and reset -->
+
+	<test name="start lot, post bids, and reset1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Start_Lot_Post_Bids_and_Reset">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.122 -->
+	<!--Test Link -->
+
+	<test name="To verify test link">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Test_Link">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.123 -->
+	<!--Test Link -->
+
+	<test name="previouslot">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Previous_Lot">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.124 -->
+	<!--To verify Nextlot -->
+
+	<test name="Nextlot">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Next_Lot">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.125 -->
+	<!--To verify content -->
+
+	<test name="Nextlot1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Content">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.126 -->
+	<!--To verify action -->
+
+	<test name="action feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Action">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.127 -->
+	<!--To verify regular -->
+
+	<test name="Nextlot feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Regular">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.128 -->
+	<!--To verify simplified -->
+
+	<test name="simplified feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Simplified">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.129 -->
+	<!--To verify simplified in popup -->
+
+	<test name="simplifiedinpopup feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Simplified_In_Popup">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.130 -->
+	<!--as a bidder, place an absentee bid on lot X from the catalog page with 
+		confirmation -->
+
+	<test
+		name="as a bidder, place an absentee bid on lot X from the catalog page with
+	 * confirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include
+						name="Place_an_Absentee_Bid_On_Lot_X_From_The_Catalog_Page_With_Confirmation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.131 -->
+	<!--as a bidder, place an absentee bid on lot Y from the item details page 
+		with confirmation -->
+
+	<test
+		name="as a bidder, place an absentee bid on lot Y from the item details page
+	  with confirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include
+						name="As_a_Bidder_Place_an_Absentee_Bid_On_Lot_Y_From_The_Item_Details_Page_With_Confirmation">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.132 -->
+	<!--as a bidder place absentee bids on lots V and W from the catalog page 
+		with confirmation -->
+
+	<test
+		name="as a bidder place absentee bids on lots V and W from the catalog page
+	 with confirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Place_Absentee_Bids_on_Lot_V_and_W_From_The_Catalog_Page">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.133 -->
+	<!--as 2 different bidders, place absentee bids on the same lot -->
+
+	<test name="as 2 different bidders, place absentee bids on the same lot">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Place_Absentee_Bids_on_The_Same_Lot">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.134 -->
+	<!-- place several absentee bids but with a limit - go over the limit -->
+
+	<test
+		name=" place several absentee bids but with a limit - go over the limit">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Place_Serveral_Absentee_Bids_With_Limit">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.135 -->
+	<!-- place several absentee bids as an OR group -->
+
+	<test name="place several absentee bids as an OR group">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Place_Several_Absentee_Bids_as_an_Or_Group">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.136 -->
+	<!-- Verify check on starting bid, estimates advance -->
+
+	<test name="Verify check on starting bid, estimates advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Check_On_Starting_Bid_Estimates_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.137 -->
+	<!-- Verify Active7 -->
+
+	<test name="Verify Active7 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Active7">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.138 -->
+	<!-- Verify Disabled -->
+
+	<test name="Verify Disabled6 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Disabled6">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.139 -->
+	<!-- validate with Enter advance -->
+
+	<test name="validate with Enter advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Validate_With_Enter_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.140 -->
+	<!-- use increments column -->
+
+	<test name="use increments column">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Use_Increments_Column_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.141 -->
+	<!-- change default increment -->
+
+	<test name="change default increment">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Change_Default_Increment_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.142 -->
+	<!-- Decrements -->
+
+	<test name="Decrements">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Decrements_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.143 -->
+	<!--add new increment -->
+
+	<test name="add new increment">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Add_New_Increment_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.144 -->
+	<!--from increments column -->
+
+	<test name="from increments column">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="From_Increments_Column_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.145 -->
+	<!--from post bid column -->
+
+	<test name="from post bid column">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="From_Post_bid_Column_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.146 -->
+	<!-- accept and sell advance -->
+
+	<test name=" accept and sell advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Sell_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.147 -->
+	<!-- accept and undo advance -->
+
+	<test name="accept and undo advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Undo_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.148 -->
+	<!-- accept and pass advance -->
+
+	<test name="accept and pass advance1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Pass_Advance1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.149 -->
+	<!--accept and fair warning and accept and sell -->
+
+	<test name="accept and fair warning and accept and sell">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Fair_Warning_and_Accept_and_Sell_Advance1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.150 -->
+	<!-- accept and sell advance -->
+
+	<test name="accept and sell advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Sell_Advance1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.151 -->
+	<!--accept and undo advance -->
+
+	<test name="accept and undo advance1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Undo_Advance1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.152 -->
+	<!--accept and pass advance -->
+
+	<test name="accept and pass advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Pass_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.153 -->
+	<!-- accept and fair warning and accept and sell -->
+
+	<test name=" accept and fair warning and accept and sell">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Accept_and_Fair_Warning_and_Accept_and_Sell_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.154 -->
+	<!--To verify Verify active -->
+
+	<test name="To verify Verify active">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Active_Advance1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.155 -->
+	<!--To verify active advance -->
+
+	<test name="To verify active advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Active_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.156 -->
+	<!--To verify verify disable -->
+
+	<test name="To verify verify disable">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Disabled_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.157 -->
+	<!--To verify verify save and use new message -->
+
+	<test name="To verify verify save and use new message">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Save_and_Use_New_Message">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.158 -->
+	<!--To verify pause and restart advance -->
+
+	<test name="To verify pause and restart advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Pause_and_Restart_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.159 -->
+	<!--To verify verify stop sale advance -->
+
+	<test name="To verify verify stop sale advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Stop_Sale_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.160 -->
+	<!--To verify start lot, post bids, and reset advance -->
+
+	<test name="To verify start lot, post bids, and reset">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Start_Lot_Post_Bids_and_Reset_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.161 -->
+	<!--To verify test link advance -->
+
+	<test name="To verify test link advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Test_Link_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.162 -->
+	<!--To verify previous lot clearking style set to advance -->
+
+	<test name="To verify previous lot clearking style set to advance2">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Previous_Lot_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.163 -->
+	<!--To verify next lot to advance -->
+
+	<test name="To verify previous lot clearking style set to advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Next_Lot_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.164 -->
+	<!--To verify skip lot to advance -->
+
+	<test name="To verify skip lot advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Skip_Lot_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.165 -->
+	<!--To verify skip lot to advance1 -->
+
+	<test name="To verify skip lot advance1">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Skiplot_Advance1">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3.166 -->
+	<!--To verify Regular Auction projector Feature -->
+
+	<test name="To verify Regular Auction projector  Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Regular_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.167 -->
+	<!--To verify Regular Auction projector Feature. -->
+
+	<test name="To verify Regular Auction projector Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Showpopup_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 3.168 -->
+	<!--To verify Simplified Auction projector Feature -->
+
+	<test name="To verify Simplified Auction projector  Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Simplified_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+
+	<!-- 3.169 -->
+	<!--To verify as a bidder, place an absentee bid on lot X from the catalog 
+		page with confirmation advance -->
+
+	<test
+		name="To verify as a bidder, place an absentee bid on lot X from the catalog page with confirmation advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include
+						name="Place_an_Absentee_Bid_On_Lot_x_From_The_Catalog_Page_With_Confirmation_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.170 -->
+	<!--To verify as a bidder, place an absentee bid on lot Y from the item 
+		details page without confirmation advance -->
+
+	<test
+		name="To verify as a bidder, place an absentee bid on lot Y from the item details page without confirmation advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include
+						name="As_Bidder_Place_an_Absentee_Bid_On_Lot_y_From_The_Item_Details_Page_With_Confirmation_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.171 -->
+	<!--To verify as a bidder, place an absentee bid on lot Y from the item 
+		details page with adv -->
+
+	<test
+		name="To verify as a bidder, place an absentee bid on lot Y from the item details page with adv">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include
+						name="Place_Absentee_Bids_On_Lot_v_and_w_From_The_Catalog_Page_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.172 -->
+	<!--To verify as a bidder, place an absentee bid on lot Y from the item 
+		details page with advance -->
+
+	<test
+		name="To verify as a bidder, place an absentee bid on lot Y from the item details page with advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Place_Absentee_Bids_On_The_Same_Lot_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.173 -->
+	<!--To verify absentee against online advance -->
+
+	<test name="To verify absentee against online advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Absentee_Against_Online_Advanced">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.174 -->
+	<!--To verify undo after placing bid advance -->
+
+	<test name="To verify undo after placing bid advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Undo_After_Placing_Bid_Advanced">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.175 -->
+	<!--To verify undo after placing with auto accept advance -->
+
+	<test name="To verify undo after placing with auto accept advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Undo_After_Placing_With_Auto_Accept_Advanced">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.176 -->
+	<!--To verify place several absentee bids but with a limit - go over the 
+		limit advance <test name="To verify place several absentee bids but with 
+		a limit - go over the limit advance"> <classes> <class name="com.auction.verifications.LiveSale"> 
+		<methods> <include name="Place_Serverl_Absentee_Bids_With_Limit_Advanced"> 
+		</include> </methods> </class> </classes> </test> -->
+
+	<!-- 3.177 -->
+	<!--To verify group item and sell advance -->
+
+	<test name="To verify group items and sell advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.178 -->
+	<!--To verify group item and sell 1 advance -->
+
+	<test name="To verify group items and sell 1 advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell1_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.179 -->
+	<!--To verify group item and sell lot 1 and 2 advance -->
+
+	<test name="To verify group item and sell lot 1 and 2 advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_Lot1_2_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.180 -->
+	<!--To verify group items and sell3 advance -->
+
+	<test name="To verify group item and sell advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell3_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.181 -->
+	<!--To verify group items and pass advance -->
+
+	<test name="To verify group items and pass advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Pass_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.182 -->
+	<!--To verify group items and ungroup advance -->
+
+	<test name="To verify group items and ungroup advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Ungroup_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.183 -->
+	<!-- To verify group items and sell lot group all 4 one advance -->
+
+	<test name="To verify group item and sell lot group all 4 one advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_lot_Group_All_4_One_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.184 -->
+	<!--To verify group item and sell lot group all 4 three advance -->
+
+	<test name="To verify group items and sell lot group all 4 three advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_lot_Group_All_4_Three_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.185 -->
+	<!--To verify group item and pass lot group all 4 one advance -->
+
+	<test name="To verify group item and pass lot group all 4 one advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Pass_lot_Group_All_4_one_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.186 -->
+	<!--To verify group items 4 all and ungroup lot 1 advance -->
+
+	<test name="To verify group items 4 all and ungroup lot 1 advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_4_All_and_Ungroup_Lot1_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.187 -->
+	<!--To verify group items and sell lot group x money one advance -->
+
+	<test name="To verify group items and sell lot group x money one advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_lot_Group_x_Money_One_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.188 -->
+	<!--To verify group items and sell lot group x three advance -->
+
+	<test name="To verify group items and sell lot group x three advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Sell_lot_Group_x_Three_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.189 -->
+	<!-- To verify group items and pass lot group x advance -->
+
+	<test name="To verify group items and pass lot group x advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_Items_and_Pass_lot_Group_x_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.190 -->
+	<!--To verify group x all and ungroup lot 1 advance -->
+
+	<test name="To verify group x all and ungroup lot 1 advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Group_x_All_and_Ungroup_Lot1_Advance">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+	<!-- 3.191 -->
+	<!--To verify Create Inventory -->
+
+	<test name="To verify Create Inventory">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Create_Inventory">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+	<!-- 3.192 -->
+	<!--To verify Search Created Inventory -->
+
+	<test name="To verify Search Created Inventory">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Search_Created_Inventory">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+	<!-- 3.193 -->
+	<!--To verify Serach Inventory Category -->
+
+	<test name="To verify Search Created Inventory Category">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Search_Created_Inventory_Category">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+	<!-- 3.194 -->
+	<!--To verify Delete Multiple Inventory -->
+
+	<test name="To verify Delete Multiple Inventory">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Delete_Multiple_Inventory">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+	<!-- 3.195 -->
+	<!--To verify Inventory Consignor -->
+
+	<test name="To verify Serach Created Inventory Consignor">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Search_Created_Inventory_Consignor">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+	<!-- 3.196 -->
+	<!--To verify Inventory Sorting -->
+
+	<test name="To verify Inventory Sorting">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Inventory_Sorting">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.197 -->
+	<!--To verify Inventory Pagination -->
+
+	<test name="To verify Invenotry Pagination">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Inventory_Pagination">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.198 -->
+	<!--To verify Inventory Sorting Asc Desc -->
+
+	<test name="To verify Inventory Sorting Asc Desc">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_Inventory_Sorting_Asc_Desc">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+	<!-- 3.199 -->
+	<!--To verify Inventory Quick Preview -->
+
+	<test name="To verify Inventory Quick Preview">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Inventory_Quick_Preview">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+
+	<!-- 3.200 -->
+	<!-- Selenium Place_Absentee_Bids_with_User_A_B_C_on_The_X_Lot -->
+
+	<test name="Selenium Place_Absentee_Bids_with_User_A_B_C_on_The_X_Lot Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Place_Absentee_Bids_with_User_A_B_C_on_The_X_Lot">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3.201 -->
+	<!-- Selenium Verify_lot_estimate_using_csv_upload Feature -->
+
+	<test name="Selenium Verify_lot_estimate_using_csv_upload Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.LiveSale">
+
+				<methods>
+
+					<include name="Verify_lot_estimate_using_csv_upload">
+					</include>
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	</suite>

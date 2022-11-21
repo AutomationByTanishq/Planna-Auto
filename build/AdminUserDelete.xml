@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AdminUserDelete" verbose="10" parallel="tests"
+	thread-count="5">
+
+
+	<!-- Selenium User Delete Feature -->
+	<test name="Selenium User Delete Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.AdminUserDelete">
+
+				<methods>
+
+					<include name="UserDelete" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+</suite>

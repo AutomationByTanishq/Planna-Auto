@@ -1,0 +1,1191 @@
+package com.auction.verifications;
+
+import java.awt.AWTException;
+import java.text.ParseException;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.auction.init.SeleniumInit;
+import com.auction.init.Common;
+import com.auction.pages.DashboardPage;
+import com.auction.pages.LoginPage;
+
+public class BiddingLiveAuction extends SeleniumInit {
+
+	LoginPage loginpage = new LoginPage(driver);
+	Common common = new Common(driver);
+	String bidder2 = "bdjgbi";
+	String bidder2Pass = "bdjgbi";
+
+	// for script 772
+	/**
+	 * placeMultipleBid
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws InterruptedException
+	 * @throws ParseException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void placeMultipleBid(String adminUserName, String adminPassword, String UName, String password)
+			throws InterruptedException, ParseException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Bidding
+																		// Run
+																		// Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // Search
+		// auctio
+		// and
+		// approved
+		// bidder
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.viewWatchList(saleno, auctionName, lotName); // view watch
+																	// list
+		System.out.println("Step ::script \"772 (7.1) \" succesfully end ");
+		common.log("<br></br> Step :: script \" 772 (7.1) \" succesfully end");
+	}
+
+	// for script 769
+
+	/**
+	 * bidValueLowerThanAlreadyPlacedBidValue
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void bidValueLowerThanAlreadyPlacedBidValue(String adminUserName, String adminPassword, String UName,
+			String password) throws ParseException, InterruptedException, AWTException {
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno); // Create
+																				// New
+																				// Auction
+		System.out.println("auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Run Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		// loginPage.verifyLoginPageElements();
+		dashboardPage = loginPage.LoginUser(UName, password); // From Front End,
+																// Login with
+																// Valid user
+																// name and
+																// password
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword); // Admin SignIn and
+															// Password
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // Search
+		// auction
+		// and
+		// approved
+		// bidder
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.viewWatchLisBidAmountGreaterThantStartingBidAmount(saleno, auctionName, lotName); // view
+																										// watch
+																										// list
+																										// amount
+																										// greater
+																										// than
+																										// starting
+																										// bid
+																										// amount
+		System.out.println("Step ::script \"796 (7.2) \" succesfully end ");
+		common.log("<br></br> Step :: script \" 796 (7.) \" succesfully end");
+	}
+
+	// script 728
+
+	/**
+	 * placeBidNotMetStartingBidAtCatalog
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void placeBidNotMetStartingBidAtCatalog(String adminUserName, String adminPassword, String UName,
+			String password) throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Bidding
+																		// Run
+																		// Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // Search
+		// auction
+		// and
+		// approved
+		// bidder
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+
+		dashboardPage.viewWatchListAtCatalogPagePlaceBidAmounLawerThanStarting(saleno, auctionName, lotName);
+	}
+
+	// script 731
+	/**
+	 * placeBidMissingAtCatalog
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void placeBidMissingAtCatalog(String adminUserName, String adminPassword, String UName, String password)
+			throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Bidding
+																		// Run
+																		// Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // Search
+		// auction
+		// and
+		// approved
+		// bidder
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.viewWatchListAtCatalogPagePlaceBidWithNoValue(saleno, auctionName, lotName);
+
+	}
+
+	// script 732
+	/**
+	 * placeBidFromCatalog
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void placeBidFromCatalog(String adminUserName, String adminPassword, String UName, String password)
+			throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Bidding
+																		// Run
+																		// Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // Search
+		// auction
+		// and
+		// approved
+		// bidder
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.placeBidFromCatalog(saleno, auctionName, lotName);
+	}
+
+	/**
+	 * we 21
+	 * 
+	 * placeBidWithAlreadyBidAmountAtCatalog
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	// script 735
+	@Test(dataProvider = "createauction")
+	public void placeBidWithAlreadyBidAmountAtCatalog(String adminUserName, String adminPassword, String UName,
+			String password) throws ParseException, InterruptedException, AWTException {
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Bidding
+																		// Run
+																		// Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // Search
+		// auction
+		// and
+		// approved
+		// bidder
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.placBidFromCatalogBidAmountwithAlreadyEntered(saleno, auctionName, lotName);
+
+	}
+
+	// Bidder 2 Place out Bid feature
+
+	/**
+	 * bidder2OutBidFeature
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void bidder2OutBidFeature(String adminUserName, String adminPassword, String UName, String password)
+			throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Bidding
+																		// Run
+																		// Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName);
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		// dashboardPage.placeBidFromCatalog(saleno, auctionName, lotName);
+		dashboardPage.runLivePlaceBd(saleno, auctionName, lotName, UName);
+
+		// Registering Bid - Bidder 2
+
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(bidder2, bidder2Pass);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, bidder2);
+
+	}
+
+	/**
+	 * placeMultipleBidMissingAtCatalog
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void placeMultipleBidMissingAtCatalog(String adminUserName, String adminPassword, String UName,
+			String password) throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Bidding
+																		// Run
+																		// Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName);
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.verifyPlaceMultipleBids(auctionName);
+
+	}
+
+	/**
+	 * placeMultipleBidWithLessThanStartingBidAmountInCatalogPage
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void placeMultipleBidWithLessThanStartingBidAmountInCatalogPage(String adminUserName, String adminPassword,
+			String UName, String password) throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.biddingRunLiveAuction(); // Bidding
+																		// Run
+																		// Live
+																		// Auction
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName);
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.verifyPlaceMultipleBidWithLessThanStartingBidAmountInCatalogPage(lotName, auctionName); // Verify
+		// Place
+		// Multiple
+		// Bid
+		// With
+		// Less
+		// Than
+		// Starting
+		// Bid
+		// Amount
+		// In
+		// Catalog
+		// Page
+
+	}
+
+	/**
+	 * placeBidMissingAtLotDetails
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void placeBidMissingAtLotDetails(String adminUserName, String adminPassword, String UName, String password)
+			throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.auctionSettingSaveChanges(); // Auction
+																			// Setting
+																			// Save
+																			// Changes
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName);
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.placeBidMissingAtLotDetails(lotName, auctionName); // verify
+																			// place
+																			// bid
+																			// Missing
+																			// at
+																			// lot
+																			// details
+
+	}
+
+	/**
+	 * placeBidFromLotDetails
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void placeBidFromLotDetails(String adminUserName, String adminPassword, String UName, String password)
+			throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.auctionSettingSaveChanges(); // Auction
+																			// Setting
+																			// Save
+																			// Changes
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName);
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.placeBidFromLotDetails(lotName, auctionName);
+
+	}
+
+	/**
+	 * ChangeBidWithLessAmountThanAlreadyPlacedAtLotDetails
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void ChangeBidWithLessAmountThanAlreadyPlacedAtLotDetails(String adminUserName, String adminPassword,
+			String UName, String password) throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.auctionSettingSaveChanges(); // Auction
+																			// Setting
+																			// Save
+																			// Changes
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+		driver.get(admintestUrl); // front end
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName);
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		// Pendng Other scenarios due to V2-11 and Dev version revision is
+		// different
+
+	}
+
+	/**
+	 * buyLotFromCatalog
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void buyLotFromCatalog(String adminUserName, String adminPassword, String UName, String password)
+			throws ParseException, InterruptedException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		String lotName = adminDashboardPage.auctionSettingSaveChanges(); // Auction
+																			// Setting
+																			// Save
+																			// Changes
+		adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+	}
+
+	/**
+	 * Feature :: Two user Bidding
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+
+	@Test(dataProvider = "createauction")
+	public void TwoUserBidding(String adminUserName, String adminPassword, String UName, String password)
+			throws InterruptedException, ParseException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno);
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		adminDashboardPage.AddMultiplelot(3);
+		// String lotName = adminDashboardPage.addmultiplelot();
+
+		adminDashboardPage.front(); // Open Front End
+									// Bidding
+									// Run
+									// Live*/
+
+		// User 1
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		// Registering Bid - Bidder 2
+
+		// adminDashboardPage.front(); // Open Front End
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(bidder2, bidder2Pass);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // approve
+																						// bidder
+																						// 1
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, bidder2); // approve
+																						// bidder
+																						// 2
+
+		adminDashboardPage.runlivesale();
+		adminDashboardPage.Logout();
+
+		// user 1 login
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.LiveSaletab(saleno, auctionName);
+
+		// User 2 login
+
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.LiveSaletab(saleno, auctionName); // it display message
+														// "someone else was faster!!"
+
+		// admin login
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+
+		adminDashboardPage.AcceptLiveBid(auctionName, saleno);
+
+	}
+
+	/**
+	 * Feature :: Sell Lot higher Bidder
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws ParseException
+	 * @throws InterruptedException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void sellLotHighBidder(String adminUserName, String adminPassword, String UName, String password)
+			throws InterruptedException, ParseException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno); // create new auction
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		adminDashboardPage.AddMultiplelot(5);
+		
+		adminDashboardPage.front(); // Open Front End
+									// Bidding
+									// Run
+									// Live*/
+
+		// User 1
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		// Registering Bid - Bidder 2
+
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(bidder2, bidder2Pass);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // approve
+																						// bidder
+																						// 1
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, bidder2); // approve
+																						// bidder
+																						// 2
+
+		adminDashboardPage.runlivesale(); // run live sale 
+		adminDashboardPage.Logout();
+
+		// user 1 login
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.LiveSaletab(saleno, auctionName);
+
+		// User 2 login
+
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.LiveSaletab(saleno, auctionName); // it display message
+														// "someone else was faster!!"
+
+		// admin login
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+
+
+		// Sell Lot to user 1 (High Bidder)
+		adminDashboardPage.soldLiveLot(auctionName, saleno);
+
+	}
+
+	/**
+	 * Bidding Live Group Choice
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws InterruptedException
+	 * @throws ParseException
+	 * @throws AWTException
+	 */
+	
+	@Test(dataProvider = "createauction")
+	public void biddingLiveGroupChoice(String adminUserName, String adminPassword, String UName, String password)
+			throws InterruptedException, ParseException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno); // create new auction
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		adminDashboardPage.AddMultiplelot(3);
+		adminDashboardPage.runlivesale(); // run live sale
+		
+		/* Add group choice code in AdminDashbord page */
+		
+		adminDashboardPage.front(); // Open Front End
+									// Bidding
+									// Run
+									// Live*/
+
+		// User 1
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		// Registering Bid - Bidder 2
+
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(bidder2, bidder2Pass);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // approve
+																						// bidder
+																						// 1
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, bidder2); // approve
+																						// bidder
+																						// 2
+
+	
+		adminDashboardPage.Logout();
+
+		// user 1 login
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.LiveSaletab(saleno, auctionName);
+
+		
+
+		// admin login
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+
+		adminDashboardPage.AcceptLiveBid(auctionName, saleno); // accept user 1 bid
+	
+		
+		// User 2 login
+
+				loginPage = indexPage.clickOnLoginLink(); // click on login link
+				dashboardPage = loginPage.LoginUser(UName, password);
+				dashboardPage.LiveSaletab(saleno, auctionName); 
+																
+
+		
+		
+		// admin login
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+
+		adminDashboardPage.soldLiveLot(auctionName, saleno);
+		//Awaiting decision on additional group lots from winning bidder...
+		//(Message should be display in Live Clerk screen in admin)
+		
+		
+		// User 2 login again 
+
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.LiveSaletab(saleno, auctionName); 
+		//Please choose which lot(s) you would like to purchase! (confirm additional lots popup should be display)
+														
+		
+		
+	}
+	
+	/**
+	 * Not Accept Live Bid
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws InterruptedException
+	 * @throws ParseException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void NotAcceptLiveBid(String adminUserName, String adminPassword, String UName, String password)
+			throws InterruptedException, ParseException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno); // create new auction
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		adminDashboardPage.AddMultiplelot(3);
+		adminDashboardPage.runlivesale(); // run live sale
+		
+		/* Add group choice code in AdminDashbord page */
+		
+		adminDashboardPage.front(); // Open Front End
+									// Bidding
+									// Run
+									// Live*/
+
+		// User 1
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		// Registering Bid - Bidder 2
+
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(bidder2, bidder2Pass);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // approve
+																						// bidder
+																						// 1
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, bidder2); // approve
+																						// bidder
+																						// 2
+
+	
+		adminDashboardPage.Logout();
+
+		// user 1 login
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.LiveSaletab(saleno, auctionName);
+
+		
+
+		// admin login
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+
+		adminDashboardPage.AcceptLiveBid(auctionName, saleno); // accept user 1 bid
+	
+		
+		// User 2 login
+
+				loginPage = indexPage.clickOnLoginLink(); // click on login link
+				dashboardPage = loginPage.LoginUser(UName, password);
+				dashboardPage.LiveSaletab(saleno, auctionName); 
+																
+
+		
+		
+		// admin login
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+
+		adminDashboardPage.soldLotWithOutAcceptBid(auctionName, saleno); // Bidder 2 won the Lot
+				
+
+		
+	}
+	
+	/**
+	 * Sell Lot To Floor Bidder
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws InterruptedException
+	 * @throws ParseException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void sellLotToFloorBidder(String adminUserName, String adminPassword, String UName, String password)
+			throws InterruptedException, ParseException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		String auctionName = adminDashboardPage.CreatenewAuction123(saleno); // create new auction
+		System.out.println("Step :: auction Name s :" + auctionName);
+		common.log("<br></br> Step :: auction Name s :" + auctionName);
+		adminDashboardPage.AddMultiplelot(3);
+		adminDashboardPage.runlivesale(); // run live sale
+		
+		/* Add group choice code in AdminDashbord page */
+		
+		adminDashboardPage.front(); // Open Front End
+									// Bidding
+									// Run
+									// Live*/
+
+		// User 1
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		// Registering Bid - Bidder 2
+
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(bidder2, bidder2Pass);
+		dashboardPage.RegisterToBid(saleno, auctionName); // Register to Bid
+
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); // approve
+																						// bidder
+																						// 1
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, bidder2); // approve
+																						// bidder
+																						// 2
+
+		adminDashboardPage.GoToRunLiveAuction();
+		
+	
+		adminDashboardPage.Logout();
+
+		// user 1 login
+		loginPage = indexPage.clickOnLoginLink(); // click on login link
+		dashboardPage = loginPage.LoginUser(UName, password);
+		dashboardPage.LiveSaletab(saleno, auctionName);
+
+		
+
+		// admin login
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+
+		adminDashboardPage.AcceptLiveBid(auctionName, saleno); // accept user 1 bid
+	
+		
+		// User 2 login
+
+				loginPage = indexPage.clickOnLoginLink(); // click on login link
+				dashboardPage = loginPage.LoginUser(UName, password);
+				dashboardPage.LiveSaletab(saleno, auctionName); 
+																
+
+		
+		
+		// admin login
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+
+		adminDashboardPage.soldLotWithOutAcceptBid(auctionName, saleno); // Bidder 2 won the Lot
+				
+		adminDashboardPage.selectBidder(); // // Write the code for to enter bidder 1 name in textbox in select bidder type
+
+		/* Lot xx sold to Floor Bidder x at $x Price message should be display in message center*/
+	}
+	
+	/**
+	 * User Chat Disable
+	 * 
+	 * @param adminUserName
+	 * @param adminPassword
+	 * @param UName
+	 * @param password
+	 * @throws InterruptedException
+	 * @throws ParseException
+	 * @throws AWTException
+	 */
+	@Test(dataProvider = "createauction")
+	public void userChatDisable(String adminUserName, String adminPassword, String UName, String password)
+			throws InterruptedException, ParseException, AWTException {
+
+		String tomorrowDate = common.tomorrowDate();
+		int i = common.GenerateRandomNumber(1);
+		String saleno = String.valueOf(i);
+
+		driver.get(admintestUrl);
+		adminDashboardPage = indexPage // Admin Signin
+				.adminSignin(adminUserName, adminPassword);
+		
+		adminDashboardPage.userChatDisable();
+		adminDashboardPage.editAuction();
+		String auctionName = null;
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, UName); 	// approve
+																						// bidder
+																						// 1
+		adminDashboardPage.searchAuctionAndApproveBidder(auctionName, saleno, bidder2); // approve
+																						// bidder
+																						// 2
+		
+		adminDashboardPage.runlivesale();
+		adminDashboardPage.enterChatMessage();
+		adminDashboardPage.Logout();
+
+		/* Chat message for all users */
+		
+				// user 1 login
+				loginPage = indexPage.clickOnLoginLink(); // click on login link
+				dashboardPage = loginPage.LoginUser(UName, password);
+				dashboardPage.LiveSaletab(saleno, auctionName); // Admin Sent Message displayed in message center
+		
+	
+				// User 2 login
+				loginPage = indexPage.clickOnLoginLink(); // click on login link
+				dashboardPage = loginPage.LoginUser(UName, password);
+				dashboardPage.LiveSaletab(saleno, auctionName); // Admin Sent Message displayed in message center
+				
+	
+			
+				adminDashboardPage = indexPage // Admin Signin
+						.adminSignin(adminUserName, adminPassword);
+				adminDashboardPage.runlivesale();
+				adminDashboardPage.selectBidderForChat(); // Admin sent message to bidder 1
+				adminDashboardPage.Logout();
+			
+				
+				// user 1 login (Message display in message center)
+				
+				loginPage = indexPage.clickOnLoginLink(); // click on login link
+				dashboardPage = loginPage.LoginUser(UName, password);
+				dashboardPage.LiveSaletab(saleno, auctionName); // Admin Sent Message displayed in message center
+		
+				// user 2 (Message should not be displays in message center)
+				loginPage = indexPage.clickOnLoginLink(); // click on login link
+				dashboardPage = loginPage.LoginUser(UName, password);
+				dashboardPage.LiveSaletab(saleno, auctionName); // Admin Sent Message not displays in message center
+																// Enter chat text field is not dispaly for both user
+				
+				
+				
+	}
+	
+	
+	
+	@DataProvider(name = "createauction")
+	public Object[][] getCreateAuction() throws Exception {
+
+		Object[][] retObjectArr = parsecreateauctionCsv();
+
+		return retObjectArr;
+	}
+}

@@ -1,0 +1,11 @@
+BidderNumber1,Username *,CompanyName,Email *,FirstName,LastName,Customer #,BillingFirstName,BillingLastName,BillingCompanyName,BillingPhone,BillingFax,BillingCountry,BillingAddress,BillingAddress2,BillingAddress3,BillingCity,BillingState,BillingZip,ShippingFirstName,ShippingLastName,ShippingCompanyName,ShippingPhone,ShippingFax,ShippingCountry,ShippingAddress,ShippingAddress2,ShippingAddress3,ShippingCity,ShippingState,ShippingZip
+1,autouser1,Bidpath,autouser1@gmail.com,Auto,User1,,,,,,,,,,,,,,,,,,,,,,,,,
+2,autouser2,Bidpath,autouser2@gmail.com,Auto,User2,,,,,,,,,,,,,,,,,,,,,,,,,
+3,autouser3,Bidpath,autouser3@gmail.com,Auto,User3,,,,,,,,,,,,,,,,,,,,,,,,,
+4,autouser4,Bidpath,autouser4@gmail.com,Auto,User4,,,,,,,,,,,,,,,,,,,,,,,,,
+5,autouser5,Bidpath,autouser5@gmail.com,Auto,User5,,,,,,,,,,,,,,,,,,,,,,,,,
+6,autouser6,Bidpath,autouser6@gmail.com,Auto,User6,,,,,,,,,,,,,,,,,,,,,,,,,
+7,autouser7,Bidpath,autouser7@gmail.com,Auto,User7,,,,,,,,,,,,,,,,,,,,,,,,,
+8,autouser8,Bidpath,autouser8@gmail.com,Auto,User8,,,,,,,,,,,,,,,,,,,,,,,,,
+9,autouser9,Bidpath,autouser9@gmail.com,Auto,User9,,,,,,,,,,,,,,,,,,,,,,,,,
+10,autouser10,Bidpath,autouser10@gmail.com,Auto,User10,,,,,,,,,,,,,,,,,,,,,,,,,

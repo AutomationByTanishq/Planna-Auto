@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BiddingTimedAuction" verbose="10" parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1 -->
+
+	<test name="Verify Bid_Now_xx_Catalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Bid_Now_xx_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 2-->
+
+	<test name="Verify Place_Bid_Catalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Bid_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3-->
+
+	<test name="Verify Place_Bid_Catalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Bid_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 4-->
+
+	<test name="Verify Timed_Sale_Force_Bid_Catalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Force_Bid_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 5-->
+
+	<test name="Verify Timed_Sale_Multiple_Bid_Catalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Multiple_Bid_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 6-->
+
+	<test name="Verify Timed_Sale_BuyNow_Catalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_BuyNow_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 7-->
+
+	<test name="Verify Timed_Sale_Bid_now_xx_LotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Bid_now_xx_LotDetails" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 8-->
+
+	<test name="Verify Place_Bid_From_Lot_Details">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Bid_From_Lot_Details" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--9-->
+
+	<test name="Verify Change_Bid_From_Lot_Details">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Change_Bid_From_Lot_Details" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--10-->
+
+	<test name="Verify Timed_Sale_Force_Bid_LotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Force_Bid_LotDetails" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--11-->
+
+	<test name="Verify Timed_Sale_BuyNow_LotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_BuyNow_LotDetails" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--12-->
+
+	<test name="Verify Bid_Now_xx_Single_User_WatchList">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Bid_Now_xx_Single_User_WatchList" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--13-->
+
+	<test name="Verify Place_Bid_Single_User_WatchList">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Bid_Single_User_WatchList" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--14-->
+
+	<test name="Verify Change_Bid_Single_User_WatchList">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Change_Bid_Single_User_WatchList" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--15-->
+
+	<test name="Verify Timed_Sale_Force_Bid_WatchList">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Force_Bid_WatchList" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--16-->
+
+	<test name="Verify Place_Multiple_Bid_Single_User_WatchList">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Multiple_Bid_Single_User_WatchList" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--17-->
+
+	<test name="Verify Timed_Sale_BuyNow_WatchList">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_BuyNow_WatchList" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--18-->
+
+	<test name="Verify Bid_Now_xx_BidOn">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Bid_Now_xx_BidOn" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--19-->
+
+	<test name="Verify Change_Bid_BidOn">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Change_Bid_BidOn" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--20-->
+
+	<test name="Verify Force_Bid_BidOn">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Force_Bid_BidOn" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--21-->
+
+	<test name="Verify BuyNow_BidOn">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="BuyNow_BidOn" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--22-->
+
+	<test name="Verify Bid_Now_xx_Catalog_ConfirmScreen">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Bid_Now_xx_Catalog_ConfirmScreen" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--23-->
+
+	<test name="Verify Place_Bid_xx_Catalog_ConfirmScreen">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Bid_xx_Catalog_ConfirmScreen" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--24-->
+
+	<test name="Verify Change_Bid_xx_Catalog_ConfirmScreen">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Change_Bid_xx_Catalog_ConfirmScreen" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--25-->
+
+	<test name="Verify Force_Bid_xx_Catalog_ConfirmScreen">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Force_Bid_xx_Catalog_ConfirmScreen" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--26-->
+
+	<test name="Verify Place_Multi_Bid_xx_Catalog_ConfirmScreen">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Multi_Bid_xx_Catalog_ConfirmScreen" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--27-->
+
+	<test name="Verify Timed_Sale_Bid_now_xx_LotDetails_UserConfirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Bid_now_xx_LotDetails_UserConfirmation" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--28-->
+
+	<test name="Verify Timed_Sale_Place_Bid_LotDetails_UserConfirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Place_Bid_LotDetails_UserConfirmation" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--29-->
+
+	<test name="Verify Timed_Sale_Change_Bid_LotDetails_UserConfirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Change_Bid_LotDetails_UserConfirmation" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--30-->
+
+	<test name="Verify Timed_Sale_Force_Bid_LotDetails_User_Confirm">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Timed_Sale_Force_Bid_LotDetails_User_Confirm" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--31-->
+
+	<test name="Verify Bid_Now_xx_Catalog_BidConfirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Bid_Now_xx_Catalog_BidConfirmation" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--32-->
+
+	<test name="Verify Place_Bid_xx_Catalog_BidConfirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Bid_xx_Catalog_BidConfirmation" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--33-->
+
+	<test name="Verify Change_Bid_xx_Catalog_BidConfirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Change_Bid_xx_Catalog_BidConfirmation" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--34-->
+
+	<test name="Verify Force_Bid_xx_Catalog_BidConfirmation">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Force_Bid_xx_Catalog_BidConfirmation" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--35-->
+
+	<test name="Verify Bid_Now_xx_Catalog_BidConfirmation_LotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Bid_Now_xx_Catalog_BidConfirmation_LotDetails" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--36-->
+
+	<test name="Verify Place_Bid_Catalog_BidConfirmation_LotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Place_Bid_Catalog_BidConfirmation_LotDetails" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--37-->
+
+	<test name="Verify Change_Bid_Catalog_BidConfirmation_LotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Change_Bid_Catalog_BidConfirmation_LotDetails" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--38-->
+
+	<test name="Verify Force_Bid_xx_Catalog_BidConfirmation_LotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Force_Bid_xx_Catalog_BidConfirmation_LotDetails" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--39-->
+
+	<test name="Verify Extend_All_Yes">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Extend_All_Yes" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--40-->
+
+	<test name="Verify Extend_All_Yes_Current_Time_Yes">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Extend_All_Yes_Current_Time_Yes" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--41-->
+
+	<test name="Verify Extend_All_Yes_Current_Time_No">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Extend_All_Yes_Current_Time_No" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--42-->
+
+	<test name="Verify Bid_Now_xx_Catalog_Two_User">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Bid_Now_xx_Catalog_Two_User" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--43-->
+
+	<test name="Verify Reports_Bid_history_csv_It_shows_only_one_bidder_bid_instead_of_showing_all_bids_Automation_8577">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingTimedAuction">
+
+				<methods>
+
+					<include name="Reports_Bid_history_csv_It_shows_only_one_bidder_bid_instead_of_showing_all_bids_Automation_8577" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+</suite>

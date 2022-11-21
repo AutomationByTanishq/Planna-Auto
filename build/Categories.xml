@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Categories Automation Suite" verbose="10"
+	parallel="tests" thread-count="3">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+<!-- 1 -->
+
+	 <test name="Add_New_Category_With_Valid_Details">
+
+		<classes>
+
+			<class name="com.auction.verifications.Categories">
+
+				<methods>
+
+					<include
+						name="Add_New_Category_With_Valid_Details" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>  
+	<!-- 2 -->
+
+	 <test name="Add_New_Category_Without_Category_Name">
+
+		<classes>
+
+			<class name="com.auction.verifications.Categories">
+
+				<methods>
+
+					<include
+						name="Add_New_Category_Without_Category_Name" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>  
+	<!-- 3 -->
+
+	 <test name="Add_New_Sub_Category_Under_The_Parent_Category">
+
+		<classes>
+
+			<class name="com.auction.verifications.Categories">
+
+				<methods>
+
+					<include
+						name="Add_New_Sub_Category_Under_The_Parent_Category" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>  
+	<!-- 4 -->
+
+	 <test name="Edit_And_Save_Category">
+
+		<classes>
+
+			<class name="com.auction.verifications.Categories">
+
+				<methods>
+
+					<include
+						name="Edit_And_Save_Category" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>  
+	<!-- 5 -->
+
+	 <test name="Delete_Added_Category">
+
+		<classes>
+
+			<class name="com.auction.verifications.Categories">
+
+				<methods>
+
+					<include
+						name="Delete_Added_Category" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>  
+	<!-- 6 -->
+
+	 <test name="Add_New_Sub_Category_In_Already_Added_Category">
+
+		<classes>
+
+			<class name="com.auction.verifications.Categories">
+
+				<methods>
+
+					<include
+						name="Add_New_Sub_Category_In_Already_Added_Category" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>  
+
+	<!-- 7 -->
+
+	 <test name="Delete_Added_Sub_Category_Under_The_Parent_Category">
+
+		<classes>
+
+			<class name="com.auction.verifications.Categories">
+
+				<methods>
+
+					<include
+						name="Delete_Added_Sub_Category_Under_The_Parent_Category" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>  
+</suite>

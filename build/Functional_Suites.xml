@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Functional_Suites_For_AuctionSoftware" verbose="10"
+	parallel="tests" thread-count="1">
+
+	<!-- @NOTES: 1) Un-comment <suite-file> tag to run respective test suite.
+		2) Comment <suite-file> tag to unrun respective test suite. -->
+
+
+	<suite-files>
+
+		<!-- Index Suite <suite-file path="./IndexSuite.xml" /> -->
+
+		<!-- Auction Registration Suite <suite-file path="./AuctionRegistrationSuite.xml" 
+			/> -->
+
+
+		<!-- Run Admin User Create Suite <suite-file path="./AdminUserCreate.xml" 
+			/> -->
+
+		<!-- Run Live Sale -->
+		<suite-file path="./SmokeTests.xml" />
+
+		<!-- Run Settings Feature --><suite-file path="./Settings.xml" /> 
+
+		<!-- Run TimedSale Feature  --><suite-file path="./TimedSale.xml" />
+
+		<!-- Run Bidding Live Auction Feature --> <suite-file path="BiddingLiveAuction.xml" 
+			/> 
+
+		<!-- Run Bidding Timed Sale Feature --> <suite-file path="BiddingTimedAuction.xml" 
+			/> 
+
+		<!-- Hybrid Automation Sute -->
+		<!-- <suite-file path="./Hybrid.xml" /> -->
+
+	</suite-files>
+
+</suite>

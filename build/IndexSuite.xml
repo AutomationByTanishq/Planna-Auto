@@ -1,0 +1,3815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Auction Software Automation " verbose="10"
+	parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1.1 -->
+	<!-- Selenium Login Feature -->
+
+	<test name="Selenium  Login Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Login_Feature" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.2 -->
+	<!-- Selenium Verify Regular Sign up Feature -->
+
+	<test name="Selenium  Verify Regular Sign up Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_SignUp" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.3 -->
+	<!-- Selenium Verify Regualr Signup User Edit Profile -->
+
+	<test name="Selenium  Verify Regular Sign up User Edit Profile">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_With_User_Edit_Profile" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 1.4 -->
+	<!-- Selenium Verify Regular Sign up With Email Already Exist Feature -->
+
+	<test
+		name="Selenium  Verify Regular Sign up With Email Already Exist Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_Already_Email_Exist" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.5 -->
+	<!-- Selenium Verify Regular Sign up With Username Already Exist Feature -->
+
+	<test
+		name="Selenium  Verify Regular Sign up With Username Already Exist Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_SignUp_With_Username_Already_Exist" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.6 -->
+	<!-- Selenium Verify Regular Sign up No Captcha Feature -->
+
+	<test name="Selenium  Verify Regular Sign up No Captcha Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_No_Captcha" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.7 -->
+	<!-- Selenium Verify Regular Sign up Wrong Captcha Feature -->
+
+	<test name="Selenium  Verify Regular Sign up Wrong Captcha Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_Wrong_Captcha" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.8 -->
+	<!-- Selenium Verify Regular Sign up Confirmation is not checked Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up Confirmation is not checked Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_Confirmation_Is_Not_Checked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.9 -->
+	<!-- Selenium Verify Regular Sign up Basic Info Feature -->
+
+	<test name="Selenium Verify Regular Sign up Basic Info Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_With_Basic_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.10 -->
+	<!-- Selenium Verify Regular Sign up Billing Information Feature -->
+
+	<test name="Selenium Verify Regular Sign up Billing Information Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_With_Billing_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.11 -->
+	
+	<!-- Selenium Verify Regular Sign up CC is not checked Feature -->
+
+	<test name="Selenium Verify Regular Sign up CC is not checked Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_With_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.12 -->
+	<!-- Selenium Verify Regular Sign up ACH is checked Feature -->
+
+	<test name="Selenium Verify Regular Sign up ACH is checked Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_With_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.13 -->
+	<!-- Selenium Verify Regular Sign up basic info (mandatory) billing address 
+		info (not mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up basic info (mandatory) billing address info (not mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_And_Billing_Address_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+<!-- 1.14 -->
+	<!-- Selenium Verify Regular Sign up basic info ( Not mandatory) billing 
+		address info (mandatory) Feature -->
+
+	<test
+		name="Selenium  Verify Regular Sign up basic info ( Not mandatory) billing address info (mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_And_Billing_Address_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.15 -->
+	<!-- Selenium Verify Regular Sign up basic info (mandatory) billing address 
+		info (mandatory) Feature -->
+
+	<test
+		name="Selenium  Verify Regular Sign up basic info (mandatory) billing address info (mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_And_Billing_Address_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.16 -->
+	<!-- Selenium Verify Regular Sign up basic info (mandatory) CC info ( Not 
+		Mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up basic info (mandatory) CC info ( Not Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_And_CC_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.17 -->
+	<!-- Selenium Verify Regular Sign up basic info (Not mandatory) CC info 
+		( Mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up basic info (Not mandatory) CC info ( Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_And_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.18 -->
+	<!-- Selenium Verify Regular Sign up basic info (mandatory) CC info ( Mandatory) 
+		Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up basic info (mandatory) CC info ( Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_And_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 1.19 -->
+
+	<!-- Selenium Verify Regular Sign up basic info (mandatory) ACH info ( Not 
+		Mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up basic info (mandatory) ACH info ( Not Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_And_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.20 -->
+	<!-- Selenium Verify Regular Sign up basic info (Not Mandatory) ACH info 
+		(Mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up basic info (Not Mandatory) ACH info (Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_And_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.21 -->
+	<!-- Selenium Verify Regular Sign up basic info (Mandatory) ACH info (Mandatory) 
+		Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up basic info (Mandatory) ACH info (Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_And_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.22 -->
+	<!-- Selenium Verify Regular Sign up billing info (Mandatory) CC info (Not 
+		Mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up billing info (Mandatory) CC info (Not Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Mandatory_And_CC_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.23 -->
+	<!-- Selenium Verify Regular Sign up billing info (Not Mandatory) CC info 
+		(Mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up billing info (Not Mandatory) CC info (Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Not_Mandatory_And_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.24 -->
+	<!-- Selenium Verify Regular Sign up billing info (Mandatory) CC info (Mandatory) 
+		Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up billing info (Mandatory) CC info (Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Mandatory_And_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.25 -->
+	<!-- Selenium Verify Regular Sign up billing info (Mandatory) ACH info (Not 
+		Mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up billing info (Mandatory) ACH info (Not Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Mandatory_And_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.26 -->
+	<!-- Selenium Verify Regular Sign up billing info (Not Mandatory) ACH info 
+		(Mandatory) Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up billing info (Not Mandatory) ACH info (Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Not_Mandatory_And_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.27 -->
+	<!-- Selenium Verify Regular Sign up billing info (Mandatory) ACH info (Mandatory) 
+		Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up billing info (Mandatory) ACH info (Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Mandatory_And_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.28 -->
+	<!-- Selenium Verify Regular Sign up CC info (Mandatory) ACH info (Not Mandatory) 
+		Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up CC info (Mandatory) ACH info (Not Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_CC_Info_Mandatory_And_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.29 -->
+	<!-- Selenium Verify Regular Sign up CC info (Not Mandatory) ACH info (Mandatory) 
+		Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up CC info (Not Mandatory) ACH info (Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_CC_Info_Not_Mandatory_And_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.30 -->
+	<!-- Selenium Verify Regular Sign up CC info (Mandatory) ACH info (Mandatory) 
+		Feature -->
+
+	<test
+		name="Selenium Verify Regular Sign up CC info (Mandatory) ACH info (Mandatory) Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_CC_Info_Mandatory_And_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+<!-- 1.31 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory Billing address 
+		info not Mandatory CC info not mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory Billing address info not Mandatory CC info not mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Address_Info_Not_Mandatory_CC_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.32 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Not Mandatory Billing 
+		address info Mandatory CC info Not mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Not Mandatory Billing address info Mandatory CC info Not mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Address_Info_Mandatory_CC_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.33 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Not Mandatory Billing 
+		address info Not Mandatory CC info mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Not Mandatory Billing address info Not Mandatory CC info mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Address_Info_Not_Mandatory_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.34 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory Billing address 
+		info Mandatory CC info Not mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory Billing address info Mandatory CC info Not mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Address_Info_Mandatory_CC_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+<!-- 1.35 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory Billing address 
+		info Not Mandatory CC info mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory Billing address info Not Mandatory CC info mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Address_Info_Not_Mandatory_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.36 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Not Mandatory Billing 
+		address info Mandatory CC info mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Not Mandatory Billing address info Mandatory CC info mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Address_Info_Mandatory_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.37 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory Billing address 
+		info Mandatory CC info mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory Billing address info Mandatory CC info mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Address_Info_Mandatory_CC_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.38 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory Billing address 
+		info Not Mandatory ACH info Not mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory Billing address info Not Mandatory ACH info Not mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Address_Info_Not_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.39 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Not Mandatory Billing 
+		address info Not Mandatory ACH info mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Not Mandatory Billing address info Not Mandatory ACH info mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Address_Info_Not_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.40 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Not Mandatory Billing 
+		address info Mandatory ACH info Not mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Not Mandatory Billing address info Mandatory ACH info Not mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Address_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.41 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory Billing address 
+		info Mandatory ACH info Not mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory Billing address info Mandatory ACH info Not mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Address_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.42 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory Billing address 
+		info Not Mandatory ACH info mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory Billing address info Not Mandatory ACH info mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Address_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.43 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Not Mandatory Billing 
+		address info Mandatory ACH info mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Not Mandatory Billing address info Mandatory ACH info mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Address_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.44 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory Billing address 
+		info Mandatory ACH info mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory Billing address info Mandatory ACH info mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Address_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 1.45 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory CC info Not 
+		Mandatory ACH info Not Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory CC info Not Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 1.46 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Not Mandatory CC info 
+		Mandatory ACH info not Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Not Mandatory CC info Not Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_CC_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+		<!-- 1.47-->
+	<!-- Selenium Verify Regular SignUp With Basic info not Mandatory CC info 
+		Not Mandatory ACH info Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory CC info Not Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.48 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory CC info Mandatory 
+		ACH info Not Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Not Mandatory CC info Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_CC_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.49 -->
+	<!-- Selenium Verify Regular SignUp With Basic info Mandatory CC info not 
+		Mandatory ACH info Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic info Mandatory CC info Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.50 -->
+	<!-- Selenium Verify Regular SignUp With Billing info not Mandatory CC info 
+		Mandatory ACH info Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Billing info Mandatory CC info Not Mandatory ACH Not info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_CC_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 1.51 -->
+
+	<!-- Selenium Verify Regular SignUp With Billing info Mandatory CC info 
+		Mandatory ACH info Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Billing info Not Mandatory CC info Mandatory ACH Not info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_CC_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.52 -->
+
+	<!-- Selenium Verify Regular SignUp With Billing info Mandatory CC info 
+		Not Mandatory ACH info not Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Billing info Mandatory CC info Not Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.53 -->
+	<!-- Selenium Verify Regular SignUp With Billing info not Mandatory CC info 
+		Mandatory ACH Not info Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Billing info Mandatory CC info Mandatory ACH Not info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Not_Mandatory_CC_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.54 -->
+	<!-- Selenium Verify Regular SignUp With Billing info not Mandatory CC info 
+		Not Mandatory ACH info Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Billing info Not Mandatory CC info Not Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Not_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 1.55 -->
+	<!-- Selenium Verify Regular SignUp With Billing info Mandatory CC info 
+		Mandatory ACH info not Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Billing info Not Mandatory CC info Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Mandatory_CC_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.56 -->
+
+	<!-- Selenium Verify Regular SignUp With Billing info Mandatory CC info 
+		not Mandatory ACH info Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Billing info Mandatory CC info Not Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.57 -->
+	<!-- Selenium Verify Regular SignUp With Billing info Not Mandatory CC info 
+		Mandatory ACH info Mandatory Feature -->
+
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info Not Mandatory CC info Not Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Not_Mandatory_CC_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 1.58 -->
+	<!-- Selenium Verify Regular SignUp With Billing info Mandatory CC info 
+		Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Billing info Mandatory CC info Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Billing_Info_Mandatory_CC_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.59 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Mandatory Billing info 
+		Not Mandatory CC info Not Mandatory ACH info Not Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info not Mandatory CC info Not Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Info_Not_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 1.60 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing 
+		info Mandatory CC info Not Mandatory ACH info Not Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing info Mandatory CC info Not Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Info_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.61 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing 
+		info Not Mandatory CC info Mandatory ACH info Not Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing info Not Mandatory CC info Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Info_Not_Mandatory_CC_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.62 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing 
+		info Not Mandatory CC info Not Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing info Not Mandatory CC info Not Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Info_Not_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 1.63 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Mandatory Billing info 
+		Mandatory CC info Not Mandatory ACH info Not Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info Mandatory CC info Not Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Info_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.64 -->
+
+	<!-- Selenium Verify Regular SignUp With Basic Info Mandatory Billing info 
+		Not Mandatory CC info Mandatory ACH info Not Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info Not Mandatory CC info Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Info_Not_Mandatory_CC_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- 1.65 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Mandatory Billing info 
+		Not Mandatory CC info Not Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info Not Mandatory CC info Not Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Info_Not_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.66 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing 
+		info Mandatory CC info Mandatory ACH info Not Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing info Mandatory CC info Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Info_Mandatory_CC_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.67 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing 
+		info Mandatory CC info Not Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing info Mandatory CC info Not Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Info_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.68 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing 
+		info Not Mandatory CC info Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing info Not Mandatory CC info Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Info_Not_Mandatory_CC_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.69 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Mandatory Billing info 
+		Mandatory CC info Mandatory ACH info Not Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info Mandatory CC info Mandatory ACH info Not Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Info_Mandatory_CC_Info_Mandatory_ACH_Info_Not_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.70 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Mandatory Billing info 
+		Mandatory CC info Not Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info Mandatory CC info Not Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Info_Mandatory_CC_Info_Not_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.71 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Mandatory Billing info 
+		Not Mandatory CC info Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info Not Mandatory CC info Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Info_Not_Mandatory_CC_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.72 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing 
+		info Mandatory CC info Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Not Mandatory Billing info Mandatory CC info Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Not_Mandatory_Billing_Info_Mandatory_CC_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.73 -->
+	<!-- Selenium Verify Regular SignUp With Basic Info Mandatory Billing info 
+		Mandatory CC info Mandatory ACH info Mandatory Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With Basic Info Mandatory Billing info Mandatory CC info Mandatory ACH info Mandatory Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Basic_Info_Mandatory_Billing_Info_Mandatory_CC_Info_Mandatory_ACH_Info_Mandatory" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.74 -->
+	<!-- Selenium verify email upon account registration" active "Send confirmation 
+		link" Feature -->
+	<test
+		name="Selenium verify email upon account registration active 'Send confirmation link' Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Same_Settings_As_For_With_Verify_Email_Upon_Account_Registration_Active_And_Send_Confirmation_Link_With_Verify_The_Message_Account_Not_Verified_Is_Displayed" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.75 -->
+	<!-- Selenium account registration" active * "Send confirmation link" active 
+		=> enter Feature -->
+	<test
+		name="Selenium account registration active 'Send confirmation link' active => enter Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Same_Settings_As_For_With_Verify_Email_Upon_Account_Registration_Active_And_Send_Confirmation_Link_With_Verify_The_Message_Account_Not_Verified_Is_Displayed_And_Confirmation_Email_Does_Not_Match" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.76 -->
+	<!-- Selenium Verify Regular SignUp With same settings as for test 1.1 (regular 
+		signup) with Verify Email up on Account Registration Is Checked. Feature -->
+	<test
+		name="Selenium Verify Regular SignUp With same settings as for test 1.1 (regular signup) with Verify Email up on Account Registration Is Checked. Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Same_Settings_as_For_With_Verify_Email_Upon_Account_Registration_Active_And_Send_Confirmation_Link_With_Verify_Email_Upon_Account_Registration_Is_Checked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 1.77 -->
+	<!-- Selenium verify Regular SignUp With same settings as for test 1.1 (regular 
+		signup) with Verify Email up on Account Registration Is Checked Feature -->
+	<test
+		name="Selenium verify Regular SignUp With same settings as for test 1.1 (regular signup) with Verify Email up on Account Registration Is Checked Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Same_Settings_As_For_With_Verify_Email_Upon_Account_Registration_Active_And_Send_Confirmation_Link_With_Verify_Email_Upon_Account_Registration_Is_Checked_And_Confirm_Email_Does_Not_Match" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 1.78 -->
+	<!-- Selenium verify same settings as for test 1.1 (regular signup) with 
+		Require Credit Card on signup active On registration CAPTURE Amount 10 Expires 
+		minus 1 Feature -->
+	<test
+		name="Selenium verify same settings as for test 1.1 (regular signup) with Require Credit Card on signup active On registration CAPTURE Amount 10 Expires minus 1 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_Sign_Up_Active" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.79 -->
+	<!-- Selenium verify same settings as for test 1.1 (regular signup) with 
+		Require Credit Card on signup active On registration CAPTURE Amount 10 Expires 
+		-1 use expired CC Feature -->
+	<test
+		name="Selenium verify same settings as for test 1.1 (regular signup) with Require Credit Card on signup active  On registration CAPTURE Amount 10  Expires -1 use expired CC Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Regular_Signup_With_Require_Credit_Card_On_Expired_CC" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.80 -->
+	<!-- Selenium regular Signup With Require Credit CardOnRequired Error Message 
+		Is Displayed In Red Next To AllTheCCFields Feature -->
+	<test
+		name="Selenium regular Signup With Require Credit CardOnRequired Error Message Is Displayed In Red Next To AllTheCCFields Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_Required_Error_Message_Is_Displayed_In_Red_Next_To_All_The_CC_Fields" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.81 -->
+	<!-- Selenium verify same settings as for test 1.1 (regular signup) with 
+		Require Credit Card on signup active On registration Authorize Amount 10 
+		Expires minus 1 Feature -->
+	<test
+		name="Selenium verify same settings as for test 1.1 (regular signup) with Require Credit Card on signup active On registration Authorize Amount 10 Expires minus 1 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_SignUp_Active_On_Registration_Authorize_Amount" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.82 -->
+	<!-- Selenium verify same settings as for test 1.1 (regular signup) with 
+		Require Credit Card on signup active On registration AUTHORIZE Amount 10 
+		Expired -1 use expired CC Feature -->
+	<test
+		name="Selenium verify same settings as for test 1.1 (regular signup) with Require Credit Card on signup active  On registration AUTHORIZE Amount 10  Expired -1 use expired CC Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_Signup_Active_On_Registration_Authorize_Amount_With_Expried_CC" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.83 -->
+	<!-- Selenium verify same settings as for test 1.1 (regular signup) with 
+		Require Credit Card on signup active On same settings as for test regular 
+		signup with Require Credit Card on signup active signup not successful required 
+		error message is displayed in red next to all the CC fields Feature -->
+	<test
+		name="Selenium verify same settings as for test 1.1 (regular signup) with Require Credit Card on signup active  On same settings as for test regular signup with Require Credit Card on signup active  signup not successful required error message is displayed in red next to all the CC fields Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_Required_Error_Message_Is_Displayed_In_Red_Next_To_All_The_CC_Fields_With_NO_CC" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.84 -->
+	<!-- Selenium verify same settings as for test 1.1 (regular signup) with 
+		Require Credit Card on signup active On registration None Amount 10 Expires 
+		minus 1 Feature -->
+	<test
+		name="Selenium verify same settings as for test 1.1 (regular signup) with Require Credit Card on signup active On registration None Amount 10 Expires minus 1 Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_SignUp_Active_On_Registration_None_Amount" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.85 -->
+	<!-- Selenium verify same settings as for test 1.1 (regular signup) with 
+		Require Credit Card on signup active On registration None Amount 10 Expired 
+		-1 use expired CC Feature -->
+	<test
+		name="Selenium verify same settings as for test 1.1 (regular signup) with Require Credit Card on signup active  On registration None Amount 10  Expired -1 use expired CC Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_SignUp_Active_On_Registration_None_Amount_With_Expried_CC" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.86 -->
+	<!-- Selenium verify same settings as for test 1.1 (regular signup) with 
+		Require Credit Card on signup active On same settings as for test regular 
+		signup with Require Credit Card on signup active signup not successful required 
+		error message is displayed in red next to all the CC fields For NONE CC feature -->
+
+	<test
+		name="Selenium verify same settings as for test 1.1 (regular signup) with Require Credit Card on signup active  On same settings as for test regular signup with Require Credit Card on signup active  signup not successful required error message is displayed in red next to all the CC fields For NONE CC">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_Required_Error_Message_Is_Displayed_In_Red_Next_To_All_The_CC_Fields_With_NO_CC_None_Account" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 1.88 -->
+	<!-- Selenium verify Selenium Regular SignUp With same settings as for test 
+		1.1 (regular signup) with require credit card on signup active on registration 
+		And Verify Require CC on Signup Becomes automatically checked Feature -->
+	<test
+		name="Selenium verify Selenium  Regular SignUp With same settings as for test 1.1 (regular signup) with require credit card on signup active on registration And Verify Require CC on Signup Becomes automatically checked Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_Signup_With_Require_Credit_Card_Active_On_Registration_And_Verify_Require_CC_On_SignUp_Becomes_Automatically_Checked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.89 -->
+	<!-- Selenium verify Regular SignUp With same settings as for test 1.1 (regular 
+		signup) with require credit card on signup active on registration And Verify 
+		Include CC info and make CC info required becomes automatically checked under 
+		the simplified signup section Feature -->
+	<test
+		name="Selenium verify Regular SignUp With same settings as for test 1.1 (regular signup) with require credit card on signup active on registration And Verify Include CC info and make CC info required becomes automatically checked under the simplified signup section Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_SignUp_With_Include_CC_Info_Make_CC_Info_Required_Becomes_Automatically_Checked_Under_The_Simplified_Signup_Section" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.90 -->
+	<!-- Selenium verify same settings as for test 2.1 (regular signup) with 
+		Auto assign preferred bidder privileges upon signup active Include CC info 
+		is active and use no cc Feature -->
+	<test
+		name="Selenium verify same settings as for test 2.1 (regular signup) with Auto assign preferred bidder privileges upon signup active Include CC info is active and use no cc Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Require_Credit_Card_On_SignUp_With_Auto_Assign_Preferred_Bidder_Privileges_Upon_Signup_Active_Include_CC_Info_Is_Active_And_No_CC" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 1.91 -->
+	<!-- Selenium verify Regular Signup With Enter All Fields But Verify User 
+		Name Fields Feature -->
+	<test
+		name="Selenium verify Regular Signup With Enter All Fields But Verify User Name Fields Feature">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Regular_Signup_With_Enter_All_Fields_But_Verify_User_Name_Fields" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- Signup Shipping info Test cases -->
+
+	<!-- TC_01 -->
+	<!-- Verify That user is not able to Register with Missing "Conctact type 
+		" Required field. -->
+	<test
+		name="Verify That user is not able to Register with Missing Conctact type Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_Contact_Type_Required_Field" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_02 -->
+	<!-- Verify That user is not able to Register with Missing First Name Required 
+		field. -->
+	<test
+		name="Verify That user is not able to Register with Missing First Name Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_First_Name_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_03 -->
+	<!-- Verify That user is Not able to Register with Missing Last Name Required 
+		field. -->
+	<test
+		name="Verify That user is Not able to Register with Missing Last Name Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_Last_Name_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_04 -->
+	<!--Verify That user is not able to Register with Missing Phone Number Required 
+		field. -->
+	<test
+		name="Verify That user is Not able to Register with Missing Phone Number Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_Phone_Number_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_05 -->
+	<!--Verify That user is not able to Register with wrong Phone Number Required 
+		field. -->
+	<test
+		name="Verify That user is not able to Register with wrong Phone Number Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Enter_Alphabet_In_Phone_Number_Field_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_06 -->
+	<!--Verify That user is not able to Register with Missing Country Required 
+		field. -->
+	<test
+		name="Verify That user is not able to Register with Missing Country Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_Country_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_07 -->
+	<!--Verify That user is not able to Register with Missing Address Required 
+		field. -->
+	<test
+		name="Verify That user is not able to Register with Missing Address Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_Address_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_08 -->
+	<!--Verify That user is not able to Register with Missing City Required 
+		field. -->
+	<test
+		name="Verify That user is not able to Register with Missing City Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_City_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_09 -->
+	<!--Verify That user is not able to Register with Missing State/Province 
+		Required field1. -->
+	<test
+		name="Verify That user is not able to Register with Missing State/Province Required field1.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_State_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_10 -->
+	<!--Verify That user is not able to Register with Missing Zip/Postal code 
+		Required field. -->
+	<test
+		name="Verify That user is not able to Register with Missing Zip/Postal code Required field.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_Zip_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_11 -->
+	<!--Verify That user is able to Register Successfully with entering all 
+		valid info in required fields. -->
+	<test
+		name="Verify That user is able to Register Successfully with entering all valid info in required fields.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Fill_All_The_Details_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_12 -->
+	<!--Verify that user is not able to register with keep blank any one required 
+		field and entering all valid info in other required fields. -->
+	<test
+		name="Verify that user is not able to register with keep blank any one required field and entering all valid info in other required fields.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Missing_Anyone_Filed_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+	<!-- TC_13 to TC_ 22 -->
+	<!-- To verify that "Contact Type" Is display correct value after success 
+		fully registration. From TC_13 to TC_23 -->
+	<test
+		name="To verify that Contact Type Is display correct value after success fully registration.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Verify_Shipping_Info_Fields" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+<!-- TC-23 -->
+	<!-- To verify Simplified Signup -->
+	<test name="To verify Simplified Signup">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Verify_Simplified_Signup" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC-24 -->
+	<!-- To verify shipping adress info during sale registration -->
+	<test name="To verify shipping address info during sale registration">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Verify_Shipping_Address_Info_During_Sale_Regstration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+	<!-- TC_25 -->
+	<!--To verify that user is able to edit first name in shipping info. -->
+	<test
+		name="To verify that user is able to edit first name in shipping info.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Edit_First_Name_Shipping_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_26 -->
+	<!--To verify that user is able to edit Last Name in shipping info. -->
+	<test name="To verify that user is able to edit Last Name in shipping info.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Edit_Last_Name_Shipping_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_27 -->
+	<!--To verify that user is able to edit Phone in shipping info. -->
+	<test name="To verify that user is able to edit Phone in shipping info.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Edit_Phone_Number_Shipping_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_28 -->
+	<!--To verify that user is able to edit Country name in shipping info. -->
+	<test
+		name="To verify that user is able to edit Country name in shipping info.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Edit_Country_Shipping_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_29 -->
+	<!--To verify that user is able to edit Address in shipping info. -->
+	<test name="To verify that user is able to edit Address in shipping info.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Shipping_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_30 -->
+	<!--To verify that user is able to edit City in shipping info. -->
+	<test name="To verify that user is able to edit City in shipping info.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_City_Shipping_Address_Info_During_Sale_Regstration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_31 -->
+	<!--To verify that user is able to edit State/Province in shipping info. -->
+	<test
+		name="To verify that user is able to edit State/Province in shipping info.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Edit_State_Shipping_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_32 -->
+	<!--To verify that user is able to edit Zip/Postal code in shipping info. -->
+	<test
+		name="To verify that user is able to edit Zip/Postal code in shipping info.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Zip_Shipping_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_33 -->
+	<!--To verify that if Remember shipping preference in profile check box 
+		is checked and update any inforormation then it should display in my account 
+		of user. -->
+	<test
+		name="To verify that if Remember shipping preference in profile check box is checked and update any inforormation then it should display in my account of user.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Remember_Shipping_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+
+	<!-- TC_34 -->
+	<!--To verify that Remember shipping checkbox uncheck -->
+	<test name="To verify that Remember shipping checkbox uncheck">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include
+						name="Remember_Shipping_Checkbox_Uncheck_Address_Info_During_Sale_Registration" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_35 -->
+	<!--To verify that Edit First Name in Basic info My Account. -->
+	<test name="To verify that Edit First Name in Basic info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_First_Name_In_Basic_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_36 -->
+	<!--To verify that Edit Last Name in Basic info My Account. -->
+	<test name="To verify that Edit Last Name in Basic info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Last_Name_In_Basic_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_37 -->
+	<!--To verify that Edit Phone in Basic info My Account. -->
+	<test name="To verify that Edit Phone in Basic info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Phone_In_Basic_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_38 -->
+	<!--To verify that Edit Phone Type in Basic info My Account. -->
+	<test name="To verify that Edit Phone Type in Basic info  My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Phone_Type_In_Basic_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_39 -->
+	<!--To verify that Edit First Name in Billing info My Account. -->
+	<test name="To verify that Edit First Name in Billing info  My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_First_Name_In_Billing_info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_40 -->
+	<!--To verify that Edit Last Name in Billing info My Account. -->
+	<test name="To verify that Edit Last name in Billing info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Last_Name_In_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_41 -->
+	<!--To verify that Edit Phone in Billing info My Account. -->
+	<test name="To verify that Edit Phone in Billing info  My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Phone_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_42 -->
+	<!--To verify that Edit contact type in Billing info My Account. -->
+	<test name="To verify that Edit phone in billing info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Contact_Type_In_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_43 -->
+	<!--To verify that Edit Country in Billing info My Account. -->
+	<test name="To verify that Edit Country in Billing info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_County_In_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_44 -->
+	<!--To verify that Edit Address in Billing info My Account. -->
+	<test name="To verify that Edit Address in Billing info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Address_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_45 -->
+	<!--To verify that Edit City in Billing info My Account. -->
+	<test name="To verify that Edit City in Billing info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_City_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_46 -->
+	<!--To verify that Edit State in Billing info My Account. -->
+	<test name="To verify that Edit State in Billing info My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_State_In_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_47 -->
+	<!--To verify that Edit Zip in Billing info My Account. -->
+	<test name="To verify that Edit Zip in Billing info My Account">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Zip_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_48 -->
+	<!--To verify that Edit CC Type in billing info -> My Account -->
+	<test name="To verify that Edit CC Type in billing info -> My Account">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_CC_Type_In_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_49 -->
+	<!--To verify that Edit CC Number in billing info -> My Account -->
+	<test name="To verify that Edit CC Number in billing info -> My Account">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_CC_Number_In_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_50 -->
+	<!--To verify that Edit Expiration date in billing info -> My Account. -->
+	<test
+		name="To verify that Edit Expiration date in billing info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Expiration_Date_In_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_51 -->
+	<!--To verify that Edit Security code in billing info -> My Account. -->
+	<test
+		name="To verify that Edit Security code in billing info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Security_Code_In_Billing_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_52 -->
+	<!--To verify that Edit Firstname in shipping info -> My Account -->
+	<test name="To verify that Edit Firstname in shipping info -> My Account">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_First_Name_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_53 -->
+	<!-- To verify that Edit Last name in shipping info -> My Account. -->
+	<test name="To verify that Edit Last name in shipping info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Last_Name_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_54 -->
+	<!--To verify that Edit phone in shipping info -> My Account. -->
+	<test name="To verify that Edit phone in shipping info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Phone_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_55 -->
+	<!--To verify that Edit country in shipping info -> My Account. -->
+	<test name="To verify that Edit country in shipping info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Country_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_56 -->
+	<!--To verify that Edit address in shipping info -> My Account. -->
+	<test name="To verify that Edit address in shipping info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Address_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_57 -->
+	<!--To verify that Edit city in shipping info -> My Account. -->
+	<test name="To verify that Edit city in shipping info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_City_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_58 -->
+	<!--To verify that Edit zip in shipping info -> My Account. -->
+	<test name="To verify that Edit zip in shipping info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Edit_Zip_Code_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_59 -->
+	<!--To verify that Keep blank any required field in shipping info -> My 
+		Account. -->
+	<test
+		name="To verify that  Keep blank any required field in shipping info -> My Account.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Keep_Blank_In_Shipping_Info" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_60 -->
+	<!--To verify that Change Password -->
+	<test name="To verify that Change Password">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Verify_Confirm_Password" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_61 -->
+	<!--To verify that Change Password successfully. -->
+	<test name="To verify that Change Password successfully.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Change_Password_Successfully" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_62 -->
+	<!--To verify that Change Password. -->
+	<test name="To verify that Change Password.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Enter_Wrong_Old_Password" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_63 -->
+	<!--To Verify that Custom field Type as Integer is not required Enter valid 
+		data1. -->
+	<test
+		name="To Verify that Custom field Type as Integer is not required Enter valid data1.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Integer" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_64 -->
+	<!--To Verify that Custom field Type as Integer is not required Enter invalid 
+		data. -->
+	<test
+		name="To Verify that Custom field Type as Integer is not required Enter invalid data.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Integer_Enter_Invalid_Data" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_65 -->
+	<!--To Verify that Custom field Type as Integer is not required Enter valid 
+		data. -->
+	<test
+		name="To Verify that Custom field Type as Integer is not required Enter valid data.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Integer_Enter_Valid_Data_Checkbox" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_66 -->
+	<!--To Verify that Custom field Type as Integer is required Enter invalid 
+		data or blank -->
+	<test
+		name="To Verify that Custom field Type as Integer is required Enter invalid data or blank.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Integer_Enter_Invalid_Data_Checkbox" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_67 -->
+	<!--To Verify that Custom field Type as Decimal is required Enter valid 
+		data -->
+	<test
+		name="To Verify that Custom field Type as Decimal is required Enter valid data">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Decimal_Enter_Valid_Data" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_68 -->
+	<!--To Verify that Custom field Type as decimal is required Enter invalid 
+		data -->
+	<test
+		name="To Verify that Custom field Type as decimal is required Enter invalid data">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Decimal_Invalid_Data" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_69 -->
+	<!--To Verify that Custom field Type as decimal is required Enter valid 
+		data -->
+	<test
+		name="To Verify that Custom field Type as decimal is required Enter valid data">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Decimal_Valid_Data_Checked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_70 -->
+	<!--To Verify that Custom field Type as decimal is requiredEnter invalid 
+		data >> Check box checked -->
+	<test
+		name="To Verify that Custom field Type as decimal is require Enter invalid data >> Check box checked">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Decimal_Invalid_Data_Checked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+<!-- TC_71 -->
+<!--To Verify that Custom field Type as inputline is required Enter valid
+ data -->
+<test
+    name="To Verify that Custom field Type as inputline is required Enter valid data">
+    
+    <classes>
+        
+        <class name="com.auction.verifications.Index">
+            
+            <methods>
+                
+                <include name="Custom_Field_As_Input_Line_Valid_Data" />
+                
+            </methods>
+            
+        </class>
+        
+    </classes>
+    
+</test>
+
+<!-- TC_72 -->
+<!--To Verify that Custom field Type as inputline is required Enter invalid
+ data -->
+<test
+    name="To Verify that Custom field Type as inputline is required Enter invalid data">
+    
+    <classes>
+        
+        <class name="com.auction.verifications.Index">
+            
+            <methods>
+                
+                <include name="Custom_Field_As_Input_Line_Invalid_Data_Checked" />
+                
+            </methods>
+            
+        </class>
+        
+    </classes>
+    
+</test>
+
+<!-- TC_73 -->
+<!--To Verify that Custom field Type as inputline is required Enter blank -->
+<test
+    name="To Verify that Custom field Type as inputline is required Enter blank">
+    
+    <classes>
+        
+        <class name="com.auction.verifications.Index">
+            
+            <methods>
+                
+                <include name="Custom_Field_As_Input_Line_Data_Blank" />
+                
+            </methods>
+            
+        </class>
+        
+    </classes>
+    
+</test>
+
+<!-- TC_74 -->
+<!--To Verify that Custom field Type as Dropdown is required -->
+<test name="To Verify that Custom field Type as Dropdown is required">
+    
+    <classes>
+        
+        <class name="com.auction.verifications.Index">
+            
+            <methods>
+                
+                <include name="Custom_Field_As_Dropdown" />
+                
+            </methods>
+            
+        </class>
+        
+    </classes>
+    
+</test>
+
+<!-- TC_75 -->
+<!--To Verify that Custom field Type as Dropdown is required >> checked. -->
+<test
+    name="To Verify that Custom field Type as Dropdown is required checked.">
+    
+    <classes>
+        
+        <class name="com.auction.verifications.Index">
+            
+            <methods>
+                
+                <include name="Custom_Field_As_Dropdown_Checked" />
+                
+            </methods>
+            
+        </class>
+        
+    </classes>
+    
+</test>
+
+	<!-- TC_76 -->
+	<!--To Verify that Custom field Type as Dropdown is required >> blank. -->
+	<test
+		name="To Verify that Custom field Type as Dropdown is required  blank.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Dropdown_Keep_Blank" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_77 -->
+	<!--To Verify that Custom field Type as date -->
+	<test name="To Verify that Custom field Type as date">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Date" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_78 -->
+	<!--To Verify that Custom field Type as textarea checkbox required -->
+	<test name="To Verify that Custom field Type as textarea checkbox required">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Date_Checkbox_Required" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_79 -->
+	<!--To Verify that Custom field Type as textarea blank -->
+	<test name="To Verify that Custom field Type as textarea blank">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Date_Blank" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_80 -->
+	<!--To Verify that Custom field Type as textarea -->
+	<test name="To Verify that Custom field Type as textarea">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Textarea" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_81 -->
+	<!--To Verify that Custom field Type as textarea >> checked -->
+	<test name="To Verify that Custom field Type as textarea checked">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Textarea_Checked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_82 -->
+	<!--To Verify that Custom field Type as textarea blank >> checked -->
+	<test name="To Verify that Custom field Type as textarea blank checked">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Text_Area_Checked_Keep_Blank" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_83 -->
+	<!--To Verify that Custom field Type as checkbox is not required. -->
+	<test name="To Verify that Custom field Type as checkbox is not required.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Checkbox" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_84 -->
+	<!--To Verify that Custom field Type as checkbox required checkbox uncheck. -->
+	<test
+		name="To Verify that Custom field Type as checkbox required checkbox uncheck.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Checkbox_Uncheck" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_85 -->
+	<!--To Verify that Custom field Type as checkbox required. -->
+	<test name="To Verify that Custom field Type as checkbox required.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Checkbox_Checked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_86 -->
+	<!--To Verify that Custom field Type as file not required unchecked. -->
+	<test
+		name="To Verify that Custom field Type as file not required  unchecked.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Pdf_Unchecked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- TC_87 -->
+	<!--To Verify that Custom field Type as File type is not required -->
+	<test name="To Verify that Custom field Type as File type is not required">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Invalid_File" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_88 -->
+	<!--To Verify that Custom field Type as File Type required checked. -->
+	<test
+		name="To Verify that Custom field Type as File Type required >> checked.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Invalid_File_Checked" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- TC_89 -->
+	<!--To Verify that Custom field Type as File Type is required Valid file 
+		checked. -->
+	<test
+		name="To Verify that Custom field Type as File Type is required Valid file >> checked.">
+
+		<classes>
+
+			<class name="com.auction.verifications.Index">
+
+				<methods>
+
+					<include name="Custom_Field_As_Pdf_File_Checked_Required" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	</suite>

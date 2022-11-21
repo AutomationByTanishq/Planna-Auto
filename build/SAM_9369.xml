@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-7660" verbose="10" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+	<!-- 1 -->
+
+	<test name="Refactor_play_sound_to_avoid_client_side_caching_of_stale_files_9373">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Refactor_play_sound_to_avoid_client_side_caching_of_stale_files_9373" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 2 -->
+
+	<test name="Oops_error_occurs_9387">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Oops_error_occurs_9387" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3 -->
+
+	<test name="Verify_proper_validation_for_lot_number_field_9400">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Verify_proper_validation_for_lot_number_field_9400" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4 -->
+	<test name="Default_dropdown_check_adv_auction_9401">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Default_dropdown_check_adv_auction_9401" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 5 -->
+
+	<test name="Error_in_csvfile_9405">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Error_in_csvfile_9405" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 6 -->
+
+	<test name="Validation_message_verification_9409">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Validation_message_verification_9409" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 7 -->
+
+	<test name="Warning_msg_when_endDate_is_past_9419">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Warning_msg_when_endDate_is_past_9419" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 8 -->
+
+	<test name="Merge_settlement_error_9427">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Merge_settlement_error_9427" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 9 -->
+
+	<test name="Mailing_list_report_Cancel_button_doesNotWork_9434">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Mailing_list_report_Cancel_button_doesNotWork_9434" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 10 -->
+
+	<test name="Overwrite_warning_is_not_displayed_9426">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Overwrite_warning_is_not_displayed_9426" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 11 -->
+
+	<test name="Pls_selectUser_validation_msg_9451">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Pls_selectUser_validation_msg_9451" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 12 -->
+
+	<test name="Multiple_add_extra_charge_shows_only_single_remove_button_9456">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Multiple_add_extra_charge_shows_only_single_remove_button_9456" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 13 -->
+
+	<test name="Buyers_premium_value_does_not_save_9460">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Buyers_premium_value_does_not_save_9460" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 14 -->
+
+	<test name="Editable_field_for_commission_shows_in_nonEditableMode_9467">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Editable_field_for_commission_shows_in_nonEditableMode_9467" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 15 -->
+
+	<test name="Currency_not_displayed_9473">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Currency_not_displayed_9473" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 16 -->
+
+	<test name="Bid_updated_as_default_value_9485">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Bid_updated_as_default_value_9485" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 17 -->
+
+	<test name="Asking_bid_got_blank_if_starting_bid_or_estimate_amounts_are_not_mentioned_in_lot_9497">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Asking_bid_got_blank_if_starting_bid_or_estimate_amounts_are_not_mentioned_in_lot_9497" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 18 -->
+
+	<test name="Referrer_report_not_showing_data_on_NA_referrer_9386">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Referrer_report_not_showing_data_on_NA_referrer_9386" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 19 -->
+
+	<test name="Upload_image_with_inserting_image_URL_functionality_is_not_working_proper_in_add_lot_page_9418">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Upload_image_with_inserting_image_URL_functionality_is_not_working_proper_in_add_lot_page_9418" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 20 -->
+
+	<test name="Issues_related_to_QTY_column_at_admin_Frontend_9421">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Issues_related_to_QTY_column_at_admin_Frontend_9421" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 21 -->
+
+	<test name="When_dropdown_option_has_more_than_two_words_with_space_it_is_not_working_properly_9420">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="When_dropdown_option_has_more_than_two_words_with_space_it_is_not_working_properly_9420" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 22 -->
+
+	<test name="Oops_error_occurs_on_multiple_clicks_on_check_mark_icon_9452">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="" />
+
+				</methods>
+				Oops_error_occurs_on_multiple_clicks_on_check_mark_icon_9452
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 23 -->
+
+	<test name="Header_image_disappears_on_saving_twice_9453">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Header_image_disappears_on_saving_twice_9453" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 24 -->
+
+	<test name="Issues_with_print_report_Generate_pdf_buttons_in_consignor_report_9465">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Issues_with_print_report_Generate_pdf_buttons_in_consignor_report_9465" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 25 -->
+
+	<test name="Profile_frontend_redirecting_to_error_page_9470">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Profile_frontend_redirecting_to_error_page_9470" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+
+	<!-- 26 -->
+
+	<test name="At_adding_lot_page_the_custom_field_of_file_type_do_not_allow_to_add_file_more_than_one_9377">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="At_adding_lot_page_the_custom_field_of_file_type_do_not_allow_to_add_file_more_than_one_9377" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 27 -->
+
+	<test name="Category_information_from_edit_section_is_not_removed_after_delete_9371">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Category_information_from_edit_section_is_not_removed_after_delete_9371" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 28 -->
+
+	<test name="per_user_doesnot_display_on_main_coupon_page_if_its_set_to_0_9412">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="per_user_doesnot_display_on_main_coupon_page_if_its_set_to_0_9412" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 29 -->
+
+	<test name="Item_consigned_delete_functionality_is_not_working_9402">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Item_consigned_delete_functionality_is_not_working_9402" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 30 -->
+
+	<test name="Oops_error_occurs_while_edit_invoice_number_9422">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Oops_error_occurs_while_edit_invoice_number_9422" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 31 -->
+
+	<test name="Invoices_are_not_getting_generated_9439">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Invoices_are_not_getting_generated_9439" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 32 -->
+
+	<test name="Type_auctions_validation_stays_on_auction_lots_page_after_cloning_9484">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Type_auctions_validation_stays_on_auction_lots_page_after_cloning_9484" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 33 -->
+
+	<test name="Removed_payment_and_payment_details_displayed_on_confirmation_are_rendered_with_negative_balance_due_9464">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Removed_payment_and_payment_details_displayed_on_confirmation_are_rendered_with_negative_balance_due_9464" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 34 -->
+
+	<test name="Lot_custom_fields_at_search_filters_do_not_work_as_expected_9384">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Lot_custom_fields_at_search_filters_do_not_work_as_expected_9384" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 35 -->
+
+	<test name="Lot_custom_fields_at_search_filters_do_not_work_as_expected_9384_2">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="Lot_custom_fields_at_search_filters_do_not_work_as_expected_9384_2" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 36 -->
+
+	<test name="This_invoice_has_no_balance_due_validation_is_displayed_even_when_balance_due_is_available_9466">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_9369">
+
+				<methods>
+
+					<include name="This_invoice_has_no_balance_due_validation_is_displayed_even_when_balance_due_is_available_9466" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+</suite>

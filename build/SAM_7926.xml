@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-7928" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<!-- 1 -->
+
+	<test name="Add_lot_quantity_information_Lot_Name_Lot_description_on_Bid_confirmation_page_8455">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7926">
+
+				<methods>
+
+					<include name="Add_lot_quantity_information_Lot_Name_Lot_description_on_Bid_confirmation_page_8455" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 2 -->
+
+	<test name="Add_lot_quantity_information_Lot_Name_Lot_description_on_Bid_confirmation_page_8456">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7926">
+
+				<methods>
+
+					<include name="Add_lot_quantity_information_Lot_Name_Lot_description_on_Bid_confirmation_page_8456" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 3 -->
+
+	<test name="Add_lot_quantity_information_Lot_Name_Lot_description_on_Bid_confirmation_page_8457">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7926">
+
+				<methods>
+
+					<include name="Add_lot_quantity_information_Lot_Name_Lot_description_on_Bid_confirmation_page_8457" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 4 -->
+
+	<test name="Add_lot_quantity_information_Lot_Name_Lot_description_on_Bid_confirmation_page_8458">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7926">
+
+				<methods>
+
+					<include name="Add_lot_quantity_information_Lot_Name_Lot_description_on_Bid_confirmation_page_8458" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	</suite>

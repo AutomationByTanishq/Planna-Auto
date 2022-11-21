@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-7972" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+ 	<!-- 1 --> 
+
+	<test name="Limit_request_routes_that_will_invoke_the_application_8641">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7672">
+
+				<methods>
+
+					<include name="Limit_request_routes_that_will_invoke_the_application_8641" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	
+	<!-- 2 --> 
+
+	<test name="Limit_request_routes_that_will_invoke_the_application_8644">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7672">
+
+				<methods>
+
+					<include name="Limit_request_routes_that_will_invoke_the_application_8644" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 3--> 
+
+	<test name="Limit_request_routes_that_will_invoke_the_application_8645">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_7672">
+
+				<methods>
+
+					<include name="Limit_request_routes_that_will_invoke_the_application_8645" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	</suite>

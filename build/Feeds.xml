@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Coupons Automation Suite" verbose="10"
+	parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 1 -->
+
+	<test name="add_New_Feed_With_Valid_Details">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include name="add_New_Feed_With_Valid_Details" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 2 -->
+
+	<test name="add_New_Feed_Without_Entering_Feed_Name">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include name="add_New_Feed_Without_Entering_Feed_Name" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 3 -->
+
+	<test name="add_New_Feed_Without_Entering_Slug">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include name="add_New_Feed_Without_Entering_Slug" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4 -->
+
+	<test name="add_New_Feed_With_Add_More_Custom_Replacements_Field">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include
+						name="add_New_Feed_With_Add_More_Custom_Replacements_Field" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 5 -->
+
+	<test name="edit_And_Save_Already_Added_Feed">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include name="edit_And_Save_Already_Added_Feed" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 6 -->
+
+	<test name="delete_Feed">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include name="delete_Feed" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 7 -->
+
+	<test name="edit_And_Save_Added_Custom_Replacements_Feed">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include
+						name="edit_And_Save_Added_Custom_Replacements_Feed" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 8 -->
+
+	<test name="delete_Added_Custom_Replacements_Feed">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include name="delete_Added_Custom_Replacements_Feed" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 9 -->
+
+	<test
+		name="add_Feed_With_Entering_Alphabetical_Values_In_Items_per_page_Field">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include
+						name="add_Feed_With_Entering_Alphabetical_Values_In_Items_per_page_Field" />
+
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 10 -->
+
+	<test
+		name="try_To_Add_New_Custom_Replacement_Field_With_Same_Value">
+
+		<classes>
+
+			<class name="com.auction.verifications.Feeds">
+
+				<methods>
+
+					<include
+						name="try_To_Add_New_Custom_Replacement_Field_With_Same_Value" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+</suite>

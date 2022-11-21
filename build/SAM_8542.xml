@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-8542" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+
+	<!-- 1 -->
+
+	<test name="TestCase_Live_sale_simple_clerking_screen_using_post_bid_on_first_click_not_working">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_8542">
+
+				<methods>
+
+					<include name="TestCase_Live_sale_simple_clerking_screen_using_post_bid_on_first_click_not_working" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	</suite>

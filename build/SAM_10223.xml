@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SAM-9691" verbose="10" parallel="tests"
+	thread-count="1">
+
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<!-- 1 -->
+
+	<test name="Create_nginx_redirect_rules_10388">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10388" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	
+	<!-- 2 -->
+
+	<test name="Create_nginx_redirect_rules_10389">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10389" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	
+	<!-- 3 -->
+
+	<test name="Create_nginx_redirect_rules_10390">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10390" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 4 -->
+
+	<test name="Create_nginx_redirect_rules_10391">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10391" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 5-->
+
+	<test name="Create_nginx_redirect_rules_10392">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10392" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 6-->
+
+	<test name="Create_nginx_redirect_rules_10393">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10393" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 7-->
+
+	<test name="Create_nginx_redirect_rules_10395">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10395" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 8-->
+
+	<test name="Create_nginx_redirect_rules_10396">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10396" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 9-->
+
+	<test name="Create_nginx_redirect_rules_10397">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10397" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 10-->
+
+	<test name="Create_nginx_redirect_rules_10398">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10398" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 11-->
+
+	<test name="Create_nginx_redirect_rules_10399">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10399" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 12-->
+
+	<test name="Create_nginx_redirect_rules_10401">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10401" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 13-->
+
+	<test name="Create_nginx_redirect_rules_10402">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10402" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 14-->
+
+	<test name="Create_nginx_redirect_rules_10404">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10404" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 15-->
+
+	<test name="Create_nginx_redirect_rules_10405">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10405" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 16-->
+
+	<test name="Create_nginx_redirect_rules_10408">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10408" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 17-->
+
+	<test name="Create_nginx_redirect_rules_10409">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10409" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 18-->
+
+	<test name="Create_nginx_redirect_rules_10410">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10410" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 19 -->
+
+	<test name="Create_nginx_redirect_rules_10411">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10411" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 20-->
+
+	<test name="Create_nginx_redirect_rules_10400">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10400" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 21-->
+
+	<test name="Create_nginx_redirect_rules_10407">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10407" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!-- 22-->
+
+	<test name="Create_nginx_redirect_rules_10394">
+
+		<classes>
+
+			<class name="com.auction.verifications.SAM_10223">
+
+				<methods>
+
+					<include name="Create_nginx_redirect_rules_10394" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	</suite>

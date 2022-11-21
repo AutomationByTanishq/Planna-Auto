@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Bidding Live Auction" verbose="10" parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!--1-->
+	<!-- Place Multiple bid : Bid value lower than already placed bid value -->
+	<test name="Place Multiple bid : Bid value lower than already placed bid value">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_Multiple_Bid" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--2-->
+	<!-- Place Multiple bid : bidValueLowerThanAlreadyPlacedBidValue -->
+
+	<test name="Place Multiple bid : bidValueLowerThanAlreadyPlacedBidValue">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Bid_Value_Lower_Than_Already_Placed_Bid_Value" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--3-->
+	<!-- Place Multiple bid : placeBidNotMetStartingBidAtCatalog -->
+
+	<test name="Place Multiple bid : placeBidNotMetStartingBidAtCatalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="place_Bid_Not_Met_Starting_Bid_At_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 4 -->
+
+	<!-- Place Multiple bid : Place bid missing at catalog page -->
+
+	<test name="placeBidMissingAtCatalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_Bid_Missing_At_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 5 -->
+
+	<!-- Place bid : Place_Bid_From_Catalog -->
+
+	<test name="Place_Bid_From_Catalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_Bid_From_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--6-->
+	<!-- Place bid with already bid amount at catalog page -->
+
+	<test name="placeBidWithAlreadyBidAmountAtCatalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_Bid_With_Already_Bid_Amount_At_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!--7-->
+	<!-- Multiple bidder - bidder 2 out bid feature -->
+
+	<test name="bidder2OutBidFeature">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Bidder_2_Out_Bid_Feature" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--8-->
+	<!-- Place multiple bid missing at catalog page -->
+
+	<test name="placeMultipleBidMissingAtCatalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_Multiple_Bid_Missing_At_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--9-->
+	<!-- Place multiple bid with less than starting bid amount in catalog page -->
+
+	<test name="placeMultipleBidWithLessThanStartingBidAmountInCatalogPage">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_Multiple_Bid_With_Less_Than_Starting_Bid_Amount_In_Catalog_Page" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--10-->
+	<!-- Place bid missing at lot details -->
+
+	<test name="placeBidMissingAtLotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_Bid_Missing_At_Lot_Details" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--11-->
+	<!-- Place bid from lot details page -->
+
+	<test name="placeBidFromLotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_Bid_From_Lot_Details" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--12-->
+	<!-- Change bid with less amount than already placed at lot details -->
+
+	<test name="ChangeBidWithLessAmountThanAlreadyPlacedAtLotDetails">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Change_Bid_With_Less_Amount_Than_Already_Placed_At_Lot_Details" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!--13-->
+	<!-- Change bid with less amount than already placed at lot details -->
+
+	<test name="buyLotFromCatalog">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Buy_Lot_From_Catalog" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--14-->
+	<!-- Place bid with two users -->
+
+	<test name="TwoUserBidding">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Two_User_Bidding" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--15-->
+	<!-- Two user : Sell lot to higher bidder -->
+
+	<test name="sellLotHighBidder">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Sell_Lot_High_Bidder" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!--16-->
+	<!-- Two user - Not accept live bid through admin -->
+
+	<test name="notacceptlivebid">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Not_Accept_Live_Bid" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--17-->
+	<!-- Two user - Sell lot to floor bidder -->
+
+	<test name="sellLotToFloorBidder">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Sell_Lot_To_Floor_Bidder" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!--18-->
+	<!-- Two user - User chat Enable -->
+
+	<test name="userchatenable">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="User_Chat_Enable" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--19-->
+	<!-- Two user - Accept & fair warning and sell lot -->
+
+	<test name="acceptandfairwarningandsell">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Accept_and_Fair_Warning_and_Sell" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--20-->
+	<!-- Two user - Stop sale from admin side -->
+
+	<test name="stopsalewithtwobidders">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Stop_Sale_With_Two_Bidders" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!--21-->
+	<!-- Two user - Undo after user bidding -->
+
+	<test name="Undoafterplacingbid">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Undo_After_Placing_Bid" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--22-->
+	<!-- Two user - Undo after user bidding with autoaccept feature -->
+
+	<test name="Undoafterplacingwithautoaccept">
+
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Undo_After_Placing_With_Auto_Accept" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--23-->
+	<!-- Two user - Place an absentee bid on lot z from watch list page -->
+
+	<test name="placeanabsenteebidonlotzfromwatchlistpage">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_an_Absentee_Bid_on_Lot_Z_From_Watch_List_Page" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	
+	<!--24-->
+	<!-- Two user - Place absentee against online bid -->
+
+	<test name="absenteeagainstonline">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Absentee_Against_Online" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--25-->
+	<!-- Two user - User chat disable -->
+
+	 <test name="userChatDisable">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="User_Chat_Disable" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 26 -->
+	<!-- Two user - User chat enable advance mode -->
+
+	<test name="userchatenableadvance">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="User_Chat_Enable_Advance" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--27-->
+	<!-- Two user - Pause and restart auction with two user -->
+
+	<test name="pauseandrestartwithtwouser">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Pause_and_Restart_With_Two_User" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--28-->
+	<!-- Two user - Pause and restart auction with two user -->
+
+	<test name="startlotpostbidsandresetwithtwouser">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Start_Lot_Post_Bids_and_Reset_With_Two_User" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--29-->
+	<!-- Place Absentee Bid on lot z from watchlist page advance -->
+
+	<test name="Place an absentee bid on lot z from watch list page advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Place_an_Absentee_Bid_on_Lot_Z_From_Watch_List_Page_Advance" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!--30-->
+	<!-- Absentee Against online advance -->
+
+	<test name="Place absentee again online advance">
+
+		<classes>
+
+			<class name="com.auction.verifications.BiddingLiveAuction">
+
+				<methods>
+
+					<include name="Absentee_Against_Online_Advance" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+</suite>
