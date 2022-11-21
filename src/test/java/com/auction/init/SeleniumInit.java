@@ -271,7 +271,7 @@ public class SeleniumInit implements ILoggerStatus {
 			// DesiredCapabilities cap = DesiredCapabilities.chrome();
 			LogManager.getLogger("Log4j");
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless");
+			//options.addArguments("--headless");
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
