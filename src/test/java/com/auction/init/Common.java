@@ -1114,7 +1114,7 @@ public class Common {
 	
 	public String readJson(String Key) throws IOException, org.json.simple.parser.ParseException {
 		JSONParser jsonparsor = new JSONParser();
-		FileReader reader = new FileReader(System.getProperty("user.dir")+"\\src\\test\\java\\com\\auction\\utils\\Parameters.json");
+		FileReader reader = new FileReader(System.getProperty("user.dir")+"/src/test/java/com/auction/utils/Parameters.json");
 		Object obj = jsonparsor.parse(reader);
 		JSONArray userList = (JSONArray) obj;
 		JSONObject parameters = (JSONObject) userList.get(0);
