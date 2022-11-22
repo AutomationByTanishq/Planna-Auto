@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Smoke_Tests" verbose="10">
+<suite name="BugScripts Automation Suite" verbose="10" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
 	
-
-	<!-- 5.1 -->
-	<!-- Selenium Verify add_Lot_Manually -->
-
-	<test name="Selenium Verify add_Lot_Manually">
+	
+		<!-- 1 -->
+	<!-- same_As_Billing_Checkbox_Functionality_Not_Work_4340 -->
+	<test name="same_As_Billing_Checkbox_Functionality_Not_Work_4340">
 
 		<classes>
 
-			<class name="com.auction.verifications.SmokeTests">
+			<class name="com.auction.verifications.BugScripts">
 
 				<methods>
-					<include name="add_Lot_Manually"></include>
+
+					<include name="same_As_Billing_Checkbox_Functionality_Not_Work_4340" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+	<!-- 2 -->
+	<!-- sometimes_Getting_Php_Error_When_User_Click_On_SignUp_Button_4335 -->
+
+	<test name="sometimes_Getting_Php_Error_When_User_Click_On_SignUp_Button_4335">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="sometimes_Getting_Php_Error_When_User_Click_On_SignUp_Button_4335" />
 
 				</methods>
 
@@ -22,6 +48,130 @@
 
 	</test>
 
+	<!-- 3 -->
+	<!-- trying_To_Get_Property_Of_Non_Object_Error_Displays_When_User_Click_On_BP_Tab_3900 -->
 
+	<test name="trying_To_Get_Property_Of_Non_Object_Error_Displays_When_User_Click_On_BP_Tab_3900">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="trying_To_Get_Property_Of_Non_Object_Error_Displays_When_User_Click_On_BP_Tab_3900" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 4 -->
+	<!-- you_Dont_Have_Permission_To_Access_Error_Displays_After_Click_On_Create_Auction_3895 -->
+
+	<test name="you_Dont_Have_Permission_To_Access_Error_Displays_After_Click_On_Create_Auction_3895">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="you_Dont_Have_Permission_To_Access_Error_Displays_After_Click_On_Create_Auction_3895" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 5 -->
+	<!-- ajax_Error_Shown_When_User_Click_On_Save_Changes_Button_3838 -->
+
+	<test name="ajax_Error_Shown_When_User_Click_On_Save_Changes_Button_3838">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="ajax_Error_Shown_When_User_Click_On_Save_Changes_Button_3838" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 6 -->
+	<!-- bad_Request_Error_Message_Displays_When_User_Select_Value_From_Dropdown_menus_3837 -->
+
+	<test name="bad_Request_Error_Message_Displays_When_User_Select_Value_From_Dropdown_menus_3837">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="bad_Request_Error_Message_Displays_When_User_Select_Value_From_Dropdown_menus_3837" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 7 -->
+	<!-- mySqli_Error_Shown_When_User_Click_On_Save_Changes_Button_From_Settings_3836 -->
+
+	<test name="mySqli_Error_Shown_When_User_Click_On_Save_Changes_Button_From_Settings_3836">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="mySqli_Error_Shown_When_User_Click_On_Save_Changes_Button_From_Settings_3836" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<!-- 8 -->
+	<!-- blank_Page_Displays_After_Click_On_Generate_New_Invoices_Button_3835 -->
+
+	<test name="blank_Page_Displays_After_Click_On_Generate_New_Invoices_Button_3835">
+
+		<classes>
+
+			<class name="com.auction.verifications.BugScripts">
+
+				<methods>
+
+					<include name="blank_Page_Displays_After_Click_On_Generate_New_Invoices_Button_3835" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+
+	</test>
 	
-	</suite>
+</suite>																																																																													
